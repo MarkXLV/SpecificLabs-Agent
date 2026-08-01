@@ -1,0 +1,2 @@
+Server 10.0.12.255 was rebooted while running v2.3.1.
+Reach the on-call at ops-team@corp.example or tel (212) 555 0143 for the postmortem.

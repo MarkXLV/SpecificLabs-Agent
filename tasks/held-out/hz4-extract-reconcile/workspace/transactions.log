@@ -1,0 +1,1500 @@
+T00001 | A031 | 500.00 | settled
+{"txn": "T00002", "acct": "A038", "amount": "10.00", "status": "settled"}
+T00003 | A033 | 1999.99 | settled
+{"txn": "T00004", "acct": "A031", "amount": "500.00", "status": "failed"}
+{"txn": "T00005", "acct": "A027", "amount": "10.00", "status": "pending"}
+{"txn": "T00006", "acct": "A002", "amount": "73.10", "status": "settled"}
+T00007 | A036 | 10.00 | failed
+{"txn": "T00008", "acct": "A037", "amount": "1999.99", "status": "settled"}
+T00009 | A034 | 10.0 | settled
+{"txn": "T00010", "acct": "A015", "amount": "10.0", "status": "failed"}
+{"txn": "T00011", "acct": "A017", "amount": "1999.99", "status": "pending"}
+{"txn": "T00012", "acct": "A033", "amount": "73.10", "status": "pending"}
+--- rotate ---
+T00013 | A013 | 250.55 | settled
+T00014 | A016 | 10.0 | settled
+T00015 | A020 | 73.10 | settled
+T00016 | A010 | 1999.99 | settled
+{"txn": "T00017", "acct": "A036", "amount": "42", "status": "settled"}
+T00018 | A014 | 10.00 | settled
+T00019 | A026 | 10.00 | pending
+WARN partial write
+# audit note
+T00020 | A034 | 10.00 | settled
+{"txn": "T00021", "acct": "A019", "amount": "10.00", "status": "pending"}
+{"txn": "T00022", "acct": "A005", "amount": "10.0", "status": "settled"}
+T00023 | A001 | 10.00 | settled
+T00024 | A027 | 1999.99 | settled
+T00025 | A003 | 0.99 | pending
+T00026 | A034 | 10.0 | settled
+{"txn": "T00027", "acct": "A005", "amount": "42", "status": "settled"}
+{"txn": "T00028", "acct": "A016", "amount": "42", "status": "settled"}
+{"txn": "T00029", "acct": "A096", "amount": "250.55", "status": "settled"}
+T00030 | A001 | 250.55 | settled
+T00031 | A023 | 250.55 | settled
+{"txn": "T00032", "acct": "A023", "amount": "10.0", "status": "pending"}
+{"txn": "T00033", "acct": "A035", "amount": "10.00", "status": "pending"}
+{"txn": "T00034", "acct": "A020", "amount": "250.55", "status": "settled"}
+{"txn": "T00035", "acct": "A025", "amount": "0.99", "status": "pending"}
+{"txn": "T00036", "acct": "A030", "amount": "250.55", "status": "settled"}
+T00037 | A002 | 500.00 | pending
+{"txn": "T00038", "acct": "A029", "amount": "1999.99", "status": "settled"}
+T00039 | A097 | 500.00 | pending
+{"txn": "T00040", "acct": "A010", "amount": "500.00", "status": "settled"}
+{"txn": "T00041", "acct": "A031", "amount": "0.99", "status": "failed"}
+T00042 | A010 | 250.55 | settled
+T00043 | A013 | 42 | settled
+T00044 | A034 | 10.0 | settled
+{"txn": "T00045", "acct": "A027", "amount": "0.99", "status": "pending"}
+T00046 | A092 | 10.00 | pending
+{"txn": "T00047", "acct": "A096", "amount": "10.0", "status": "settled"}
+T00048 | A006 | 10.00 | settled
+T00049 | A090 | 10.0 | settled
+T00050 | A024 | 73.10 | settled
+{"txn": "T00051", "acct": "A007", "amount": "1999.99", "status": "settled"}
+{"txn": "T00052", "acct": "A036", "amount": "42", "status": "settled"}
+{"txn": "T00053", "acct": "A040", "amount": "1999.99", "status": "pending"}
+{"txn": "T00054", "acct": "A030", "amount": "500.00", "status": "settled"}
+T00055 | A012 | 10.0 | settled
+{"txn": "T00056", "acct": "A021", "amount": "0.99", "status": "settled"}
+{"txn": "T00057", "acct": "A032", "amount": "500.00", "status": "failed"}
+{"txn": "T00058", "acct": "A037", "amount": "10.0", "status": "settled"}
+{"txn": "T00059", "acct": "A094", "amount": "1999.99", "status": "failed"}
+T00060 | A093 | 73.10 | settled
+{"txn": "T00061", "acct": "A002", "amount": "42", "status": "pending"}
+{"txn": "T00062", "acct": "A022", "amount": "500.00", "status": "pending"}
+{"txn": "T00063", "acct": "A010", "amount": "500.00", "status": "settled"}
+T00064 | A022 | 500.00 | settled
+T00065 | A003 | 73.10 | settled
+{"txn": "T00066", "acct": "A032", "amount": "500.00", "status": "settled"}
+{"txn": "T00067", "acct": "A007", "amount": "10.00", "status": "pending"}
+T00068 | A032 | 73.10 | settled
+{"txn": "T00069", "acct": "A002", "amount": "73.10", "status": "pending"}
+{"txn": "T00070", "acct": "A097", "amount": "42", "status": "pending"}
+{"txn": "T00071", "acct": "A031", "amount": "73.10", "status": "failed"}
+T00072 | A039 | 250.55 | settled
+{"txn": "T00073", "acct": "A013", "amount": "1999.99", "status": "settled"}
+{"txn": "T00074", "acct": "A040", "amount": "0.99", "status": "settled"}
+T00075 | A090 | 73.10 | pending
+{"txn": "T00076", "acct": "A005", "amount": "10.0", "status": "pending"}
+T00077 | A022 | 42 | settled
+{"txn": "T00078", "acct": "A023", "amount": "42", "status": "pending"}
+T00079 | A006 | 250.55 | pending
+T00080 | A016 | 10.0 | settled
+T00081 | A017 | 1999.99 | settled
+T00082 | A006 | 10.00 | pending
+{"txn": "T00083", "acct": "A023", "amount": "1999.99", "status": "pending"}
+    at Trace(x)
+T00084 | A031 | 250.55 | settled
+{"txn": "T00085", "acct": "A027", "amount": "10.0", "status": "pending"}
+{"txn": "T00086", "acct": "A010", "amount": "250.55", "status": "settled"}
+{"txn": "T00087", "acct": "A030", "amount": "10.00", "status": "failed"}
+T00088 | A013 | 250.55 | pending
+T00089 | A007 | 250.55 | settled
+T00090 | A012 | 73.10 | settled
+{"txn": "T00091", "acct": "A033", "amount": "10.0", "status": "failed"}
+{"txn": "T00092", "acct": "A009", "amount": "10.00", "status": "pending"}
+{"txn": "T00093", "acct": "A036", "amount": "10.0", "status": "settled"}
+T00094 | A032 | 500.00 | settled
+T00095 | A014 | 10.00 | pending
+T00096 | A028 | 42 | settled
+T00097 | A003 | 10.0 | settled
+{"txn": "T00098", "acct": "A016", "amount": "0.99", "status": "settled"}
+{"txn": "T00099", "acct": "A034", "amount": "73.10", "status": "pending"}
+T00100 | A023 | 42 | settled
+T00101 | A034 | 10.0 | settled
+{"txn": "T00102", "acct": "A011", "amount": "500.00", "status": "settled"}
+{"txn": "T00103", "acct": "A029", "amount": "250.55", "status": "failed"}
+T00104 | A024 | 10.00 | settled
+T00105 | A015 | 73.10 | settled
+T00106 | A040 | 1999.99 | failed
+T00107 | A033 | 250.55 | settled
+T00108 | A040 | 500.00 | settled
+{"txn": "T00109", "acct": "A038", "amount": "0.99", "status": "settled"}
+WARN partial write
+T00110 | A009 | 500.00 | failed
+{"txn": "T00111", "acct": "A007", "amount": "250.55", "status": "settled"}
+{"txn": "T00112", "acct": "A018", "amount": "1999.99", "status": "settled"}
+{"txn": "T00113", "acct": "A016", "amount": "0.99", "status": "settled"}
+{"txn": "T00114", "acct": "A028", "amount": "1999.99", "status": "pending"}
+T00115 | A009 | 250.55 | settled
+T00116 | A002 | 500.00 | settled
+T00117 | A026 | 0.99 | failed
+T00118 | A015 | 0.99 | pending
+# audit note
+    at Trace(x)
+{"txn": "T00119", "acct": "A014", "amount": "42", "status": "settled"}
+T00120 | A039 | 250.55 | settled
+--- rotate ---
+T00121 | A037 | 73.10 | failed
+--- rotate ---
+{"txn": "T00122", "acct": "A027", "amount": "42", "status": "settled"}
+T00123 | A030 | 250.55 | failed
+T00124 | A008 | 42 | failed
+T00125 | A014 | 42 | pending
+{"txn": "T00126", "acct": "A021", "amount": "0.99", "status": "settled"}
+T00127 | A027 | 250.55 | settled
+{"txn": "T00128", "acct": "A038", "amount": "1999.99", "status": "failed"}
+T00129 | A001 | 10.00 | settled
+T00130 | A023 | 0.99 | pending
+{"txn": "T00131", "acct": "A025", "amount": "500.00", "status": "failed"}
+{"txn": "T00132", "acct": "A097", "amount": "73.10", "status": "settled"}
+{"txn": "T00133", "acct": "A016", "amount": "73.10", "status": "failed"}
+T00134 | A034 | 250.55 | pending
+{"txn": "T00135", "acct": "A020", "amount": "500.00", "status": "pending"}
+T00136 | A092 | 0.99 | pending
+{"txn": "T00137", "acct": "A034", "amount": "73.10", "status": "pending"}
+T00138 | A032 | 10.00 | settled
+{"txn": "T00139", "acct": "A094", "amount": "73.10", "status": "settled"}
+{"txn": "T00140", "acct": "A008", "amount": "1999.99", "status": "failed"}
+T00141 | A014 | 250.55 | settled
+T00142 | A002 | 250.55 | settled
+T00143 | A019 | 250.55 | settled
+T00144 | A029 | 250.55 | settled
+{"txn": "T00145", "acct": "A028", "amount": "10.00", "status": "settled"}
+{"txn": "T00146", "acct": "A017", "amount": "73.10", "status": "settled"}
+{"txn": "T00147", "acct": "A017", "amount": "42", "status": "settled"}
+{"txn": "T00148", "acct": "A023", "amount": "10.00", "status": "pending"}
+{"txn": "T00149", "acct": "A018", "amount": "500.00", "status": "settled"}
+{"txn": "T00150", "acct": "A014", "amount": "73.10", "status": "failed"}
+T00151 | A033 | 500.00 | pending
+T00152 | A012 | 73.10 | failed
+T00153 | A033 | 1999.99 | pending
+T00154 | A015 | 10.00 | settled
+T00155 | A028 | 0.99 | settled
+
+{"txn": "T00156", "acct": "A094", "amount": "500.00", "status": "pending"}
+{"txn": "T00157", "acct": "A020", "amount": "500.00", "status": "settled"}
+{"txn": "T00158", "acct": "A014", "amount": "42", "status": "failed"}
+{"txn": "T00159", "acct": "A028", "amount": "42", "status": "failed"}
+{"txn": "T00160", "acct": "A018", "amount": "0.99", "status": "failed"}
+T00161 | A010 | 250.55 | failed
+{"txn": "T00162", "acct": "A004", "amount": "250.55", "status": "settled"}
+{"txn": "T00163", "acct": "A036", "amount": "42", "status": "settled"}
+WARN partial write
+{"txn": "T00164", "acct": "A034", "amount": "73.10", "status": "settled"}
+# audit note
+T00165 | A015 | 42 | settled
+{"txn": "T00166", "acct": "A017", "amount": "500.00", "status": "failed"}
+T00167 | A098 | 500.00 | settled
+{"txn": "T00168", "acct": "A020", "amount": "250.55", "status": "settled"}
+T00169 | A023 | 10.0 | settled
+{"txn": "T00170", "acct": "A005", "amount": "1999.99", "status": "settled"}
+T00171 | A001 | 73.10 | failed
+{"txn": "T00172", "acct": "A036", "amount": "500.00", "status": "settled"}
+{"txn": "T00173", "acct": "A024", "amount": "250.55", "status": "pending"}
+T00174 | A006 | 42 | pending
+T00175 | A002 | 0.99 | settled
+T00176 | A020 | 250.55 | settled
+{"txn": "T00177", "acct": "A001", "amount": "0.99", "status": "settled"}
+{"txn": "T00178", "acct": "A021", "amount": "73.10", "status": "settled"}
+{"txn": "T00179", "acct": "A021", "amount": "10.00", "status": "settled"}
+{"txn": "T00180", "acct": "A028", "amount": "0.99", "status": "pending"}
+T00181 | A010 | 10.0 | failed
+T00182 | A040 | 73.10 | settled
+T00183 | A019 | 0.99 | failed
+
+{"txn": "T00184", "acct": "A026", "amount": "1999.99", "status": "settled"}
+{"txn": "T00185", "acct": "A021", "amount": "73.10", "status": "pending"}
+T00186 | A020 | 42 | settled
+{"txn": "T00187", "acct": "A010", "amount": "250.55", "status": "settled"}
+{"txn": "T00188", "acct": "A090", "amount": "500.00", "status": "pending"}
+T00189 | A030 | 42 | settled
+{"txn": "T00190", "acct": "A037", "amount": "10.00", "status": "settled"}
+T00191 | A008 | 10.00 | failed
+{"txn": "T00192", "acct": "A024", "amount": "0.99", "status": "settled"}
+{"txn": "T00193", "acct": "A038", "amount": "10.00", "status": "settled"}
+WARN partial write
+T00194 | A017 | 42 | settled
+T00195 | A015 | 73.10 | settled
+{"txn": "T00196", "acct": "A027", "amount": "10.00", "status": "pending"}
+{"txn": "T00197", "acct": "A027", "amount": "1999.99", "status": "pending"}
+{"txn": "T00198", "acct": "A029", "amount": "0.99", "status": "settled"}
+{"txn": "T00199", "acct": "A024", "amount": "42", "status": "failed"}
+T00200 | A040 | 500.00 | failed
+T00201 | A040 | 500.00 | settled
+T00202 | A025 | 500.00 | settled
+--- rotate ---
+T00203 | A013 | 10.0 | settled
+T00204 | A028 | 73.10 | settled
+T00205 | A019 | 0.99 | pending
+T00206 | A010 | 73.10 | settled
+{"txn": "T00207", "acct": "A023", "amount": "1999.99", "status": "settled"}
+T00208 | A011 | 250.55 | settled
+{"txn": "T00209", "acct": "A002", "amount": "500.00", "status": "settled"}
+{"txn": "T00210", "acct": "A038", "amount": "73.10", "status": "failed"}
+T00211 | A032 | 42 | settled
+T00212 | A024 | 73.10 | pending
+T00213 | A095 | 73.10 | settled
+{"txn": "T00214", "acct": "A006", "amount": "73.10", "status": "failed"}
+{"txn": "T00215", "acct": "A019", "amount": "42", "status": "settled"}
+    at Trace(x)
+T00216 | A091 | 42 | failed
+T00217 | A022 | 10.00 | settled
+{"txn": "T00218", "acct": "A011", "amount": "10.0", "status": "failed"}
+T00219 | A013 | 73.10 | pending
+{"txn": "T00220", "acct": "A096", "amount": "10.00", "status": "settled"}
+T00221 | A039 | 10.00 | pending
+{"txn": "T00222", "acct": "A098", "amount": "1999.99", "status": "settled"}
+{"txn": "T00223", "acct": "A029", "amount": "1999.99", "status": "settled"}
+{"txn": "T00224", "acct": "A094", "amount": "10.0", "status": "settled"}
+{"txn": "T00225", "acct": "A002", "amount": "10.00", "status": "settled"}
+{"txn": "T00226", "acct": "A028", "amount": "10.0", "status": "failed"}
+T00227 | A091 | 1999.99 | pending
+T00228 | A025 | 73.10 | settled
+--- rotate ---
+T00229 | A028 | 42 | failed
+T00230 | A014 | 250.55 | pending
+{"txn": "T00231", "acct": "A009", "amount": "10.00", "status": "failed"}
+{"txn": "T00232", "acct": "A001", "amount": "0.99", "status": "failed"}
+T00233 | A095 | 73.10 | failed
+{"txn": "T00234", "acct": "A008", "amount": "1999.99", "status": "pending"}
+T00235 | A035 | 42 | settled
+T00236 | A025 | 42 | failed
+{"txn": "T00237", "acct": "A023", "amount": "1999.99", "status": "settled"}
+{"txn": "T00238", "acct": "A039", "amount": "42", "status": "settled"}
+T00239 | A011 | 500.00 | pending
+T00240 | A020 | 10.00 | pending
+T00241 | A009 | 1999.99 | settled
+T00242 | A040 | 10.00 | failed
+{"txn": "T00243", "acct": "A017", "amount": "500.00", "status": "settled"}
+T00244 | A027 | 73.10 | settled
+T00245 | A032 | 42 | settled
+T00246 | A037 | 250.55 | settled
+{"txn": "T00247", "acct": "A012", "amount": "42", "status": "failed"}
+T00248 | A031 | 1999.99 | settled
+T00249 | A019 | 42 | settled
+{"txn": "T00250", "acct": "A098", "amount": "10.00", "status": "settled"}
+T00251 | A040 | 500.00 | failed
+{"txn": "T00252", "acct": "A004", "amount": "500.00", "status": "settled"}
+T00253 | A002 | 0.99 | pending
+--- rotate ---
+{"txn": "T00254", "acct": "A094", "amount": "42", "status": "settled"}
+{"txn": "T00255", "acct": "A040", "amount": "42", "status": "settled"}
+T00256 | A002 | 500.00 | failed
+T00257 | A036 | 0.99 | settled
+T00258 | A021 | 10.0 | failed
+{"txn": "T00259", "acct": "A098", "amount": "42", "status": "pending"}
+{"txn": "T00260", "acct": "A034", "amount": "250.55", "status": "settled"}
+T00261 | A032 | 73.10 | settled
+
+{"txn": "T00262", "acct": "A005", "amount": "250.55", "status": "failed"}
+{"txn": "T00263", "acct": "A027", "amount": "73.10", "status": "settled"}
+T00264 | A037 | 73.10 | settled
+T00265 | A017 | 73.10 | settled
+{"txn": "T00266", "acct": "A028", "amount": "10.00", "status": "pending"}
+{"txn": "T00267", "acct": "A031", "amount": "10.00", "status": "settled"}
+T00268 | A005 | 73.10 | settled
+T00269 | A090 | 73.10 | pending
+{"txn": "T00270", "acct": "A028", "amount": "73.10", "status": "failed"}
+T00271 | A007 | 0.99 | settled
+{"txn": "T00272", "acct": "A026", "amount": "10.0", "status": "settled"}
+{"txn": "T00273", "acct": "A008", "amount": "42", "status": "pending"}
+
+{"txn": "T00274", "acct": "A001", "amount": "10.00", "status": "settled"}
+T00275 | A092 | 500.00 | failed
+T00276 | A018 | 10.00 | pending
+{"txn": "T00277", "acct": "A011", "amount": "73.10", "status": "failed"}
+{"txn": "T00278", "acct": "A036", "amount": "42", "status": "failed"}
+{"txn": "T00279", "acct": "A010", "amount": "10.00", "status": "settled"}
+# audit note
+{"txn": "T00280", "acct": "A025", "amount": "10.0", "status": "settled"}
+{"txn": "T00281", "acct": "A005", "amount": "42", "status": "pending"}
+T00282 | A040 | 73.10 | failed
+T00283 | A006 | 10.0 | pending
+{"txn": "T00284", "acct": "A034", "amount": "10.0", "status": "failed"}
+    at Trace(x)
+WARN partial write
+T00285 | A019 | 0.99 | failed
+{"txn": "T00286", "acct": "A005", "amount": "250.55", "status": "pending"}
+T00287 | A004 | 500.00 | settled
+{"txn": "T00288", "acct": "A013", "amount": "73.10", "status": "settled"}
+{"txn": "T00289", "acct": "A009", "amount": "500.00", "status": "settled"}
+{"txn": "T00290", "acct": "A009", "amount": "500.00", "status": "settled"}
+T00291 | A028 | 250.55 | settled
+T00292 | A035 | 10.0 | failed
+{"txn": "T00293", "acct": "A019", "amount": "500.00", "status": "failed"}
+{"txn": "T00294", "acct": "A010", "amount": "10.00", "status": "settled"}
+{"txn": "T00295", "acct": "A005", "amount": "500.00", "status": "failed"}
+{"txn": "T00296", "acct": "A021", "amount": "42", "status": "settled"}
+T00297 | A036 | 42 | failed
+{"txn": "T00298", "acct": "A003", "amount": "73.10", "status": "settled"}
+{"txn": "T00299", "acct": "A020", "amount": "73.10", "status": "failed"}
+T00300 | A032 | 250.55 | settled
+T00301 | A023 | 0.99 | settled
+{"txn": "T00302", "acct": "A005", "amount": "42", "status": "settled"}
+T00303 | A009 | 10.0 | pending
+{"txn": "T00304", "acct": "A031", "amount": "1999.99", "status": "pending"}
+{"txn": "T00305", "acct": "A022", "amount": "42", "status": "settled"}
+T00306 | A018 | 10.00 | settled
+{"txn": "T00307", "acct": "A030", "amount": "73.10", "status": "settled"}
+{"txn": "T00308", "acct": "A091", "amount": "1999.99", "status": "settled"}
+{"txn": "T00309", "acct": "A027", "amount": "73.10", "status": "pending"}
+{"txn": "T00310", "acct": "A014", "amount": "500.00", "status": "settled"}
+{"txn": "T00311", "acct": "A004", "amount": "10.0", "status": "settled"}
+{"txn": "T00312", "acct": "A008", "amount": "0.99", "status": "settled"}
+T00313 | A031 | 42 | settled
+{"txn": "T00314", "acct": "A016", "amount": "42", "status": "settled"}
+{"txn": "T00315", "acct": "A010", "amount": "42", "status": "settled"}
+{"txn": "T00316", "acct": "A037", "amount": "500.00", "status": "settled"}
+{"txn": "T00317", "acct": "A020", "amount": "42", "status": "settled"}
+{"txn": "T00318", "acct": "A014", "amount": "500.00", "status": "failed"}
+T00319 | A016 | 42 | failed
+    at Trace(x)
+T00320 | A033 | 73.10 | pending
+T00321 | A006 | 250.55 | settled
+# audit note
+{"txn": "T00322", "acct": "A018", "amount": "73.10", "status": "settled"}
+T00323 | A014 | 0.99 | settled
+{"txn": "T00324", "acct": "A021", "amount": "73.10", "status": "pending"}
+--- rotate ---
+{"txn": "T00325", "acct": "A021", "amount": "10.00", "status": "pending"}
+T00326 | A013 | 73.10 | settled
+T00327 | A003 | 1999.99 | failed
+{"txn": "T00328", "acct": "A033", "amount": "42", "status": "failed"}
+T00329 | A091 | 10.00 | settled
+{"txn": "T00330", "acct": "A011", "amount": "250.55", "status": "failed"}
+
+T00331 | A019 | 1999.99 | settled
+T00332 | A017 | 10.0 | failed
+T00333 | A038 | 42 | settled
+T00334 | A007 | 42 | settled
+T00335 | A040 | 10.0 | settled
+T00336 | A023 | 42 | settled
+{"txn": "T00337", "acct": "A095", "amount": "0.99", "status": "failed"}
+T00338 | A004 | 10.0 | failed
+T00339 | A017 | 500.00 | settled
+T00340 | A015 | 250.55 | failed
+T00341 | A019 | 10.0 | settled
+T00342 | A033 | 0.99 | failed
+T00343 | A021 | 0.99 | settled
+{"txn": "T00344", "acct": "A020", "amount": "500.00", "status": "failed"}
+{"txn": "T00345", "acct": "A024", "amount": "10.00", "status": "failed"}
+{"txn": "T00346", "acct": "A034", "amount": "10.00", "status": "settled"}
+{"txn": "T00347", "acct": "A003", "amount": "73.10", "status": "settled"}
+T00348 | A023 | 250.55 | pending
+T00349 | A021 | 73.10 | failed
+{"txn": "T00350", "acct": "A008", "amount": "250.55", "status": "settled"}
+T00351 | A009 | 0.99 | settled
+{"txn": "T00352", "acct": "A017", "amount": "10.0", "status": "settled"}
+{"txn": "T00353", "acct": "A020", "amount": "42", "status": "pending"}
+T00354 | A001 | 1999.99 | settled
+T00355 | A037 | 500.00 | settled
+{"txn": "T00356", "acct": "A020", "amount": "42", "status": "settled"}
+T00357 | A004 | 500.00 | pending
+{"txn": "T00358", "acct": "A006", "amount": "1999.99", "status": "failed"}
+{"txn": "T00359", "acct": "A040", "amount": "42", "status": "pending"}
+{"txn": "T00360", "acct": "A008", "amount": "73.10", "status": "settled"}
+T00361 | A091 | 1999.99 | settled
+{"txn": "T00362", "acct": "A007", "amount": "73.10", "status": "failed"}
+    at Trace(x)
+T00363 | A006 | 500.00 | settled
+T00364 | A038 | 1999.99 | settled
+WARN partial write
+T00365 | A005 | 250.55 | settled
+{"txn": "T00366", "acct": "A008", "amount": "0.99", "status": "settled"}
+{"txn": "T00367", "acct": "A011", "amount": "1999.99", "status": "pending"}
+{"txn": "T00368", "acct": "A095", "amount": "0.99", "status": "pending"}
+T00369 | A097 | 1999.99 | settled
+T00370 | A096 | 73.10 | settled
+T00371 | A037 | 0.99 | pending
+T00372 | A037 | 1999.99 | settled
+T00373 | A010 | 0.99 | failed
+{"txn": "T00374", "acct": "A022", "amount": "10.0", "status": "settled"}
+{"txn": "T00375", "acct": "A007", "amount": "42", "status": "settled"}
+T00376 | A037 | 73.10 | settled
+{"txn": "T00377", "acct": "A015", "amount": "250.55", "status": "pending"}
+{"txn": "T00378", "acct": "A012", "amount": "10.00", "status": "settled"}
+T00379 | A035 | 250.55 | settled
+T00380 | A035 | 250.55 | failed
+T00381 | A091 | 250.55 | failed
+T00382 | A038 | 42 | settled
+{"txn": "T00383", "acct": "A012", "amount": "500.00", "status": "settled"}
+T00384 | A018 | 250.55 | settled
+{"txn": "T00385", "acct": "A004", "amount": "42", "status": "settled"}
+T00386 | A012 | 1999.99 | settled
+T00387 | A036 | 1999.99 | failed
+T00388 | A090 | 1999.99 | failed
+{"txn": "T00389", "acct": "A003", "amount": "73.10", "status": "pending"}
+T00390 | A025 | 42 | pending
+T00391 | A032 | 42 | settled
+T00392 | A004 | 42 | pending
+T00393 | A006 | 250.55 | settled
+{"txn": "T00394", "acct": "A018", "amount": "500.00", "status": "settled"}
+T00395 | A011 | 0.99 | settled
+T00396 | A030 | 42 | settled
+{"txn": "T00397", "acct": "A012", "amount": "250.55", "status": "settled"}
+{"txn": "T00398", "acct": "A016", "amount": "250.55", "status": "failed"}
+{"txn": "T00399", "acct": "A097", "amount": "250.55", "status": "settled"}
+{"txn": "T00400", "acct": "A012", "amount": "1999.99", "status": "failed"}
+T00401 | A031 | 73.10 | failed
+T00402 | A014 | 42 | settled
+{"txn": "T00403", "acct": "A029", "amount": "42", "status": "pending"}
+T00404 | A035 | 0.99 | pending
+{"txn": "T00405", "acct": "A096", "amount": "500.00", "status": "settled"}
+T00406 | A039 | 1999.99 | settled
+{"txn": "T00407", "acct": "A037", "amount": "42", "status": "settled"}
+T00408 | A039 | 1999.99 | settled
+{"txn": "T00409", "acct": "A026", "amount": "1999.99", "status": "settled"}
+{"txn": "T00410", "acct": "A011", "amount": "500.00", "status": "pending"}
+{"txn": "T00411", "acct": "A031", "amount": "42", "status": "settled"}
+T00412 | A002 | 42 | settled
+{"txn": "T00413", "acct": "A034", "amount": "0.99", "status": "settled"}
+{"txn": "T00414", "acct": "A010", "amount": "0.99", "status": "pending"}
+T00415 | A009 | 0.99 | settled
+{"txn": "T00416", "acct": "A036", "amount": "0.99", "status": "settled"}
+T00417 | A093 | 73.10 | pending
+T00418 | A021 | 0.99 | settled
+T00419 | A093 | 0.99 | failed
+T00420 | A017 | 1999.99 | settled
+T00421 | A032 | 10.0 | failed
+T00422 | A024 | 500.00 | settled
+{"txn": "T00423", "acct": "A019", "amount": "0.99", "status": "settled"}
+# audit note
+{"txn": "T00424", "acct": "A023", "amount": "10.0", "status": "settled"}
+{"txn": "T00425", "acct": "A007", "amount": "1999.99", "status": "settled"}
+--- rotate ---
+{"txn": "T00426", "acct": "A003", "amount": "500.00", "status": "settled"}
+{"txn": "T00427", "acct": "A002", "amount": "42", "status": "pending"}
+{"txn": "T00428", "acct": "A023", "amount": "500.00", "status": "pending"}
+T00429 | A095 | 250.55 | pending
+{"txn": "T00430", "acct": "A001", "amount": "250.55", "status": "settled"}
+{"txn": "T00431", "acct": "A031", "amount": "500.00", "status": "pending"}
+# audit note
+{"txn": "T00432", "acct": "A033", "amount": "42", "status": "settled"}
+T00433 | A097 | 73.10 | failed
+T00434 | A016 | 250.55 | settled
+T00435 | A019 | 10.0 | settled
+{"txn": "T00436", "acct": "A028", "amount": "1999.99", "status": "failed"}
+{"txn": "T00437", "acct": "A017", "amount": "10.0", "status": "pending"}
+T00438 | A039 | 0.99 | pending
+T00439 | A039 | 500.00 | settled
+{"txn": "T00440", "acct": "A006", "amount": "500.00", "status": "pending"}
+{"txn": "T00441", "acct": "A039", "amount": "42", "status": "settled"}
+
+T00442 | A009 | 0.99 | settled
+WARN partial write
+T00443 | A095 | 10.00 | pending
+{"txn": "T00444", "acct": "A004", "amount": "1999.99", "status": "settled"}
+{"txn": "T00445", "acct": "A003", "amount": "42", "status": "settled"}
+T00446 | A021 | 1999.99 | failed
+T00447 | A040 | 500.00 | settled
+{"txn": "T00448", "acct": "A009", "amount": "1999.99", "status": "pending"}
+{"txn": "T00449", "acct": "A026", "amount": "1999.99", "status": "settled"}
+{"txn": "T00450", "acct": "A015", "amount": "0.99", "status": "pending"}
+{"txn": "T00451", "acct": "A033", "amount": "0.99", "status": "settled"}
+{"txn": "T00452", "acct": "A018", "amount": "73.10", "status": "settled"}
+T00453 | A012 | 500.00 | settled
+T00454 | A005 | 1999.99 | settled
+    at Trace(x)
+T00455 | A017 | 250.55 | pending
+# audit note
+T00456 | A038 | 10.0 | pending
+T00457 | A040 | 42 | pending
+{"txn": "T00458", "acct": "A033", "amount": "73.10", "status": "pending"}
+{"txn": "T00459", "acct": "A022", "amount": "0.99", "status": "settled"}
+T00460 | A012 | 73.10 | settled
+{"txn": "T00461", "acct": "A033", "amount": "500.00", "status": "settled"}
+{"txn": "T00462", "acct": "A012", "amount": "10.0", "status": "settled"}
+T00463 | A021 | 1999.99 | settled
+{"txn": "T00464", "acct": "A017", "amount": "10.00", "status": "settled"}
+--- rotate ---
+T00465 | A016 | 10.00 | settled
+T00466 | A032 | 500.00 | settled
+T00467 | A010 | 0.99 | settled
+{"txn": "T00468", "acct": "A003", "amount": "73.10", "status": "settled"}
+{"txn": "T00469", "acct": "A037", "amount": "73.10", "status": "pending"}
+{"txn": "T00470", "acct": "A091", "amount": "42", "status": "settled"}
+{"txn": "T00471", "acct": "A034", "amount": "10.0", "status": "settled"}
+{"txn": "T00472", "acct": "A013", "amount": "10.0", "status": "pending"}
+{"txn": "T00473", "acct": "A026", "amount": "10.00", "status": "settled"}
+{"txn": "T00474", "acct": "A028", "amount": "0.99", "status": "pending"}
+T00475 | A009 | 250.55 | failed
+{"txn": "T00476", "acct": "A035", "amount": "0.99", "status": "settled"}
+{"txn": "T00477", "acct": "A001", "amount": "42", "status": "failed"}
+{"txn": "T00478", "acct": "A021", "amount": "73.10", "status": "failed"}
+T00479 | A009 | 10.00 | failed
+{"txn": "T00480", "acct": "A026", "amount": "73.10", "status": "pending"}
+{"txn": "T00481", "acct": "A008", "amount": "73.10", "status": "settled"}
+T00482 | A027 | 10.0 | settled
+T00483 | A091 | 10.0 | pending
+{"txn": "T00484", "acct": "A017", "amount": "73.10", "status": "pending"}
+T00485 | A028 | 0.99 | settled
+T00486 | A009 | 73.10 | pending
+{"txn": "T00487", "acct": "A021", "amount": "10.0", "status": "settled"}
+T00488 | A095 | 250.55 | settled
+{"txn": "T00489", "acct": "A038", "amount": "0.99", "status": "failed"}
+{"txn": "T00490", "acct": "A002", "amount": "73.10", "status": "pending"}
+{"txn": "T00491", "acct": "A007", "amount": "10.0", "status": "failed"}
+T00492 | A021 | 250.55 | pending
+{"txn": "T00493", "acct": "A018", "amount": "250.55", "status": "failed"}
+{"txn": "T00494", "acct": "A021", "amount": "1999.99", "status": "settled"}
+{"txn": "T00495", "acct": "A018", "amount": "10.0", "status": "settled"}
+{"txn": "T00496", "acct": "A032", "amount": "10.00", "status": "settled"}
+{"txn": "T00497", "acct": "A014", "amount": "42", "status": "settled"}
+T00498 | A094 | 250.55 | pending
+{"txn": "T00499", "acct": "A024", "amount": "1999.99", "status": "pending"}
+T00500 | A007 | 73.10 | settled
+T00501 | A004 | 73.10 | settled
+T00502 | A028 | 42 | settled
+WARN partial write
+{"txn": "T00503", "acct": "A015", "amount": "10.00", "status": "settled"}
+    at Trace(x)
+T00504 | A006 | 0.99 | pending
+{"txn": "T00505", "acct": "A030", "amount": "42", "status": "settled"}
+T00506 | A017 | 10.00 | settled
+T00507 | A023 | 42 | failed
+{"txn": "T00508", "acct": "A031", "amount": "42", "status": "settled"}
+T00509 | A031 | 10.00 | settled
+
+{"txn": "T00510", "acct": "A023", "amount": "10.00", "status": "settled"}
+{"txn": "T00511", "acct": "A034", "amount": "73.10", "status": "failed"}
+T00512 | A031 | 73.10 | settled
+T00513 | A040 | 500.00 | pending
+T00514 | A037 | 1999.99 | settled
+{"txn": "T00515", "acct": "A027", "amount": "42", "status": "failed"}
+T00516 | A006 | 42 | settled
+{"txn": "T00517", "acct": "A021", "amount": "500.00", "status": "pending"}
+{"txn": "T00518", "acct": "A096", "amount": "250.55", "status": "settled"}
+T00519 | A023 | 10.00 | settled
+{"txn": "T00520", "acct": "A030", "amount": "42", "status": "settled"}
+{"txn": "T00521", "acct": "A040", "amount": "73.10", "status": "pending"}
+{"txn": "T00522", "acct": "A004", "amount": "10.0", "status": "pending"}
+T00523 | A030 | 10.00 | settled
+T00524 | A034 | 10.00 | settled
+T00525 | A007 | 42 | pending
+{"txn": "T00526", "acct": "A094", "amount": "1999.99", "status": "pending"}
+{"txn": "T00527", "acct": "A021", "amount": "0.99", "status": "settled"}
+{"txn": "T00528", "acct": "A095", "amount": "1999.99", "status": "settled"}
+{"txn": "T00529", "acct": "A014", "amount": "0.99", "status": "settled"}
+T00530 | A024 | 10.0 | settled
+T00531 | A093 | 10.0 | settled
+{"txn": "T00532", "acct": "A028", "amount": "10.00", "status": "failed"}
+{"txn": "T00533", "acct": "A032", "amount": "250.55", "status": "failed"}
+{"txn": "T00534", "acct": "A033", "amount": "500.00", "status": "failed"}
+# audit note
+T00535 | A024 | 500.00 | settled
+T00536 | A023 | 10.00 | settled
+{"txn": "T00537", "acct": "A040", "amount": "250.55", "status": "pending"}
+T00538 | A029 | 1999.99 | settled
+{"txn": "T00539", "acct": "A014", "amount": "0.99", "status": "failed"}
+T00540 | A094 | 73.10 | failed
+T00541 | A006 | 250.55 | settled
+{"txn": "T00542", "acct": "A034", "amount": "10.0", "status": "pending"}
+
+T00543 | A008 | 73.10 | settled
+T00544 | A030 | 42 | failed
+{"txn": "T00545", "acct": "A021", "amount": "10.0", "status": "pending"}
+T00546 | A011 | 250.55 | settled
+{"txn": "T00547", "acct": "A001", "amount": "42", "status": "settled"}
+{"txn": "T00548", "acct": "A091", "amount": "42", "status": "pending"}
+{"txn": "T00549", "acct": "A009", "amount": "73.10", "status": "settled"}
+T00550 | A035 | 10.00 | pending
+T00551 | A029 | 1999.99 | settled
+T00552 | A022 | 250.55 | pending
+T00553 | A033 | 250.55 | failed
+# audit note
+T00554 | A031 | 73.10 | pending
+{"txn": "T00555", "acct": "A003", "amount": "250.55", "status": "settled"}
+T00556 | A024 | 1999.99 | failed
+WARN partial write
+
+T00557 | A095 | 73.10 | settled
+{"txn": "T00558", "acct": "A002", "amount": "250.55", "status": "settled"}
+T00559 | A031 | 10.0 | pending
+--- rotate ---
+    at Trace(x)
+T00560 | A036 | 10.00 | settled
+{"txn": "T00561", "acct": "A032", "amount": "73.10", "status": "settled"}
+{"txn": "T00562", "acct": "A009", "amount": "500.00", "status": "failed"}
+T00563 | A009 | 500.00 | failed
+
+WARN partial write
+{"txn": "T00564", "acct": "A091", "amount": "10.0", "status": "settled"}
+{"txn": "T00565", "acct": "A006", "amount": "73.10", "status": "settled"}
+{"txn": "T00566", "acct": "A094", "amount": "42", "status": "settled"}
+T00567 | A018 | 500.00 | pending
+{"txn": "T00568", "acct": "A005", "amount": "250.55", "status": "settled"}
+# audit note
+T00569 | A010 | 10.0 | settled
+WARN partial write
+T00570 | A019 | 500.00 | settled
+T00571 | A028 | 0.99 | settled
+T00572 | A039 | 250.55 | pending
+{"txn": "T00573", "acct": "A033", "amount": "73.10", "status": "settled"}
+T00574 | A017 | 10.00 | failed
+T00575 | A008 | 10.0 | failed
+T00576 | A012 | 10.0 | settled
+{"txn": "T00577", "acct": "A097", "amount": "1999.99", "status": "settled"}
+{"txn": "T00578", "acct": "A090", "amount": "0.99", "status": "settled"}
+WARN partial write
+{"txn": "T00579", "acct": "A001", "amount": "500.00", "status": "pending"}
+# audit note
+T00580 | A028 | 10.00 | settled
+
+    at Trace(x)
+{"txn": "T00581", "acct": "A096", "amount": "73.10", "status": "settled"}
+{"txn": "T00582", "acct": "A026", "amount": "10.0", "status": "pending"}
+T00583 | A027 | 73.10 | settled
+{"txn": "T00584", "acct": "A037", "amount": "10.0", "status": "failed"}
+
+T00585 | A017 | 42 | settled
+T00586 | A012 | 10.00 | pending
+T00587 | A020 | 1999.99 | pending
+T00588 | A026 | 42 | pending
+{"txn": "T00589", "acct": "A024", "amount": "10.00", "status": "settled"}
+{"txn": "T00590", "acct": "A021", "amount": "73.10", "status": "failed"}
+{"txn": "T00591", "acct": "A027", "amount": "1999.99", "status": "settled"}
+{"txn": "T00592", "acct": "A003", "amount": "1999.99", "status": "settled"}
+{"txn": "T00593", "acct": "A025", "amount": "73.10", "status": "settled"}
+    at Trace(x)
+{"txn": "T00594", "acct": "A017", "amount": "0.99", "status": "settled"}
+T00595 | A017 | 250.55 | settled
+    at Trace(x)
+T00596 | A006 | 42 | settled
+{"txn": "T00597", "acct": "A022", "amount": "10.0", "status": "settled"}
+T00598 | A011 | 500.00 | settled
+{"txn": "T00599", "acct": "A035", "amount": "1999.99", "status": "failed"}
+{"txn": "T00600", "acct": "A036", "amount": "0.99", "status": "settled"}
+{"txn": "T00601", "acct": "A027", "amount": "10.0", "status": "settled"}
+{"txn": "T00602", "acct": "A003", "amount": "250.55", "status": "settled"}
+{"txn": "T00603", "acct": "A001", "amount": "1999.99", "status": "failed"}
+{"txn": "T00604", "acct": "A014", "amount": "42", "status": "settled"}
+T00605 | A093 | 500.00 | settled
+T00606 | A093 | 10.00 | settled
+T00607 | A015 | 10.00 | failed
+T00608 | A016 | 42 | failed
+{"txn": "T00609", "acct": "A023", "amount": "1999.99", "status": "pending"}
+T00610 | A002 | 1999.99 | settled
+{"txn": "T00611", "acct": "A002", "amount": "250.55", "status": "settled"}
+WARN partial write
+{"txn": "T00612", "acct": "A009", "amount": "250.55", "status": "settled"}
+{"txn": "T00613", "acct": "A028", "amount": "250.55", "status": "settled"}
+T00614 | A018 | 10.0 | settled
+{"txn": "T00615", "acct": "A002", "amount": "500.00", "status": "settled"}
+{"txn": "T00616", "acct": "A024", "amount": "10.00", "status": "settled"}
+{"txn": "T00617", "acct": "A036", "amount": "0.99", "status": "failed"}
+T00618 | A012 | 10.00 | settled
+{"txn": "T00619", "acct": "A017", "amount": "10.0", "status": "pending"}
+{"txn": "T00620", "acct": "A026", "amount": "250.55", "status": "settled"}
+{"txn": "T00621", "acct": "A004", "amount": "0.99", "status": "pending"}
+T00622 | A022 | 0.99 | failed
+{"txn": "T00623", "acct": "A035", "amount": "42", "status": "settled"}
+T00624 | A007 | 0.99 | settled
+T00625 | A009 | 1999.99 | failed
+T00626 | A021 | 42 | settled
+T00627 | A006 | 10.00 | settled
+T00628 | A034 | 1999.99 | pending
+T00629 | A030 | 42 | failed
+T00630 | A021 | 10.0 | failed
+T00631 | A018 | 0.99 | settled
+{"txn": "T00632", "acct": "A037", "amount": "42", "status": "settled"}
+{"txn": "T00633", "acct": "A028", "amount": "1999.99", "status": "settled"}
+T00634 | A013 | 250.55 | settled
+{"txn": "T00635", "acct": "A018", "amount": "1999.99", "status": "settled"}
+T00636 | A026 | 0.99 | settled
+T00637 | A018 | 42 | failed
+{"txn": "T00638", "acct": "A040", "amount": "73.10", "status": "settled"}
+T00639 | A090 | 0.99 | settled
+{"txn": "T00640", "acct": "A016", "amount": "10.00", "status": "failed"}
+T00641 | A011 | 1999.99 | pending
+T00642 | A001 | 0.99 | settled
+{"txn": "T00643", "acct": "A028", "amount": "73.10", "status": "settled"}
+{"txn": "T00644", "acct": "A038", "amount": "1999.99", "status": "settled"}
+    at Trace(x)
+{"txn": "T00645", "acct": "A023", "amount": "42", "status": "settled"}
+T00646 | A096 | 500.00 | settled
+{"txn": "T00647", "acct": "A036", "amount": "10.00", "status": "settled"}
+{"txn": "T00648", "acct": "A004", "amount": "73.10", "status": "failed"}
+{"txn": "T00649", "acct": "A013", "amount": "10.0", "status": "pending"}
+T00650 | A018 | 250.55 | settled
+{"txn": "T00651", "acct": "A016", "amount": "250.55", "status": "settled"}
+{"txn": "T00652", "acct": "A036", "amount": "1999.99", "status": "pending"}
+{"txn": "T00653", "acct": "A013", "amount": "42", "status": "pending"}
+T00654 | A034 | 10.00 | settled
+{"txn": "T00655", "acct": "A098", "amount": "42", "status": "pending"}
+T00656 | A028 | 1999.99 | settled
+{"txn": "T00657", "acct": "A021", "amount": "500.00", "status": "failed"}
+T00658 | A035 | 73.10 | settled
+{"txn": "T00659", "acct": "A037", "amount": "10.0", "status": "pending"}
+{"txn": "T00660", "acct": "A004", "amount": "10.00", "status": "settled"}
+T00661 | A093 | 1999.99 | settled
+T00662 | A030 | 10.0 | failed
+{"txn": "T00663", "acct": "A006", "amount": "10.0", "status": "settled"}
+{"txn": "T00664", "acct": "A007", "amount": "42", "status": "failed"}
+    at Trace(x)
+{"txn": "T00665", "acct": "A024", "amount": "73.10", "status": "settled"}
+{"txn": "T00666", "acct": "A036", "amount": "1999.99", "status": "settled"}
+# audit note
+{"txn": "T00667", "acct": "A009", "amount": "10.00", "status": "settled"}
+{"txn": "T00668", "acct": "A036", "amount": "42", "status": "settled"}
+
+{"txn": "T00669", "acct": "A013", "amount": "10.0", "status": "failed"}
+{"txn": "T00670", "acct": "A015", "amount": "10.0", "status": "settled"}
+{"txn": "T00671", "acct": "A097", "amount": "0.99", "status": "pending"}
+T00672 | A028 | 10.0 | settled
+{"txn": "T00673", "acct": "A030", "amount": "73.10", "status": "settled"}
+{"txn": "T00674", "acct": "A090", "amount": "73.10", "status": "failed"}
+T00675 | A009 | 73.10 | failed
+{"txn": "T00676", "acct": "A094", "amount": "500.00", "status": "pending"}
+{"txn": "T00677", "acct": "A024", "amount": "73.10", "status": "pending"}
+{"txn": "T00678", "acct": "A033", "amount": "10.0", "status": "settled"}
+T00679 | A004 | 73.10 | failed
+
+{"txn": "T00680", "acct": "A027", "amount": "42", "status": "settled"}
+
+T00681 | A029 | 10.0 | failed
+T00682 | A008 | 10.00 | pending
+T00683 | A015 | 500.00 | settled
+{"txn": "T00684", "acct": "A030", "amount": "250.55", "status": "pending"}
+{"txn": "T00685", "acct": "A095", "amount": "0.99", "status": "failed"}
+{"txn": "T00686", "acct": "A006", "amount": "1999.99", "status": "settled"}
+T00687 | A097 | 10.0 | settled
+{"txn": "T00688", "acct": "A008", "amount": "1999.99", "status": "failed"}
+T00689 | A094 | 500.00 | failed
+{"txn": "T00690", "acct": "A014", "amount": "500.00", "status": "settled"}
+{"txn": "T00691", "acct": "A007", "amount": "42", "status": "failed"}
+{"txn": "T00692", "acct": "A031", "amount": "0.99", "status": "failed"}
+
+T00693 | A014 | 250.55 | pending
+T00694 | A039 | 10.00 | settled
+T00695 | A027 | 42 | failed
+T00696 | A021 | 10.0 | settled
+{"txn": "T00697", "acct": "A022", "amount": "73.10", "status": "failed"}
+{"txn": "T00698", "acct": "A038", "amount": "1999.99", "status": "failed"}
+{"txn": "T00699", "acct": "A030", "amount": "0.99", "status": "settled"}
+# audit note
+--- rotate ---
+T00700 | A026 | 0.99 | settled
+T00701 | A032 | 500.00 | settled
+T00702 | A036 | 500.00 | pending
+{"txn": "T00703", "acct": "A028", "amount": "42", "status": "settled"}
+T00704 | A027 | 10.00 | settled
+{"txn": "T00705", "acct": "A029", "amount": "0.99", "status": "failed"}
+{"txn": "T00706", "acct": "A092", "amount": "500.00", "status": "settled"}
+T00707 | A025 | 0.99 | settled
+T00708 | A098 | 73.10 | settled
+{"txn": "T00709", "acct": "A005", "amount": "73.10", "status": "settled"}
+{"txn": "T00710", "acct": "A039", "amount": "10.0", "status": "failed"}
+T00711 | A008 | 250.55 | settled
+{"txn": "T00712", "acct": "A032", "amount": "42", "status": "settled"}
+T00713 | A018 | 0.99 | pending
+T00714 | A029 | 1999.99 | settled
+{"txn": "T00715", "acct": "A027", "amount": "1999.99", "status": "settled"}
+# audit note
+T00716 | A015 | 0.99 | settled
+WARN partial write
+T00717 | A027 | 0.99 | settled
+T00718 | A090 | 73.10 | pending
+# audit note
+{"txn": "T00719", "acct": "A015", "amount": "500.00", "status": "pending"}
+{"txn": "T00720", "acct": "A004", "amount": "73.10", "status": "failed"}
+T00721 | A032 | 42 | failed
+{"txn": "T00722", "acct": "A032", "amount": "250.55", "status": "settled"}
+{"txn": "T00723", "acct": "A001", "amount": "10.00", "status": "pending"}
+{"txn": "T00724", "acct": "A092", "amount": "10.00", "status": "pending"}
+{"txn": "T00725", "acct": "A014", "amount": "42", "status": "settled"}
+{"txn": "T00726", "acct": "A007", "amount": "42", "status": "pending"}
+{"txn": "T00727", "acct": "A020", "amount": "1999.99", "status": "settled"}
+T00728 | A010 | 10.0 | settled
+{"txn": "T00729", "acct": "A027", "amount": "10.00", "status": "failed"}
+{"txn": "T00730", "acct": "A007", "amount": "0.99", "status": "settled"}
+T00731 | A090 | 10.0 | failed
+{"txn": "T00732", "acct": "A018", "amount": "10.00", "status": "settled"}
+{"txn": "T00733", "acct": "A012", "amount": "10.0", "status": "settled"}
+T00734 | A009 | 500.00 | failed
+T00735 | A013 | 250.55 | settled
+T00736 | A023 | 0.99 | failed
+{"txn": "T00737", "acct": "A032", "amount": "0.99", "status": "settled"}
+T00738 | A030 | 42 | settled
+T00739 | A031 | 250.55 | pending
+T00740 | A096 | 42 | settled
+{"txn": "T00741", "acct": "A014", "amount": "250.55", "status": "settled"}
+{"txn": "T00742", "acct": "A010", "amount": "250.55", "status": "settled"}
+T00743 | A017 | 500.00 | settled
+T00744 | A038 | 1999.99 | pending
+T00745 | A030 | 0.99 | settled
+{"txn": "T00746", "acct": "A040", "amount": "0.99", "status": "failed"}
+T00747 | A032 | 42 | settled
+{"txn": "T00748", "acct": "A021", "amount": "500.00", "status": "settled"}
+{"txn": "T00749", "acct": "A029", "amount": "10.00", "status": "settled"}
+{"txn": "T00750", "acct": "A017", "amount": "0.99", "status": "pending"}
+T00751 | A037 | 500.00 | settled
+T00752 | A029 | 42 | settled
+{"txn": "T00753", "acct": "A029", "amount": "73.10", "status": "settled"}
+T00754 | A029 | 500.00 | settled
+{"txn": "T00755", "acct": "A010", "amount": "10.00", "status": "settled"}
+T00756 | A006 | 73.10 | failed
+{"txn": "T00757", "acct": "A032", "amount": "10.0", "status": "pending"}
+{"txn": "T00758", "acct": "A017", "amount": "0.99", "status": "failed"}
+{"txn": "T00759", "acct": "A032", "amount": "1999.99", "status": "settled"}
+    at Trace(x)
+T00760 | A020 | 10.00 | settled
+T00761 | A038 | 10.00 | settled
+{"txn": "T00762", "acct": "A005", "amount": "500.00", "status": "settled"}
+
+{"txn": "T00763", "acct": "A020", "amount": "10.0", "status": "settled"}
+T00764 | A009 | 500.00 | pending
+{"txn": "T00765", "acct": "A013", "amount": "250.55", "status": "settled"}
+T00766 | A019 | 10.0 | settled
+{"txn": "T00767", "acct": "A039", "amount": "10.00", "status": "failed"}
+{"txn": "T00768", "acct": "A018", "amount": "10.0", "status": "settled"}
+T00769 | A032 | 250.55 | settled
+{"txn": "T00770", "acct": "A009", "amount": "250.55", "status": "settled"}
+{"txn": "T00771", "acct": "A013", "amount": "10.0", "status": "settled"}
+T00772 | A004 | 10.00 | pending
+{"txn": "T00773", "acct": "A016", "amount": "73.10", "status": "settled"}
+T00774 | A010 | 73.10 | failed
+{"txn": "T00775", "acct": "A009", "amount": "1999.99", "status": "settled"}
+T00776 | A018 | 10.0 | pending
+{"txn": "T00777", "acct": "A010", "amount": "10.0", "status": "settled"}
+--- rotate ---
+{"txn": "T00778", "acct": "A021", "amount": "1999.99", "status": "settled"}
+{"txn": "T00779", "acct": "A018", "amount": "42", "status": "settled"}
+T00780 | A008 | 10.00 | settled
+T00781 | A012 | 42 | settled
+T00782 | A001 | 0.99 | pending
+{"txn": "T00783", "acct": "A024", "amount": "250.55", "status": "failed"}
+{"txn": "T00784", "acct": "A010", "amount": "0.99", "status": "settled"}
+T00785 | A040 | 1999.99 | settled
+T00786 | A015 | 500.00 | settled
+T00787 | A037 | 0.99 | settled
+T00788 | A012 | 42 | failed
+T00789 | A029 | 1999.99 | settled
+T00790 | A040 | 42 | settled
+{"txn": "T00791", "acct": "A008", "amount": "10.0", "status": "settled"}
+{"txn": "T00792", "acct": "A095", "amount": "0.99", "status": "settled"}
+T00793 | A017 | 10.00 | failed
+{"txn": "T00794", "acct": "A031", "amount": "250.55", "status": "pending"}
+{"txn": "T00795", "acct": "A007", "amount": "1999.99", "status": "settled"}
+{"txn": "T00796", "acct": "A015", "amount": "42", "status": "settled"}
+T00797 | A022 | 42 | pending
+T00798 | A031 | 42 | settled
+T00799 | A033 | 0.99 | pending
+T00800 | A028 | 1999.99 | failed
+{"txn": "T00801", "acct": "A019", "amount": "42", "status": "settled"}
+{"txn": "T00802", "acct": "A040", "amount": "500.00", "status": "settled"}
+T00803 | A028 | 0.99 | settled
+{"txn": "T00804", "acct": "A040", "amount": "500.00", "status": "settled"}
+{"txn": "T00805", "acct": "A004", "amount": "10.00", "status": "settled"}
+{"txn": "T00806", "acct": "A094", "amount": "10.00", "status": "settled"}
+T00807 | A003 | 0.99 | settled
+T00808 | A010 | 1999.99 | failed
+{"txn": "T00809", "acct": "A009", "amount": "10.0", "status": "settled"}
+{"txn": "T00810", "acct": "A009", "amount": "42", "status": "settled"}
+{"txn": "T00811", "acct": "A022", "amount": "73.10", "status": "settled"}
+{"txn": "T00812", "acct": "A011", "amount": "10.00", "status": "pending"}
+T00813 | A021 | 500.00 | settled
+{"txn": "T00814", "acct": "A033", "amount": "73.10", "status": "failed"}
+{"txn": "T00815", "acct": "A095", "amount": "73.10", "status": "pending"}
+T00816 | A031 | 250.55 | settled
+T00817 | A025 | 250.55 | pending
+T00818 | A093 | 10.0 | settled
+T00819 | A032 | 10.00 | settled
+T00820 | A094 | 73.10 | failed
+{"txn": "T00821", "acct": "A016", "amount": "250.55", "status": "settled"}
+T00822 | A023 | 10.0 | settled
+T00823 | A035 | 1999.99 | pending
+{"txn": "T00824", "acct": "A032", "amount": "10.00", "status": "failed"}
+T00825 | A020 | 0.99 | failed
+{"txn": "T00826", "acct": "A010", "amount": "250.55", "status": "pending"}
+{"txn": "T00827", "acct": "A027", "amount": "10.00", "status": "settled"}
+{"txn": "T00828", "acct": "A031", "amount": "10.0", "status": "failed"}
+WARN partial write
+T00829 | A036 | 10.0 | pending
+# audit note
+{"txn": "T00830", "acct": "A026", "amount": "0.99", "status": "failed"}
+{"txn": "T00831", "acct": "A003", "amount": "500.00", "status": "failed"}
+{"txn": "T00832", "acct": "A013", "amount": "10.00", "status": "failed"}
+{"txn": "T00833", "acct": "A030", "amount": "1999.99", "status": "settled"}
+T00834 | A018 | 0.99 | settled
+T00835 | A020 | 10.0 | settled
+{"txn": "T00836", "acct": "A006", "amount": "250.55", "status": "settled"}
+{"txn": "T00837", "acct": "A033", "amount": "1999.99", "status": "settled"}
+T00838 | A031 | 500.00 | failed
+T00839 | A031 | 73.10 | settled
+{"txn": "T00840", "acct": "A097", "amount": "0.99", "status": "settled"}
+{"txn": "T00841", "acct": "A024", "amount": "42", "status": "settled"}
+T00842 | A023 | 0.99 | settled
+# audit note
+T00843 | A023 | 250.55 | pending
+{"txn": "T00844", "acct": "A007", "amount": "500.00", "status": "pending"}
+T00845 | A011 | 1999.99 | settled
+T00846 | A037 | 42 | failed
+{"txn": "T00847", "acct": "A001", "amount": "0.99", "status": "failed"}
+T00848 | A031 | 0.99 | settled
+T00849 | A016 | 1999.99 | settled
+T00850 | A023 | 10.0 | settled
+T00851 | A008 | 42 | settled
+T00852 | A003 | 0.99 | pending
+T00853 | A011 | 250.55 | failed
+{"txn": "T00854", "acct": "A004", "amount": "1999.99", "status": "settled"}
+{"txn": "T00855", "acct": "A019", "amount": "250.55", "status": "settled"}
+{"txn": "T00856", "acct": "A032", "amount": "1999.99", "status": "settled"}
+{"txn": "T00857", "acct": "A015", "amount": "250.55", "status": "settled"}
+T00858 | A015 | 250.55 | settled
+{"txn": "T00859", "acct": "A019", "amount": "73.10", "status": "pending"}
+T00860 | A019 | 10.0 | settled
+T00861 | A026 | 500.00 | settled
+{"txn": "T00862", "acct": "A019", "amount": "250.55", "status": "settled"}
+{"txn": "T00863", "acct": "A017", "amount": "500.00", "status": "pending"}
+{"txn": "T00864", "acct": "A009", "amount": "250.55", "status": "pending"}
+{"txn": "T00865", "acct": "A024", "amount": "10.0", "status": "settled"}
+T00866 | A094 | 73.10 | settled
+T00867 | A034 | 500.00 | settled
+{"txn": "T00868", "acct": "A017", "amount": "0.99", "status": "settled"}
+T00869 | A034 | 0.99 | settled
+T00870 | A016 | 42 | settled
+T00871 | A021 | 10.00 | settled
+{"txn": "T00872", "acct": "A030", "amount": "500.00", "status": "pending"}
+{"txn": "T00873", "acct": "A037", "amount": "73.10", "status": "settled"}
+{"txn": "T00874", "acct": "A021", "amount": "250.55", "status": "settled"}
+{"txn": "T00875", "acct": "A090", "amount": "500.00", "status": "settled"}
+--- rotate ---
+T00876 | A011 | 42 | settled
+{"txn": "T00877", "acct": "A016", "amount": "42", "status": "settled"}
+{"txn": "T00878", "acct": "A001", "amount": "0.99", "status": "failed"}
+T00879 | A018 | 0.99 | pending
+T00880 | A097 | 10.00 | settled
+{"txn": "T00881", "acct": "A007", "amount": "500.00", "status": "settled"}
+
+{"txn": "T00882", "acct": "A026", "amount": "1999.99", "status": "settled"}
+WARN partial write
+T00883 | A033 | 10.0 | settled
+{"txn": "T00884", "acct": "A033", "amount": "10.00", "status": "failed"}
+{"txn": "T00885", "acct": "A029", "amount": "10.00", "status": "settled"}
+T00886 | A035 | 10.00 | settled
+T00887 | A005 | 10.0 | pending
+{"txn": "T00888", "acct": "A003", "amount": "1999.99", "status": "pending"}
+{"txn": "T00889", "acct": "A023", "amount": "0.99", "status": "settled"}
+T00890 | A021 | 0.99 | pending
+T00891 | A017 | 250.55 | failed
+T00892 | A002 | 0.99 | failed
+{"txn": "T00893", "acct": "A031", "amount": "73.10", "status": "failed"}
+T00894 | A025 | 73.10 | settled
+T00895 | A019 | 10.0 | settled
+T00896 | A092 | 10.0 | failed
+T00897 | A026 | 0.99 | failed
+T00898 | A040 | 0.99 | settled
+{"txn": "T00899", "acct": "A001", "amount": "250.55", "status": "pending"}
+{"txn": "T00900", "acct": "A038", "amount": "10.00", "status": "settled"}
+T00901 | A040 | 250.55 | pending
+T00902 | A034 | 1999.99 | failed
+T00903 | A097 | 0.99 | settled
+T00904 | A035 | 42 | settled
+{"txn": "T00905", "acct": "A013", "amount": "10.00", "status": "settled"}
+WARN partial write
+{"txn": "T00906", "acct": "A026", "amount": "250.55", "status": "failed"}
+{"txn": "T00907", "acct": "A037", "amount": "10.0", "status": "settled"}
+--- rotate ---
+T00908 | A034 | 73.10 | settled
+T00909 | A008 | 0.99 | settled
+    at Trace(x)
+{"txn": "T00910", "acct": "A037", "amount": "500.00", "status": "settled"}
+T00911 | A092 | 42 | settled
+T00912 | A022 | 250.55 | settled
+T00913 | A032 | 250.55 | failed
+T00914 | A040 | 1999.99 | settled
+T00915 | A037 | 0.99 | pending
+T00916 | A030 | 250.55 | settled
+WARN partial write
+T00917 | A023 | 10.00 | settled
+
+{"txn": "T00918", "acct": "A034", "amount": "73.10", "status": "settled"}
+{"txn": "T00919", "acct": "A029", "amount": "42", "status": "settled"}
+T00920 | A021 | 250.55 | settled
+{"txn": "T00921", "acct": "A035", "amount": "42", "status": "failed"}
+{"txn": "T00922", "acct": "A097", "amount": "250.55", "status": "settled"}
+{"txn": "T00923", "acct": "A028", "amount": "10.0", "status": "failed"}
+T00924 | A025 | 500.00 | settled
+{"txn": "T00925", "acct": "A013", "amount": "250.55", "status": "settled"}
+{"txn": "T00926", "acct": "A038", "amount": "10.0", "status": "settled"}
+{"txn": "T00927", "acct": "A027", "amount": "500.00", "status": "pending"}
+{"txn": "T00928", "acct": "A031", "amount": "10.00", "status": "pending"}
+{"txn": "T00929", "acct": "A024", "amount": "10.00", "status": "failed"}
+T00930 | A032 | 73.10 | settled
+{"txn": "T00931", "acct": "A037", "amount": "0.99", "status": "pending"}
+T00932 | A033 | 42 | settled
+# audit note
+T00933 | A095 | 250.55 | pending
+T00934 | A006 | 73.10 | settled
+{"txn": "T00935", "acct": "A029", "amount": "500.00", "status": "failed"}
+{"txn": "T00936", "acct": "A003", "amount": "10.00", "status": "settled"}
+{"txn": "T00937", "acct": "A004", "amount": "42", "status": "settled"}
+T00938 | A026 | 500.00 | failed
+--- rotate ---
+T00939 | A013 | 0.99 | settled
+{"txn": "T00940", "acct": "A034", "amount": "500.00", "status": "settled"}
+--- rotate ---
+{"txn": "T00941", "acct": "A007", "amount": "73.10", "status": "pending"}
+{"txn": "T00942", "acct": "A002", "amount": "42", "status": "pending"}
+T00943 | A035 | 1999.99 | settled
+T00944 | A090 | 10.0 | settled
+T00945 | A091 | 1999.99 | settled
+{"txn": "T00946", "acct": "A011", "amount": "500.00", "status": "settled"}
+{"txn": "T00947", "acct": "A026", "amount": "10.00", "status": "pending"}
+{"txn": "T00948", "acct": "A019", "amount": "1999.99", "status": "settled"}
+T00949 | A092 | 0.99 | settled
+T00950 | A007 | 73.10 | settled
+T00951 | A022 | 250.55 | settled
+{"txn": "T00952", "acct": "A094", "amount": "250.55", "status": "pending"}
+{"txn": "T00953", "acct": "A006", "amount": "42", "status": "settled"}
+{"txn": "T00954", "acct": "A036", "amount": "1999.99", "status": "settled"}
+{"txn": "T00955", "acct": "A024", "amount": "500.00", "status": "failed"}
+{"txn": "T00956", "acct": "A026", "amount": "73.10", "status": "settled"}
+{"txn": "T00957", "acct": "A031", "amount": "42", "status": "settled"}
+T00958 | A012 | 250.55 | pending
+T00959 | A014 | 0.99 | settled
+T00960 | A019 | 10.00 | failed
+T00961 | A014 | 500.00 | settled
+{"txn": "T00962", "acct": "A032", "amount": "1999.99", "status": "pending"}
+T00963 | A029 | 0.99 | settled
+T00964 | A002 | 42 | settled
+T00965 | A012 | 10.0 | failed
+T00966 | A010 | 10.0 | settled
+{"txn": "T00967", "acct": "A022", "amount": "42", "status": "failed"}
+{"txn": "T00968", "acct": "A023", "amount": "0.99", "status": "settled"}
+T00969 | A038 | 73.10 | settled
+# audit note
+{"txn": "T00970", "acct": "A036", "amount": "73.10", "status": "settled"}
+{"txn": "T00971", "acct": "A029", "amount": "42", "status": "pending"}
+{"txn": "T00972", "acct": "A015", "amount": "500.00", "status": "pending"}
+T00973 | A019 | 0.99 | settled
+T00974 | A038 | 0.99 | settled
+T00975 | A038 | 500.00 | settled
+T00976 | A016 | 1999.99 | settled
+{"txn": "T00977", "acct": "A034", "amount": "0.99", "status": "settled"}
+{"txn": "T00978", "acct": "A040", "amount": "73.10", "status": "pending"}
+T00979 | A016 | 73.10 | settled
+T00980 | A026 | 10.00 | settled
+T00981 | A003 | 0.99 | settled
+{"txn": "T00982", "acct": "A002", "amount": "500.00", "status": "failed"}
+{"txn": "T00983", "acct": "A010", "amount": "10.00", "status": "settled"}
+WARN partial write
+{"txn": "T00984", "acct": "A005", "amount": "0.99", "status": "pending"}
+T00985 | A014 | 1999.99 | settled
+T00986 | A019 | 0.99 | pending
+{"txn": "T00987", "acct": "A030", "amount": "250.55", "status": "settled"}
+{"txn": "T00988", "acct": "A010", "amount": "0.99", "status": "settled"}
+{"txn": "T00989", "acct": "A006", "amount": "500.00", "status": "settled"}
+{"txn": "T00990", "acct": "A005", "amount": "0.99", "status": "settled"}
+T00991 | A093 | 1999.99 | settled
+T00992 | A008 | 10.00 | settled
+WARN partial write
+T00993 | A004 | 250.55 | settled
+{"txn": "T00994", "acct": "A036", "amount": "1999.99", "status": "settled"}
+T00995 | A025 | 0.99 | settled
+T00996 | A004 | 73.10 | pending
+{"txn": "T00997", "acct": "A020", "amount": "10.00", "status": "failed"}
+{"txn": "T00998", "acct": "A024", "amount": "250.55", "status": "failed"}
+T00999 | A036 | 73.10 | pending
+{"txn": "T01000", "acct": "A038", "amount": "1999.99", "status": "settled"}
+T01001 | A014 | 500.00 | settled
+{"txn": "T01002", "acct": "A032", "amount": "500.00", "status": "settled"}
+{"txn": "T01003", "acct": "A028", "amount": "1999.99", "status": "pending"}
+T01004 | A035 | 73.10 | settled
+--- rotate ---
+{"txn": "T01005", "acct": "A014", "amount": "500.00", "status": "settled"}
+T01006 | A004 | 10.00 | settled
+{"txn": "T01007", "acct": "A019", "amount": "42", "status": "settled"}
+T01008 | A030 | 0.99 | failed
+{"txn": "T01009", "acct": "A020", "amount": "0.99", "status": "pending"}
+{"txn": "T01010", "acct": "A035", "amount": "500.00", "status": "pending"}
+T01011 | A014 | 1999.99 | settled
+T01012 | A091 | 500.00 | settled
+T01013 | A024 | 10.0 | settled
+{"txn": "T01014", "acct": "A017", "amount": "500.00", "status": "settled"}
+{"txn": "T01015", "acct": "A024", "amount": "500.00", "status": "settled"}
+{"txn": "T01016", "acct": "A017", "amount": "10.0", "status": "pending"}
+{"txn": "T01017", "acct": "A030", "amount": "10.0", "status": "failed"}
+T01018 | A031 | 10.0 | pending
+T01019 | A034 | 1999.99 | settled
+T01020 | A015 | 73.10 | settled
+{"txn": "T01021", "acct": "A008", "amount": "1999.99", "status": "failed"}
+T01022 | A016 | 10.00 | failed
+{"txn": "T01023", "acct": "A003", "amount": "42", "status": "settled"}
+{"txn": "T01024", "acct": "A024", "amount": "73.10", "status": "pending"}
+{"txn": "T01025", "acct": "A009", "amount": "0.99", "status": "settled"}
+{"txn": "T01026", "acct": "A013", "amount": "0.99", "status": "pending"}
+T01027 | A092 | 73.10 | settled
+T01028 | A013 | 42 | settled
+--- rotate ---
+{"txn": "T01029", "acct": "A035", "amount": "73.10", "status": "settled"}
+T01030 | A039 | 1999.99 | settled
+{"txn": "T01031", "acct": "A027", "amount": "250.55", "status": "failed"}
+T01032 | A017 | 1999.99 | settled
+{"txn": "T01033", "acct": "A024", "amount": "500.00", "status": "pending"}
+T01034 | A014 | 500.00 | settled
+T01035 | A040 | 42 | pending
+{"txn": "T01036", "acct": "A019", "amount": "10.00", "status": "settled"}
+T01037 | A018 | 250.55 | pending
+# audit note
+T01038 | A039 | 1999.99 | pending
+{"txn": "T01039", "acct": "A093", "amount": "42", "status": "settled"}
+{"txn": "T01040", "acct": "A031", "amount": "73.10", "status": "settled"}
+T01041 | A027 | 73.10 | settled
+{"txn": "T01042", "acct": "A034", "amount": "42", "status": "settled"}
+{"txn": "T01043", "acct": "A090", "amount": "10.00", "status": "failed"}
+T01044 | A021 | 10.0 | settled
+T01045 | A038 | 10.0 | pending
+{"txn": "T01046", "acct": "A006", "amount": "10.0", "status": "settled"}
+{"txn": "T01047", "acct": "A040", "amount": "42", "status": "settled"}
+T01048 | A001 | 10.0 | settled
+{"txn": "T01049", "acct": "A009", "amount": "250.55", "status": "settled"}
+{"txn": "T01050", "acct": "A037", "amount": "500.00", "status": "settled"}
+T01051 | A003 | 250.55 | settled
+{"txn": "T01052", "acct": "A037", "amount": "0.99", "status": "settled"}
+{"txn": "T01053", "acct": "A002", "amount": "10.0", "status": "settled"}
+T01054 | A015 | 0.99 | pending
+{"txn": "T01055", "acct": "A019", "amount": "250.55", "status": "settled"}
+{"txn": "T01056", "acct": "A033", "amount": "250.55", "status": "failed"}
+{"txn": "T01057", "acct": "A014", "amount": "1999.99", "status": "failed"}
+T01058 | A005 | 0.99 | settled
+T01059 | A016 | 1999.99 | settled
+{"txn": "T01060", "acct": "A033", "amount": "0.99", "status": "settled"}
+{"txn": "T01061", "acct": "A016", "amount": "73.10", "status": "failed"}
+T01062 | A027 | 10.0 | failed
+T01063 | A029 | 0.99 | settled
+T01064 | A004 | 500.00 | failed
+{"txn": "T01065", "acct": "A012", "amount": "73.10", "status": "failed"}
+T01066 | A004 | 500.00 | failed
+T01067 | A015 | 1999.99 | settled
+T01068 | A013 | 250.55 | settled
+{"txn": "T01069", "acct": "A038", "amount": "0.99", "status": "settled"}
+{"txn": "T01070", "acct": "A020", "amount": "0.99", "status": "settled"}
+{"txn": "T01071", "acct": "A029", "amount": "1999.99", "status": "settled"}
+T01072 | A038 | 250.55 | settled
+T01073 | A002 | 10.0 | settled
+{"txn": "T01074", "acct": "A007", "amount": "0.99", "status": "settled"}
+T01075 | A094 | 10.0 | settled
+T01076 | A022 | 10.00 | settled
+{"txn": "T01077", "acct": "A027", "amount": "42", "status": "settled"}
+T01078 | A024 | 0.99 | settled
+--- rotate ---
+T01079 | A020 | 10.00 | pending
+{"txn": "T01080", "acct": "A018", "amount": "1999.99", "status": "settled"}
+{"txn": "T01081", "acct": "A031", "amount": "1999.99", "status": "settled"}
+{"txn": "T01082", "acct": "A001", "amount": "73.10", "status": "failed"}
+{"txn": "T01083", "acct": "A027", "amount": "1999.99", "status": "settled"}
+T01084 | A002 | 0.99 | pending
+T01085 | A016 | 250.55 | failed
+{"txn": "T01086", "acct": "A004", "amount": "0.99", "status": "settled"}
+T01087 | A005 | 250.55 | pending
+{"txn": "T01088", "acct": "A013", "amount": "500.00", "status": "settled"}
+{"txn": "T01089", "acct": "A029", "amount": "10.0", "status": "settled"}
+T01090 | A095 | 250.55 | settled
+T01091 | A092 | 0.99 | pending
+T01092 | A093 | 42 | pending
+T01093 | A024 | 1999.99 | settled
+{"txn": "T01094", "acct": "A090", "amount": "73.10", "status": "settled"}
+T01095 | A008 | 10.00 | failed
+T01096 | A012 | 42 | failed
+# audit note
+T01097 | A098 | 73.10 | failed
+--- rotate ---
+{"txn": "T01098", "acct": "A009", "amount": "42", "status": "settled"}
+{"txn": "T01099", "acct": "A019", "amount": "500.00", "status": "pending"}
+T01100 | A003 | 0.99 | settled
+T01101 | A038 | 500.00 | failed
+{"txn": "T01102", "acct": "A017", "amount": "1999.99", "status": "settled"}
+{"txn": "T01103", "acct": "A013", "amount": "0.99", "status": "settled"}
+T01104 | A011 | 500.00 | failed
+T01105 | A014 | 500.00 | settled
+T01106 | A095 | 1999.99 | settled
+# audit note
+{"txn": "T01107", "acct": "A019", "amount": "0.99", "status": "pending"}
+
+T01108 | A098 | 10.00 | pending
+T01109 | A002 | 10.0 | settled
+T01110 | A016 | 500.00 | settled
+{"txn": "T01111", "acct": "A001", "amount": "10.0", "status": "failed"}
+T01112 | A029 | 500.00 | failed
+T01113 | A003 | 500.00 | failed
+{"txn": "T01114", "acct": "A090", "amount": "10.0", "status": "settled"}
+{"txn": "T01115", "acct": "A035", "amount": "1999.99", "status": "settled"}
+T01116 | A003 | 10.0 | pending
+T01117 | A017 | 42 | settled
+T01118 | A007 | 73.10 | settled
+T01119 | A028 | 10.0 | settled
+T01120 | A093 | 73.10 | settled
+T01121 | A038 | 42 | settled
+T01122 | A029 | 0.99 | settled
+{"txn": "T01123", "acct": "A003", "amount": "10.00", "status": "pending"}
+T01124 | A033 | 250.55 | failed
+T01125 | A016 | 0.99 | settled
+{"txn": "T01126", "acct": "A027", "amount": "73.10", "status": "settled"}
+{"txn": "T01127", "acct": "A015", "amount": "42", "status": "settled"}
+{"txn": "T01128", "acct": "A005", "amount": "250.55", "status": "pending"}
+--- rotate ---
+{"txn": "T01129", "acct": "A002", "amount": "10.00", "status": "failed"}
+T01130 | A021 | 500.00 | settled
+T01131 | A037 | 10.00 | settled
+T01132 | A016 | 0.99 | pending
+{"txn": "T01133", "acct": "A036", "amount": "0.99", "status": "settled"}
+--- rotate ---
+{"txn": "T01134", "acct": "A038", "amount": "10.0", "status": "settled"}
+T01135 | A006 | 1999.99 | settled
+T01136 | A020 | 10.00 | settled
+{"txn": "T01137", "acct": "A015", "amount": "0.99", "status": "settled"}
+{"txn": "T01138", "acct": "A002", "amount": "250.55", "status": "settled"}
+{"txn": "T01139", "acct": "A098", "amount": "0.99", "status": "pending"}
+T01140 | A003 | 10.0 | settled
+T01141 | A097 | 42 | pending
+T01142 | A012 | 10.00 | settled
+{"txn": "T01143", "acct": "A018", "amount": "42", "status": "settled"}
+{"txn": "T01144", "acct": "A031", "amount": "500.00", "status": "settled"}
+    at Trace(x)
+{"txn": "T01145", "acct": "A039", "amount": "250.55", "status": "settled"}
+T01146 | A030 | 250.55 | failed
+T01147 | A002 | 42 | settled
+{"txn": "T01148", "acct": "A016", "amount": "1999.99", "status": "settled"}
+{"txn": "T01149", "acct": "A005", "amount": "500.00", "status": "pending"}
+{"txn": "T01150", "acct": "A098", "amount": "10.00", "status": "failed"}
+{"txn": "T01151", "acct": "A013", "amount": "73.10", "status": "settled"}
+T01152 | A034 | 250.55 | settled
+T01153 | A014 | 1999.99 | settled
+T01154 | A031 | 42 | settled
+{"txn": "T01155", "acct": "A015", "amount": "500.00", "status": "failed"}
+{"txn": "T01156", "acct": "A007", "amount": "250.55", "status": "settled"}
+T01157 | A012 | 10.00 | failed
+T01158 | A039 | 42 | pending
+T01159 | A025 | 250.55 | settled
+{"txn": "T01160", "acct": "A025", "amount": "250.55", "status": "settled"}
+{"txn": "T01161", "acct": "A040", "amount": "500.00", "status": "settled"}
+{"txn": "T01162", "acct": "A009", "amount": "1999.99", "status": "failed"}
+--- rotate ---
+{"txn": "T01163", "acct": "A007", "amount": "73.10", "status": "failed"}
+{"txn": "T01164", "acct": "A014", "amount": "42", "status": "pending"}
+T01165 | A032 | 10.0 | pending
+{"txn": "T01166", "acct": "A006", "amount": "500.00", "status": "failed"}
+T01167 | A039 | 42 | settled
+T01168 | A011 | 1999.99 | pending
+{"txn": "T01169", "acct": "A029", "amount": "10.00", "status": "failed"}
+T01170 | A021 | 10.00 | pending
+T01171 | A028 | 42 | failed
+{"txn": "T01172", "acct": "A009", "amount": "1999.99", "status": "settled"}
+T01173 | A027 | 1999.99 | settled
+T01174 | A025 | 0.99 | settled
+{"txn": "T01175", "acct": "A009", "amount": "73.10", "status": "settled"}
+T01176 | A021 | 73.10 | settled
+{"txn": "T01177", "acct": "A031", "amount": "0.99", "status": "failed"}
+T01178 | A017 | 1999.99 | settled
+{"txn": "T01179", "acct": "A034", "amount": "42", "status": "settled"}
+{"txn": "T01180", "acct": "A036", "amount": "0.99", "status": "pending"}
+--- rotate ---
+T01181 | A007 | 500.00 | settled
+T01182 | A018 | 250.55 | settled
+T01183 | A004 | 42 | failed
+{"txn": "T01184", "acct": "A028", "amount": "73.10", "status": "failed"}
+{"txn": "T01185", "acct": "A097", "amount": "73.10", "status": "pending"}
+T01186 | A002 | 10.0 | settled
+{"txn": "T01187", "acct": "A026", "amount": "250.55", "status": "settled"}
+T01188 | A033 | 250.55 | settled
+T01189 | A008 | 250.55 | settled
+T01190 | A016 | 0.99 | settled
+{"txn": "T01191", "acct": "A096", "amount": "1999.99", "status": "settled"}
+{"txn": "T01192", "acct": "A035", "amount": "73.10", "status": "settled"}
+T01193 | A013 | 500.00 | pending
+{"txn": "T01194", "acct": "A015", "amount": "10.0", "status": "settled"}
+T01195 | A098 | 1999.99 | settled
+{"txn": "T01196", "acct": "A023", "amount": "42", "status": "settled"}
+WARN partial write
+{"txn": "T01197", "acct": "A023", "amount": "1999.99", "status": "settled"}
+T01198 | A008 | 10.00 | pending
+{"txn": "T01199", "acct": "A007", "amount": "0.99", "status": "settled"}
+{"txn": "T01200", "acct": "A012", "amount": "10.00", "status": "failed"}
+{"txn": "T01201", "acct": "A016", "amount": "10.0", "status": "settled"}
+{"txn": "T01202", "acct": "A031", "amount": "42", "status": "settled"}
+T01203 | A029 | 250.55 | failed
+T01204 | A023 | 10.00 | pending
+{"txn": "T01205", "acct": "A010", "amount": "1999.99", "status": "settled"}
+T01206 | A032 | 10.00 | settled
+T01207 | A028 | 10.00 | settled
+T01208 | A007 | 500.00 | settled
+T01209 | A097 | 42 | settled
+T01210 | A002 | 250.55 | pending
+{"txn": "T01211", "acct": "A016", "amount": "10.0", "status": "settled"}
+T01212 | A039 | 10.00 | pending
+T01213 | A039 | 10.0 | settled
+{"txn": "T01214", "acct": "A022", "amount": "0.99", "status": "failed"}
+T01215 | A032 | 0.99 | failed
+--- rotate ---
+T01216 | A034 | 73.10 | pending
+{"txn": "T01217", "acct": "A010", "amount": "1999.99", "status": "settled"}
+{"txn": "T01218", "acct": "A007", "amount": "10.00", "status": "failed"}
+{"txn": "T01219", "acct": "A025", "amount": "10.00", "status": "settled"}
+T01220 | A007 | 10.00 | failed
+T01221 | A032 | 42 | pending
+{"txn": "T01222", "acct": "A007", "amount": "0.99", "status": "failed"}
+T01223 | A031 | 0.99 | settled
+WARN partial write
+{"txn": "T01224", "acct": "A029", "amount": "500.00", "status": "settled"}
+{"txn": "T01225", "acct": "A038", "amount": "10.00", "status": "pending"}
+T01226 | A003 | 73.10 | settled
+T01227 | A097 | 10.0 | failed
+{"txn": "T01228", "acct": "A016", "amount": "1999.99", "status": "settled"}
+T01229 | A031 | 73.10 | settled
+{"txn": "T01230", "acct": "A097", "amount": "0.99", "status": "settled"}
+{"txn": "T01231", "acct": "A001", "amount": "500.00", "status": "failed"}
+{"txn": "T01232", "acct": "A003", "amount": "42", "status": "settled"}
+{"txn": "T01233", "acct": "A034", "amount": "1999.99", "status": "pending"}
+{"txn": "T01234", "acct": "A001", "amount": "0.99", "status": "failed"}
+{"txn": "T01235", "acct": "A002", "amount": "0.99", "status": "settled"}
+{"txn": "T01236", "acct": "A010", "amount": "250.55", "status": "pending"}
+T01237 | A005 | 73.10 | settled
+{"txn": "T01238", "acct": "A031", "amount": "10.0", "status": "settled"}
+T01239 | A036 | 10.00 | settled
+T01240 | A033 | 10.00 | pending
+{"txn": "T01241", "acct": "A001", "amount": "500.00", "status": "failed"}
+{"txn": "T01242", "acct": "A033", "amount": "250.55", "status": "pending"}
+T01243 | A016 | 1999.99 | failed
+T01244 | A036 | 42 | settled
+{"txn": "T01245", "acct": "A021", "amount": "0.99", "status": "settled"}
+T01246 | A001 | 10.0 | settled
+{"txn": "T01247", "acct": "A007", "amount": "42", "status": "settled"}
+T01248 | A092 | 73.10 | settled
+T01249 | A028 | 0.99 | pending
+T01250 | A021 | 500.00 | pending
+# audit note
+{"txn": "T01251", "acct": "A040", "amount": "73.10", "status": "pending"}
+{"txn": "T01252", "acct": "A028", "amount": "0.99", "status": "pending"}
+{"txn": "T01253", "acct": "A020", "amount": "0.99", "status": "settled"}
+{"txn": "T01254", "acct": "A011", "amount": "10.00", "status": "settled"}
+{"txn": "T01255", "acct": "A012", "amount": "42", "status": "failed"}
+T01256 | A023 | 10.0 | settled
+{"txn": "T01257", "acct": "A038", "amount": "250.55", "status": "settled"}
+T01258 | A008 | 1999.99 | failed
+T01259 | A030 | 500.00 | settled
+{"txn": "T01260", "acct": "A023", "amount": "10.00", "status": "settled"}
+WARN partial write
+T01261 | A011 | 10.00 | pending
+{"txn": "T01262", "acct": "A015", "amount": "1999.99", "status": "pending"}
+T01263 | A014 | 1999.99 | settled
+T01264 | A016 | 1999.99 | settled
+T01265 | A017 | 42 | failed
+T01266 | A030 | 250.55 | pending
+{"txn": "T01267", "acct": "A027", "amount": "73.10", "status": "pending"}
+{"txn": "T01268", "acct": "A016", "amount": "250.55", "status": "settled"}
+{"txn": "T01269", "acct": "A015", "amount": "0.99", "status": "settled"}
+T01270 | A015 | 73.10 | settled
+WARN partial write
+T01271 | A093 | 10.0 | settled
+{"txn": "T01272", "acct": "A027", "amount": "73.10", "status": "pending"}
+{"txn": "T01273", "acct": "A019", "amount": "0.99", "status": "settled"}
+{"txn": "T01274", "acct": "A019", "amount": "10.0", "status": "failed"}
+T01275 | A004 | 500.00 | settled
+{"txn": "T01276", "acct": "A033", "amount": "500.00", "status": "pending"}
+T01277 | A028 | 10.00 | settled
+{"txn": "T01278", "acct": "A006", "amount": "42", "status": "pending"}
+{"txn": "T01279", "acct": "A015", "amount": "1999.99", "status": "settled"}
+T01280 | A037 | 42 | settled
+{"txn": "T01281", "acct": "A008", "amount": "250.55", "status": "failed"}
+T01282 | A095 | 250.55 | failed
+T01283 | A005 | 1999.99 | settled
+    at Trace(x)
+T01284 | A034 | 250.55 | settled
+--- rotate ---
+T01285 | A005 | 73.10 | settled
+{"txn": "T01286", "acct": "A030", "amount": "42", "status": "settled"}
+{"txn": "T01287", "acct": "A021", "amount": "10.0", "status": "settled"}
+{"txn": "T01288", "acct": "A039", "amount": "0.99", "status": "settled"}
+T01289 | A023 | 0.99 | settled
+# audit note
+T01290 | A036 | 10.00 | settled
+{"txn": "T01291", "acct": "A013", "amount": "73.10", "status": "settled"}
+T01292 | A015 | 0.99 | settled
+{"txn": "T01293", "acct": "A034", "amount": "73.10", "status": "settled"}
+{"txn": "T01294", "acct": "A014", "amount": "10.00", "status": "failed"}
+{"txn": "T01295", "acct": "A030", "amount": "0.99", "status": "pending"}
+T01296 | A096 | 1999.99 | pending
+{"txn": "T01297", "acct": "A010", "amount": "73.10", "status": "settled"}
+T01298 | A090 | 250.55 | pending
+{"txn": "T01299", "acct": "A032", "amount": "250.55", "status": "failed"}
+T01300 | A036 | 73.10 | pending
+T01301 | A014 | 10.00 | settled
+{"txn": "T01302", "acct": "A020", "amount": "10.00", "status": "settled"}
+T01303 | A016 | 1999.99 | settled
+T01304 | A094 | 10.0 | failed
+{"txn": "T01305", "acct": "A008", "amount": "10.00", "status": "pending"}
+--- rotate ---
+{"txn": "T01306", "acct": "A039", "amount": "42", "status": "failed"}
+T01307 | A006 | 1999.99 | settled
+T01308 | A090 | 1999.99 | settled
+{"txn": "T01309", "acct": "A022", "amount": "10.00", "status": "settled"}
+T01310 | A009 | 1999.99 | failed
+{"txn": "T01311", "acct": "A030", "amount": "10.0", "status": "settled"}
+{"txn": "T01312", "acct": "A094", "amount": "0.99", "status": "settled"}
+{"txn": "T01313", "acct": "A011", "amount": "500.00", "status": "settled"}
+T01314 | A012 | 250.55 | failed
+{"txn": "T01315", "acct": "A017", "amount": "500.00", "status": "failed"}
+WARN partial write
+T01316 | A029 | 0.99 | settled
+{"txn": "T01317", "acct": "A003", "amount": "0.99", "status": "settled"}
+{"txn": "T01318", "acct": "A023", "amount": "500.00", "status": "settled"}
+T01319 | A095 | 500.00 | failed
+T01320 | A017 | 500.00 | settled
+{"txn": "T01321", "acct": "A025", "amount": "10.00", "status": "settled"}
+T01322 | A095 | 10.0 | failed
+T01323 | A007 | 500.00 | failed
+{"txn": "T01324", "acct": "A004", "amount": "42", "status": "failed"}
+WARN partial write
+{"txn": "T01325", "acct": "A027", "amount": "42", "status": "failed"}
+{"txn": "T01326", "acct": "A008", "amount": "10.00", "status": "failed"}
+T01327 | A021 | 73.10 | failed
+{"txn": "T01328", "acct": "A036", "amount": "73.10", "status": "failed"}
+{"txn": "T01329", "acct": "A040", "amount": "250.55", "status": "settled"}
+WARN partial write
+T01330 | A018 | 1999.99 | pending
+T01331 | A005 | 0.99 | failed
+{"txn": "T01332", "acct": "A095", "amount": "0.99", "status": "pending"}
+{"txn": "T01333", "acct": "A016", "amount": "42", "status": "pending"}
+T01334 | A037 | 10.0 | settled
+{"txn": "T01335", "acct": "A028", "amount": "10.0", "status": "settled"}
+{"txn": "T01336", "acct": "A005", "amount": "0.99", "status": "settled"}
+{"txn": "T01337", "acct": "A094", "amount": "73.10", "status": "failed"}
+T01338 | A091 | 1999.99 | settled
+{"txn": "T01339", "acct": "A028", "amount": "73.10", "status": "failed"}
+{"txn": "T01340", "acct": "A004", "amount": "10.0", "status": "failed"}
+{"txn": "T01341", "acct": "A008", "amount": "0.99", "status": "settled"}
+{"txn": "T01342", "acct": "A095", "amount": "10.0", "status": "failed"}
+{"txn": "T01343", "acct": "A015", "amount": "73.10", "status": "settled"}
+{"txn": "T01344", "acct": "A006", "amount": "0.99", "status": "failed"}
+T01345 | A017 | 42 | settled
+--- rotate ---
+{"txn": "T01346", "acct": "A010", "amount": "0.99", "status": "failed"}
+T01347 | A032 | 250.55 | pending
+{"txn": "T01348", "acct": "A007", "amount": "10.0", "status": "settled"}
+{"txn": "T01349", "acct": "A001", "amount": "250.55", "status": "settled"}
+{"txn": "T01350", "acct": "A096", "amount": "250.55", "status": "settled"}
+{"txn": "T01351", "acct": "A012", "amount": "250.55", "status": "settled"}
+T01352 | A098 | 1999.99 | failed
+{"txn": "T01353", "acct": "A002", "amount": "250.55", "status": "failed"}
+{"txn": "T01354", "acct": "A038", "amount": "1999.99", "status": "settled"}
+T01355 | A008 | 10.00 | settled
+{"txn": "T01356", "acct": "A008", "amount": "500.00", "status": "failed"}
+{"txn": "T01357", "acct": "A095", "amount": "42", "status": "pending"}
+T01358 | A023 | 10.00 | failed
+{"txn": "T01359", "acct": "A011", "amount": "10.00", "status": "pending"}
+# audit note
+T01360 | A016 | 1999.99 | settled
+{"txn": "T01361", "acct": "A040", "amount": "42", "status": "settled"}
+T01362 | A032 | 73.10 | failed
+T01363 | A021 | 1999.99 | failed
+{"txn": "T01364", "acct": "A010", "amount": "1999.99", "status": "failed"}
+T01365 | A020 | 10.0 | pending
+{"txn": "T01366", "acct": "A033", "amount": "250.55", "status": "settled"}
+{"txn": "T01367", "acct": "A003", "amount": "42", "status": "settled"}
+T01368 | A091 | 1999.99 | settled
+T01369 | A090 | 0.99 | failed
+T01370 | A021 | 42 | settled
+T01371 | A092 | 10.00 | failed
+T01372 | A006 | 500.00 | failed
+--- rotate ---
+# audit note
+T01373 | A014 | 0.99 | failed
+T01374 | A096 | 10.00 | settled
+{"txn": "T01375", "acct": "A033", "amount": "1999.99", "status": "settled"}
+T01376 | A029 | 1999.99 | settled
+{"txn": "T01377", "acct": "A016", "amount": "10.00", "status": "pending"}
+T01378 | A040 | 73.10 | settled
+{"txn": "T01379", "acct": "A014", "amount": "1999.99", "status": "settled"}

@@ -1,0 +1,13 @@
+{
+  "replacements": [
+    {"file": "notes/note_1.txt", "value": "priya.nair@vantage.io", "token": "[EMAIL]"},
+    {"file": "notes/note_1.txt", "value": "415-555-0198", "token": "[PHONE]"},
+    {"file": "notes/note_2.txt", "value": "ops-team@corp.example", "token": "[EMAIL]"},
+    {"file": "notes/note_2.txt", "value": "(212) 555 0143", "token": "[PHONE]"},
+    {"file": "notes/note_3.txt", "value": "d.okafor@lumen.co", "token": "[EMAIL]"},
+    {"file": "notes/note_3.txt", "value": "+1 646 555 0177", "token": "[PHONE]"},
+    {"file": "tickets.jsonl", "value": "maya.torres@brightmail.com", "token": "[EMAIL]"},
+    {"file": "tickets.jsonl", "value": "808-555-0171", "token": "[PHONE]"},
+    {"file": "tickets.jsonl", "value": "312.555.0122", "token": "[PHONE]"}
+  ]
+}

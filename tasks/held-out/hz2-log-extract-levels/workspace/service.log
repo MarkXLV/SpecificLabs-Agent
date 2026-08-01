@@ -1,0 +1,2600 @@
+2026-07-15T08:00:03 billing INFO cache warm
+2026-07-15T08:00:06 api-gateway INFO request served
+2026-07-15T08:00:07 worker-3 INFO cache warm
+2026-07-15T08:00:08 scheduler INFO request served
+2026-07-15T08:00:11 api-gateway INFO heartbeat ok
+{"ts": "2026-07-15T08:00:12", "level": "WARN", "svc": "auth", "msg": "retry budget low"}
+-------- rotated --------
+{"ts": "2026-07-15T08:00:12", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+2026-07-15T08:00:14 cache DEBUG cache miss
+{"ts": "2026-07-15T08:00:15", "level": "ERROR", "svc": "auth", "msg": "OOM killed"}
+2026-07-15T08:00:17 billing DEBUG entering handler
+{"ts": "2026-07-15T08:00:19", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:00:21", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:00:24 cache ERROR null pointer in handler
+{"ts": "2026-07-15T08:00:27", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+{"ts": "2026-07-15T08:00:30", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:00:31", "level": "INFO", "svc": "auth", "msg": "request served"}
+-------- rotated --------
+2026-07-15T08:00:31 api-gateway DEBUG entering handler
+2026-07-15T08:00:34 scheduler INFO cache warm
+2026-07-15T08:00:35 api-gateway DEBUG cache miss
+2026-07-15T08:00:36 api-gateway DEBUG entering handler
+2026-07-15T08:00:39 api-gateway WARN clock drift detected
+2026-07-15T08:00:41 billing DEBUG entering handler
+{"ts": "2026-07-15T08:00:44", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:00:46 worker-3 INFO request served
+{"ts": "2026-07-15T08:00:48", "level": "WARN", "svc": "cache", "msg": "clock drift detected"}
+2026-07-15T08:00:48 worker-3 ERROR null pointer in handler
+{"ts": "2026-07-15T08:00:49", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:00:51", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+{"ts": "2026-07-15T08:00:54", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+2026-07-15T08:00:56 billing DEBUG tracing span open
+{"ts": "2026-07-15T08:00:56", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:00:59", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+{"ts": "2026-07-15T08:01:00", "level": "ERROR", "svc": "cache", "msg": "OOM killed"}
+{"ts": "2026-07-15T08:01:01", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:01:03", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+{"ts": "2026-07-15T08:01:06", "level": "INFO", "svc": "billing", "msg": "request served"}
+{"ts": "2026-07-15T08:01:06", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+2026-07-15T08:01:08 api-gateway DEBUG tracing span open
+{"ts": "2026-07-15T08:01:11", "level": "WARN", "svc": "api-gateway", "msg": "clock drift detected"}
+2026-07-15T08:01:11 cache INFO cache warm
+2026-07-15T08:01:12 scheduler ERROR null pointer in handler
+{"ts": "2026-07-15T08:01:15", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+{"ts": "2026-07-15T08:01:15", "level": "ERROR", "svc": "auth", "msg": "failed to commit txn"}
+
+2026-07-15T08:01:17 cache DEBUG entering handler
+{"ts": "2026-07-15T08:01:18", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+2026-07-15T08:01:20 billing WARN disk at 82%
+{"ts": "2026-07-15T08:01:20", "level": "INFO", "svc": "auth", "msg": "request served"}
+2026-07-15T08:01:21 api-gateway WARN clock drift detected
+{"ts": "2026-07-15T08:01:23", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+{"ts": "2026-07-15T08:01:25", "level": "WARN", "svc": "worker-3", "msg": "slow query 1200ms"}
+2026-07-15T08:01:28 worker-3 DEBUG tracing span open
+2026-07-15T08:01:31 scheduler INFO cache warm
+2026-07-15T08:01:33 cache DEBUG entering handler
+{"ts": "2026-07-15T08:01:33", "level": "ERROR", "svc": "cache", "msg": "null pointer in handler"}
+{"ts": "2026-07-15T08:01:33", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+Traceback (most recent call last):
+2026-07-15T08:01:36 cache ERROR failed to commit txn
+{"ts": "2026-07-15T08:01:36", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+2026-07-15T08:01:39 billing DEBUG entering handler
+{"ts": "2026-07-15T08:01:41", "level": "INFO", "svc": "billing", "msg": "request served"}
+{"ts": "2026-07-15T08:01:42", "level": "ERROR", "svc": "cache", "msg": "upstream 503"}
+{"ts": "2026-07-15T08:01:43", "level": "ERROR", "svc": "worker-3", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:01:46", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:01:46", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+Traceback (most recent call last):
+2026-07-15T08:01:47 auth WARN disk at 82%
+Traceback (most recent call last):
+2026-07-15T08:01:48 cache DEBUG cache miss
+{"ts": "2026-07-15T08:01:48", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:01:50", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+2026-07-15T08:01:52 billing WARN connection pool near limit
+2026-07-15T08:01:53 worker-3 INFO request served
+{"ts": "2026-07-15T08:01:55", "level": "INFO", "svc": "billing", "msg": "request served"}
+2026-07-15T08:01:56 api-gateway DEBUG tracing span open
+{"ts": "2026-07-15T08:01:59", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:02:00", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:02:03", "level": "INFO", "svc": "billing", "msg": "request served"}
+2026-07-15T08:02:06 worker-3 WARN clock drift detected
+2026-07-15T08:02:08 scheduler DEBUG cache miss
+2026-07-15T08:02:08 worker-3 INFO config reloaded
+2026-07-15T08:02:11 worker-3 INFO config reloaded
+{"ts": "2026-07-15T08:02:11", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:02:14 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:02:16", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+2026-07-15T08:02:19 scheduler INFO request served
+2026-07-15T08:02:22 api-gateway DEBUG cache miss
+{"ts": "2026-07-15T08:02:25", "level": "ERROR", "svc": "auth", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:02:27", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:02:29 billing INFO heartbeat ok
+2026-07-15T08:02:29 worker-3 ERROR null pointer in handler
+2026-07-15T08:02:32 api-gateway DEBUG entering handler
+{"ts": "2026-07-15T08:02:35", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+{"ts": "2026-07-15T08:02:37", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+2026-07-15T08:02:39 worker-3 WARN disk at 82%
+2026-07-15T08:02:41 scheduler WARN clock drift detected
+2026-07-15T08:02:41 auth DEBUG tracing span open
+2026-07-15T08:02:44 billing DEBUG tracing span open
+2026-07-15T08:02:47 auth DEBUG entering handler
+2026-07-15T08:02:48 scheduler WARN slow query 1200ms
+{"ts": "2026-07-15T08:02:49", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:02:52", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+2026-07-15T08:02:52 worker-3 WARN retry budget low
+{"ts": "2026-07-15T08:02:55", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:02:57", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:03:00 cache INFO request served
+2026-07-15T08:03:00 scheduler INFO request served
+{"ts": "2026-07-15T08:03:01", "level": "INFO", "svc": "billing", "msg": "request served"}
+{"ts": "2026-07-15T08:03:04", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:03:07", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:03:10", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:03:12", "level": "WARN", "svc": "worker-3", "msg": "clock drift detected"}
+2026-07-15T08:03:14 scheduler WARN clock drift detected
+2026-07-15T08:03:16 cache DEBUG entering handler
+2026-07-15T08:03:18 auth INFO request served
+2026-07-15T08:03:19 worker-3 WARN clock drift detected
+{"ts": "2026-07-15T08:03:21", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+2026-07-15T08:03:21 cache INFO heartbeat ok
+{"ts": "2026-07-15T08:03:21", "level": "WARN", "svc": "billing", "msg": "connection pool near limit"}
+2026-07-15T08:03:23 billing INFO request served
+2026-07-15T08:03:26 billing INFO config reloaded
+2026-07-15T08:03:28 billing ERROR upstream 503
+2026-07-15T08:03:30 worker-3 DEBUG entering handler
+2026-07-15T08:03:30 scheduler DEBUG cache miss
+2026-07-15T08:03:31 billing WARN connection pool near limit
+{"ts": "2026-07-15T08:03:33", "level": "WARN", "svc": "worker-3", "msg": "connection pool near limit"}
+2026-07-15T08:03:34 scheduler DEBUG entering handler
+{"ts": "2026-07-15T08:03:36", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+2026-07-15T08:03:38 api-gateway DEBUG entering handler
+# manual note: investigating
+2026-07-15T08:03:40 auth INFO heartbeat ok
+2026-07-15T08:03:42 api-gateway INFO cache warm
+{"ts": "2026-07-15T08:03:44", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+{"ts": "2026-07-15T08:03:44", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:03:47", "level": "WARN", "svc": "worker-3", "msg": "slow query 1200ms"}
+2026-07-15T08:03:48 cache ERROR null pointer in handler
+2026-07-15T08:03:48 api-gateway INFO heartbeat ok
+{"ts": "2026-07-15T08:03:49", "level": "ERROR", "svc": "cache", "msg": "null pointer in handler"}
+{"ts": "2026-07-15T08:03:52", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+-------- rotated --------
+2026-07-15T08:03:55 api-gateway WARN disk at 82%
+2026-07-15T08:03:58 billing INFO heartbeat ok
+Traceback (most recent call last):
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:03:58", "level": "WARN", "svc": "billing", "msg": "connection pool near limit"}
+2026-07-15T08:03:59 billing INFO config reloaded
+{"ts": "2026-07-15T08:04:01", "level": "ERROR", "svc": "scheduler", "msg": "failed to commit txn"}
+{"ts": "2026-07-15T08:04:03", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+2026-07-15T08:04:05 auth ERROR null pointer in handler
+{"ts": "2026-07-15T08:04:05", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+2026-07-15T08:04:07 billing INFO heartbeat ok
+2026-07-15T08:04:08 billing DEBUG entering handler
+{"ts": "2026-07-15T08:04:10", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+2026-07-15T08:04:12 cache DEBUG tracing span open
+{"ts": "2026-07-15T08:04:15", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+2026-07-15T08:04:15 cache INFO request served
+{"ts": "2026-07-15T08:04:18", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+{"ts": "2026-07-15T08:04:19", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+2026-07-15T08:04:20 api-gateway WARN clock drift detected
+{"ts": "2026-07-15T08:04:20", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+{"ts": "2026-07-15T08:04:21", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:04:24", "level": "WARN", "svc": "billing", "msg": "disk at 82%"}
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:04:27 billing INFO cache warm
+2026-07-15T08:04:30 cache ERROR OOM killed
+2026-07-15T08:04:32 scheduler DEBUG entering handler
+# manual note: investigating
+{"ts": "2026-07-15T08:04:32", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+2026-07-15T08:04:33 auth ERROR failed to commit txn
+{"ts": "2026-07-15T08:04:34", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+2026-07-15T08:04:34 worker-3 INFO cache warm
+2026-07-15T08:04:35 scheduler INFO request served
+Traceback (most recent call last):
+2026-07-15T08:04:35 api-gateway INFO heartbeat ok
+{"ts": "2026-07-15T08:04:37", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:04:37", "level": "INFO", "svc": "billing", "msg": "request served"}
+2026-07-15T08:04:38 auth ERROR failed to commit txn
+{"ts": "2026-07-15T08:04:38", "level": "WARN", "svc": "billing", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:04:38", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+2026-07-15T08:04:41 worker-3 WARN retry budget low
+# manual note: investigating
+-------- rotated --------
+{"ts": "2026-07-15T08:04:42", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+2026-07-15T08:04:42 cache DEBUG cache miss
+{"ts": "2026-07-15T08:04:42", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+{"ts": "2026-07-15T08:04:45", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+{"ts": "2026-07-15T08:04:47", "level": "ERROR", "svc": "scheduler", "msg": "null pointer in handler"}
+{"ts": "2026-07-15T08:04:47", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+2026-07-15T08:04:49 api-gateway INFO request served
+{"ts": "2026-07-15T08:04:52", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:04:52 cache DEBUG entering handler
+2026-07-15T08:04:55 api-gateway DEBUG cache miss
+{"ts": "2026-07-15T08:04:56", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:04:59 cache INFO config reloaded
+{"ts": "2026-07-15T08:04:59", "level": "INFO", "svc": "cache", "msg": "request served"}
+{"ts": "2026-07-15T08:05:02", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:05:03", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:05:05", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+
+{"ts": "2026-07-15T08:05:06", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:05:09", "level": "WARN", "svc": "billing", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:05:09", "level": "INFO", "svc": "auth", "msg": "request served"}
+2026-07-15T08:05:12 scheduler INFO heartbeat ok
+2026-07-15T08:05:13 worker-3 DEBUG tracing span open
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:05:16 billing INFO config reloaded
+2026-07-15T08:05:16 cache DEBUG entering handler
+2026-07-15T08:05:16 cache ERROR upstream 503
+{"ts": "2026-07-15T08:05:18", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:05:20", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+2026-07-15T08:05:22 billing DEBUG tracing span open
+2026-07-15T08:05:22 cache WARN disk at 82%
+-------- rotated --------
+2026-07-15T08:05:23 cache DEBUG cache miss
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:05:25 billing INFO config reloaded
+{"ts": "2026-07-15T08:05:26", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:05:29 cache DEBUG entering handler
+{"ts": "2026-07-15T08:05:31", "level": "ERROR", "svc": "worker-3", "msg": "failed to commit txn"}
+{"ts": "2026-07-15T08:05:34", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+{"ts": "2026-07-15T08:05:37", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+2026-07-15T08:05:38 auth WARN slow query 1200ms
+2026-07-15T08:05:38 scheduler DEBUG cache miss
+2026-07-15T08:05:38 auth ERROR null pointer in handler
+{"ts": "2026-07-15T08:05:41", "level": "INFO", "svc": "cache", "msg": "request served"}
+{"ts": "2026-07-15T08:05:43", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:05:44", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+2026-07-15T08:05:46 auth DEBUG cache miss
+2026-07-15T08:05:47 billing INFO cache warm
+{"ts": "2026-07-15T08:05:50", "level": "ERROR", "svc": "cache", "msg": "null pointer in handler"}
+2026-07-15T08:05:52 auth ERROR failed to commit txn
+{"ts": "2026-07-15T08:05:53", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+2026-07-15T08:05:56 api-gateway DEBUG cache miss
+2026-07-15T08:05:57 auth INFO heartbeat ok
+2026-07-15T08:05:57 api-gateway DEBUG cache miss
+2026-07-15T08:05:57 api-gateway INFO heartbeat ok
+{"ts": "2026-07-15T08:05:59", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:05:59", "level": "INFO", "svc": "billing", "msg": "request served"}
+-------- rotated --------
+{"ts": "2026-07-15T08:05:59", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:05:59", "level": "WARN", "svc": "api-gateway", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:05:59", "level": "ERROR", "svc": "auth", "msg": "upstream 503"}
+2026-07-15T08:06:00 scheduler WARN slow query 1200ms
+2026-07-15T08:06:01 billing DEBUG cache miss
+{"ts": "2026-07-15T08:06:02", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+2026-07-15T08:06:03 auth DEBUG entering handler
+{"ts": "2026-07-15T08:06:05", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:06:06", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:06:09 scheduler DEBUG cache miss
+2026-07-15T08:06:11 worker-3 WARN retry budget low
+{"ts": "2026-07-15T08:06:13", "level": "ERROR", "svc": "worker-3", "msg": "failed to commit txn"}
+{"ts": "2026-07-15T08:06:15", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:06:16", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+{"ts": "2026-07-15T08:06:19", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:06:20", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+Traceback (most recent call last):
+2026-07-15T08:06:22 cache DEBUG cache miss
+-------- rotated --------
+2026-07-15T08:06:22 billing INFO cache warm
+2026-07-15T08:06:23 api-gateway WARN retry budget low
+2026-07-15T08:06:25 worker-3 INFO request served
+{"ts": "2026-07-15T08:06:27", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+2026-07-15T08:06:28 worker-3 WARN slow query 1200ms
+2026-07-15T08:06:31 billing INFO heartbeat ok
+{"ts": "2026-07-15T08:06:32", "level": "WARN", "svc": "billing", "msg": "clock drift detected"}
+2026-07-15T08:06:32 auth WARN clock drift detected
+2026-07-15T08:06:33 api-gateway INFO cache warm
+2026-07-15T08:06:36 billing WARN slow query 1200ms
+2026-07-15T08:06:39 cache INFO heartbeat ok
+{"ts": "2026-07-15T08:06:41", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+2026-07-15T08:06:42 worker-3 DEBUG entering handler
+{"ts": "2026-07-15T08:06:42", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:06:43", "level": "WARN", "svc": "billing", "msg": "retry budget low"}
+2026-07-15T08:06:43 scheduler DEBUG cache miss
+2026-07-15T08:06:45 cache DEBUG cache miss
+{"ts": "2026-07-15T08:06:48", "level": "WARN", "svc": "billing", "msg": "clock drift detected"}
+2026-07-15T08:06:49 billing INFO heartbeat ok
+{"ts": "2026-07-15T08:06:49", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:06:49", "level": "WARN", "svc": "api-gateway", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:06:51", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+2026-07-15T08:06:54 api-gateway INFO heartbeat ok
+# manual note: investigating
+2026-07-15T08:06:57 cache INFO cache warm
+2026-07-15T08:06:57 cache INFO heartbeat ok
+{"ts": "2026-07-15T08:06:58", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+2026-07-15T08:07:01 cache WARN clock drift detected
+2026-07-15T08:07:01 worker-3 WARN slow query 1200ms
+2026-07-15T08:07:02 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:07:02", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+{"ts": "2026-07-15T08:07:02", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:07:03", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:07:06", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+{"ts": "2026-07-15T08:07:09", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:07:12 scheduler DEBUG entering handler
+{"ts": "2026-07-15T08:07:12", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+{"ts": "2026-07-15T08:07:12", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+{"ts": "2026-07-15T08:07:15", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:07:15", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+2026-07-15T08:07:18 api-gateway WARN retry budget low
+2026-07-15T08:07:19 scheduler WARN retry budget low
+{"ts": "2026-07-15T08:07:21", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+{"ts": "2026-07-15T08:07:24", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+{"ts": "2026-07-15T08:07:26", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:07:27 cache INFO cache warm
+{"ts": "2026-07-15T08:07:27", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:07:27", "level": "WARN", "svc": "worker-3", "msg": "connection pool near limit"}
+2026-07-15T08:07:27 cache DEBUG cache miss
+{"ts": "2026-07-15T08:07:30", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:07:33", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:07:35", "level": "INFO", "svc": "billing", "msg": "request served"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:07:38", "level": "ERROR", "svc": "cache", "msg": "OOM killed"}
+{"ts": "2026-07-15T08:07:38", "level": "WARN", "svc": "worker-3", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:07:40", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+{"ts": "2026-07-15T08:07:42", "level": "INFO", "svc": "cache", "msg": "request served"}
+-------- rotated --------
+2026-07-15T08:07:44 worker-3 INFO request served
+{"ts": "2026-07-15T08:07:47", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+2026-07-15T08:07:47 worker-3 INFO request served
+{"ts": "2026-07-15T08:07:47", "level": "ERROR", "svc": "api-gateway", "msg": "upstream 503"}
+2026-07-15T08:07:49 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:07:52", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+2026-07-15T08:07:52 worker-3 INFO request served
+2026-07-15T08:07:55 billing INFO request served
+{"ts": "2026-07-15T08:07:57", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+# manual note: investigating
+2026-07-15T08:07:57 worker-3 INFO config reloaded
+{"ts": "2026-07-15T08:07:59", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:08:00", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+Traceback (most recent call last):
+2026-07-15T08:08:03 scheduler DEBUG tracing span open
+{"ts": "2026-07-15T08:08:05", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+{"ts": "2026-07-15T08:08:06", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+2026-07-15T08:08:09 scheduler DEBUG entering handler
+{"ts": "2026-07-15T08:08:10", "level": "ERROR", "svc": "worker-3", "msg": "upstream 503"}
+2026-07-15T08:08:13 cache INFO config reloaded
+2026-07-15T08:08:14 cache DEBUG cache miss
+-------- rotated --------
+2026-07-15T08:08:17 auth ERROR upstream 503
+2026-07-15T08:08:19 worker-3 INFO config reloaded
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:08:21 billing INFO config reloaded
+2026-07-15T08:08:23 worker-3 DEBUG cache miss
+2026-07-15T08:08:25 scheduler DEBUG tracing span open
+2026-07-15T08:08:25 api-gateway INFO heartbeat ok
+{"ts": "2026-07-15T08:08:28", "level": "INFO", "svc": "auth", "msg": "request served"}
+{"ts": "2026-07-15T08:08:28", "level": "ERROR", "svc": "scheduler", "msg": "timeout waiting for lock"}
+2026-07-15T08:08:28 worker-3 INFO request served
+{"ts": "2026-07-15T08:08:30", "level": "WARN", "svc": "scheduler", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:08:33", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:08:36", "level": "INFO", "svc": "billing", "msg": "request served"}
+2026-07-15T08:08:39 cache INFO request served
+{"ts": "2026-07-15T08:08:39", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+2026-07-15T08:08:42 scheduler DEBUG tracing span open
+2026-07-15T08:08:44 worker-3 WARN disk at 82%
+2026-07-15T08:08:45 cache DEBUG tracing span open
+2026-07-15T08:08:45 worker-3 WARN retry budget low
+2026-07-15T08:08:45 worker-3 INFO cache warm
+2026-07-15T08:08:47 api-gateway DEBUG cache miss
+2026-07-15T08:08:48 billing DEBUG cache miss
+2026-07-15T08:08:51 scheduler INFO request served
+{"ts": "2026-07-15T08:08:54", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+2026-07-15T08:08:57 worker-3 DEBUG cache miss
+2026-07-15T08:08:58 worker-3 DEBUG cache miss
+
+{"ts": "2026-07-15T08:09:01", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:09:02", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+{"ts": "2026-07-15T08:09:02", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:09:02 auth INFO cache warm
+2026-07-15T08:09:05 auth INFO request served
+2026-07-15T08:09:06 scheduler DEBUG cache miss
+2026-07-15T08:09:08 scheduler DEBUG cache miss
+2026-07-15T08:09:11 cache INFO cache warm
+2026-07-15T08:09:11 auth INFO request served
+{"ts": "2026-07-15T08:09:11", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+2026-07-15T08:09:11 billing DEBUG entering handler
+2026-07-15T08:09:14 api-gateway INFO config reloaded
+{"ts": "2026-07-15T08:09:14", "level": "INFO", "svc": "cache", "msg": "heartbeat ok"}
+2026-07-15T08:09:15 scheduler INFO config reloaded
+{"ts": "2026-07-15T08:09:17", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+-------- rotated --------
+{"ts": "2026-07-15T08:09:17", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+2026-07-15T08:09:20 api-gateway DEBUG cache miss
+2026-07-15T08:09:21 worker-3 DEBUG entering handler
+{"ts": "2026-07-15T08:09:21", "level": "WARN", "svc": "worker-3", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:09:22", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+2026-07-15T08:09:24 scheduler INFO config reloaded
+2026-07-15T08:09:26 scheduler ERROR upstream 503
+{"ts": "2026-07-15T08:09:29", "level": "ERROR", "svc": "api-gateway", "msg": "failed to commit txn"}
+{"ts": "2026-07-15T08:09:30", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+2026-07-15T08:09:33 worker-3 INFO cache warm
+{"ts": "2026-07-15T08:09:34", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+2026-07-15T08:09:37 worker-3 INFO cache warm
+{"ts": "2026-07-15T08:09:40", "level": "ERROR", "svc": "cache", "msg": "upstream 503"}
+2026-07-15T08:09:41 billing DEBUG tracing span open
+{"ts": "2026-07-15T08:09:42", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+{"ts": "2026-07-15T08:09:45", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+-------- rotated --------
+{"ts": "2026-07-15T08:09:47", "level": "WARN", "svc": "auth", "msg": "retry budget low"}
+2026-07-15T08:09:49 cache INFO heartbeat ok
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:09:50 scheduler INFO config reloaded
+{"ts": "2026-07-15T08:09:53", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:09:56", "level": "ERROR", "svc": "cache", "msg": "timeout waiting for lock"}
+2026-07-15T08:09:59 billing WARN clock drift detected
+{"ts": "2026-07-15T08:10:00", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+{"ts": "2026-07-15T08:10:03", "level": "ERROR", "svc": "cache", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:10:04", "level": "ERROR", "svc": "auth", "msg": "upstream 503"}
+{"ts": "2026-07-15T08:10:04", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:10:04", "level": "ERROR", "svc": "api-gateway", "msg": "failed to commit txn"}
+{"ts": "2026-07-15T08:10:07", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+{"ts": "2026-07-15T08:10:09", "level": "ERROR", "svc": "scheduler", "msg": "failed to commit txn"}
+{"ts": "2026-07-15T08:10:11", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+2026-07-15T08:10:14 worker-3 WARN clock drift detected
+2026-07-15T08:10:15 cache DEBUG entering handler
+{"ts": "2026-07-15T08:10:18", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+2026-07-15T08:10:19 worker-3 ERROR failed to commit txn
+-------- rotated --------
+{"ts": "2026-07-15T08:10:21", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+2026-07-15T08:10:24 billing INFO cache warm
+{"ts": "2026-07-15T08:10:26", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:10:26", "level": "WARN", "svc": "billing", "msg": "connection pool near limit"}
+2026-07-15T08:10:26 cache INFO cache warm
+2026-07-15T08:10:26 worker-3 DEBUG entering handler
+{"ts": "2026-07-15T08:10:27", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+2026-07-15T08:10:29 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:10:29", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+{"ts": "2026-07-15T08:10:31", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:10:33", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+2026-07-15T08:10:36 auth ERROR upstream 503
+{"ts": "2026-07-15T08:10:37", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+2026-07-15T08:10:37 scheduler DEBUG tracing span open
+Traceback (most recent call last):
+2026-07-15T08:10:38 cache INFO heartbeat ok
+{"ts": "2026-07-15T08:10:38", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:10:38", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+2026-07-15T08:10:41 cache INFO config reloaded
+2026-07-15T08:10:44 cache DEBUG tracing span open
+
+{"ts": "2026-07-15T08:10:44", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+{"ts": "2026-07-15T08:10:44", "level": "WARN", "svc": "worker-3", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:10:45", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+2026-07-15T08:10:48 auth INFO heartbeat ok
+2026-07-15T08:10:50 billing WARN retry budget low
+2026-07-15T08:10:51 worker-3 DEBUG tracing span open
+2026-07-15T08:10:54 api-gateway INFO config reloaded
+{"ts": "2026-07-15T08:10:56", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:10:58 scheduler INFO request served
+{"ts": "2026-07-15T08:11:01", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:11:04", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:11:07", "level": "WARN", "svc": "worker-3", "msg": "retry budget low"}
+{"ts": "2026-07-15T08:11:08", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:11:10", "level": "ERROR", "svc": "cache", "msg": "upstream 503"}
+2026-07-15T08:11:13 billing INFO heartbeat ok
+2026-07-15T08:11:14 billing INFO heartbeat ok
+2026-07-15T08:11:17 scheduler ERROR timeout waiting for lock
+2026-07-15T08:11:20 cache ERROR null pointer in handler
+2026-07-15T08:11:21 scheduler ERROR upstream 503
+2026-07-15T08:11:22 cache WARN clock drift detected
+2026-07-15T08:11:23 cache DEBUG entering handler
+{"ts": "2026-07-15T08:11:23", "level": "WARN", "svc": "billing", "msg": "slow query 1200ms"}
+2026-07-15T08:11:25 api-gateway INFO request served
+2026-07-15T08:11:26 cache DEBUG tracing span open
+{"ts": "2026-07-15T08:11:27", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:11:30 cache INFO config reloaded
+2026-07-15T08:11:32 cache DEBUG tracing span open
+{"ts": "2026-07-15T08:11:32", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+{"ts": "2026-07-15T08:11:33", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:11:35", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+2026-07-15T08:11:35 auth INFO heartbeat ok
+{"ts": "2026-07-15T08:11:36", "level": "ERROR", "svc": "auth", "msg": "upstream 503"}
+2026-07-15T08:11:37 scheduler DEBUG entering handler
+{"ts": "2026-07-15T08:11:37", "level": "INFO", "svc": "auth", "msg": "request served"}
+2026-07-15T08:11:39 api-gateway ERROR timeout waiting for lock
+{"ts": "2026-07-15T08:11:42", "level": "ERROR", "svc": "cache", "msg": "OOM killed"}
+2026-07-15T08:11:45 worker-3 INFO cache warm
+2026-07-15T08:11:46 billing INFO config reloaded
+2026-07-15T08:11:48 api-gateway INFO config reloaded
+{"ts": "2026-07-15T08:11:51", "level": "WARN", "svc": "worker-3", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:11:51", "level": "ERROR", "svc": "worker-3", "msg": "OOM killed"}
+{"ts": "2026-07-15T08:11:51", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+-------- rotated --------
+{"ts": "2026-07-15T08:11:52", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:11:52 api-gateway INFO cache warm
+2026-07-15T08:11:52 billing ERROR null pointer in handler
+{"ts": "2026-07-15T08:11:52", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:11:54", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:11:54", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+2026-07-15T08:11:57 api-gateway DEBUG entering handler
+{"ts": "2026-07-15T08:11:58", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:12:01", "level": "ERROR", "svc": "auth", "msg": "upstream 503"}
+{"ts": "2026-07-15T08:12:01", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:12:04 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:12:07", "level": "ERROR", "svc": "worker-3", "msg": "timeout waiting for lock"}
+2026-07-15T08:12:07 scheduler DEBUG entering handler
+{"ts": "2026-07-15T08:12:07", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:12:07 billing WARN retry budget low
+2026-07-15T08:12:10 scheduler ERROR failed to commit txn
+2026-07-15T08:12:11 api-gateway INFO heartbeat ok
+2026-07-15T08:12:14 api-gateway ERROR null pointer in handler
+{"ts": "2026-07-15T08:12:16", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:12:16", "level": "WARN", "svc": "auth", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:12:19", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:12:21", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+{"ts": "2026-07-15T08:12:22", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:12:24 api-gateway ERROR OOM killed
+
+2026-07-15T08:12:27 scheduler INFO config reloaded
+2026-07-15T08:12:27 api-gateway DEBUG entering handler
+2026-07-15T08:12:29 api-gateway WARN clock drift detected
+2026-07-15T08:12:31 api-gateway INFO cache warm
+{"ts": "2026-07-15T08:12:33", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:12:33 worker-3 INFO cache warm
+{"ts": "2026-07-15T08:12:35", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:12:36", "level": "ERROR", "svc": "api-gateway", "msg": "OOM killed"}
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:12:39 cache DEBUG cache miss
+2026-07-15T08:12:42 api-gateway DEBUG tracing span open
+{"ts": "2026-07-15T08:12:44", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+{"ts": "2026-07-15T08:12:45", "level": "ERROR", "svc": "cache", "msg": "upstream 503"}
+2026-07-15T08:12:45 api-gateway DEBUG entering handler
+2026-07-15T08:12:48 cache DEBUG cache miss
+2026-07-15T08:12:51 billing INFO config reloaded
+{"ts": "2026-07-15T08:12:53", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:12:53 auth INFO heartbeat ok
+{"ts": "2026-07-15T08:12:54", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+2026-07-15T08:12:54 api-gateway DEBUG entering handler
+2026-07-15T08:12:56 api-gateway DEBUG tracing span open
+{"ts": "2026-07-15T08:12:57", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:12:58", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+{"ts": "2026-07-15T08:13:00", "level": "INFO", "svc": "auth", "msg": "request served"}
+2026-07-15T08:13:03 scheduler INFO cache warm
+{"ts": "2026-07-15T08:13:06", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+2026-07-15T08:13:07 api-gateway DEBUG cache miss
+2026-07-15T08:13:08 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:13:11", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+{"ts": "2026-07-15T08:13:13", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+2026-07-15T08:13:15 scheduler ERROR timeout waiting for lock
+{"ts": "2026-07-15T08:13:18", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+2026-07-15T08:13:18 api-gateway WARN slow query 1200ms
+# manual note: investigating
+2026-07-15T08:13:20 worker-3 INFO cache warm
+# manual note: investigating
+{"ts": "2026-07-15T08:13:20", "level": "ERROR", "svc": "worker-3", "msg": "upstream 503"}
+2026-07-15T08:13:23 api-gateway INFO heartbeat ok
+{"ts": "2026-07-15T08:13:24", "level": "WARN", "svc": "billing", "msg": "clock drift detected"}
+2026-07-15T08:13:26 cache ERROR null pointer in handler
+2026-07-15T08:13:27 billing INFO heartbeat ok
+2026-07-15T08:13:27 auth DEBUG tracing span open
+{"ts": "2026-07-15T08:13:29", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:13:31", "level": "INFO", "svc": "auth", "msg": "request served"}
+{"ts": "2026-07-15T08:13:31", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+2026-07-15T08:13:31 api-gateway INFO cache warm
+2026-07-15T08:13:33 scheduler DEBUG tracing span open
+{"ts": "2026-07-15T08:13:35", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:13:37", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+2026-07-15T08:13:38 api-gateway INFO cache warm
+2026-07-15T08:13:40 worker-3 WARN retry budget low
+2026-07-15T08:13:43 scheduler WARN connection pool near limit
+{"ts": "2026-07-15T08:13:45", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+{"ts": "2026-07-15T08:13:46", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+2026-07-15T08:13:49 worker-3 DEBUG cache miss
+2026-07-15T08:13:51 api-gateway INFO request served
+{"ts": "2026-07-15T08:13:54", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:13:55", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:13:58", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:13:58 worker-3 ERROR null pointer in handler
+{"ts": "2026-07-15T08:14:00", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+{"ts": "2026-07-15T08:14:00", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:14:03", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+{"ts": "2026-07-15T08:14:05", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+{"ts": "2026-07-15T08:14:07", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+2026-07-15T08:14:08 billing INFO config reloaded
+2026-07-15T08:14:10 api-gateway INFO request served
+{"ts": "2026-07-15T08:14:12", "level": "ERROR", "svc": "scheduler", "msg": "OOM killed"}
+2026-07-15T08:14:13 worker-3 WARN disk at 82%
+2026-07-15T08:14:14 billing INFO cache warm
+2026-07-15T08:14:16 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:14:17", "level": "INFO", "svc": "billing", "msg": "request served"}
+2026-07-15T08:14:19 auth INFO request served
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:14:21", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+Traceback (most recent call last):
+2026-07-15T08:14:21 cache DEBUG tracing span open
+{"ts": "2026-07-15T08:14:23", "level": "ERROR", "svc": "billing", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:14:25", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:14:26", "level": "ERROR", "svc": "billing", "msg": "timeout waiting for lock"}
+Traceback (most recent call last):
+2026-07-15T08:14:28 api-gateway DEBUG cache miss
+2026-07-15T08:14:28 cache INFO config reloaded
+{"ts": "2026-07-15T08:14:30", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+2026-07-15T08:14:33 api-gateway DEBUG entering handler
+{"ts": "2026-07-15T08:14:35", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+2026-07-15T08:14:35 cache WARN clock drift detected
+2026-07-15T08:14:36 auth WARN disk at 82%
+2026-07-15T08:14:37 billing DEBUG tracing span open
+2026-07-15T08:14:37 worker-3 DEBUG entering handler
+{"ts": "2026-07-15T08:14:37", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+2026-07-15T08:14:40 billing DEBUG cache miss
+2026-07-15T08:14:40 cache ERROR upstream 503
+{"ts": "2026-07-15T08:14:42", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+# manual note: investigating
+2026-07-15T08:14:42 worker-3 INFO request served
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:14:43", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:14:45", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+2026-07-15T08:14:47 cache INFO cache warm
+2026-07-15T08:14:49 scheduler DEBUG entering handler
+2026-07-15T08:14:49 billing DEBUG entering handler
+2026-07-15T08:14:49 auth ERROR null pointer in handler
+
+{"ts": "2026-07-15T08:14:52", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+{"ts": "2026-07-15T08:14:54", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+{"ts": "2026-07-15T08:14:57", "level": "WARN", "svc": "api-gateway", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:14:57", "level": "INFO", "svc": "cache", "msg": "request served"}
+{"ts": "2026-07-15T08:14:58", "level": "INFO", "svc": "cache", "msg": "request served"}
+2026-07-15T08:14:58 billing DEBUG entering handler
+{"ts": "2026-07-15T08:15:00", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+2026-07-15T08:15:03 scheduler INFO heartbeat ok
+{"ts": "2026-07-15T08:15:03", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+2026-07-15T08:15:05 worker-3 INFO heartbeat ok
+2026-07-15T08:15:06 cache DEBUG entering handler
+{"ts": "2026-07-15T08:15:08", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+2026-07-15T08:15:08 scheduler ERROR upstream 503
+{"ts": "2026-07-15T08:15:08", "level": "INFO", "svc": "cache", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:15:08", "level": "WARN", "svc": "api-gateway", "msg": "disk at 82%"}
+2026-07-15T08:15:10 scheduler WARN disk at 82%
+{"ts": "2026-07-15T08:15:11", "level": "WARN", "svc": "cache", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:15:14", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+-------- rotated --------
+
+{"ts": "2026-07-15T08:15:15", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+{"ts": "2026-07-15T08:15:16", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+2026-07-15T08:15:18 auth INFO request served
+2026-07-15T08:15:19 billing INFO cache warm
+{"ts": "2026-07-15T08:15:20", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+2026-07-15T08:15:21 api-gateway DEBUG entering handler
+{"ts": "2026-07-15T08:15:23", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:15:24 auth INFO config reloaded
+{"ts": "2026-07-15T08:15:27", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+2026-07-15T08:15:28 auth DEBUG tracing span open
+{"ts": "2026-07-15T08:15:29", "level": "INFO", "svc": "billing", "msg": "request served"}
+-------- rotated --------
+{"ts": "2026-07-15T08:15:32", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:15:35", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:15:38 worker-3 INFO request served
+2026-07-15T08:15:39 cache DEBUG entering handler
+{"ts": "2026-07-15T08:15:42", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+-------- rotated --------
+2026-07-15T08:15:43 scheduler INFO request served
+-------- rotated --------
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:15:45", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:15:47", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+{"ts": "2026-07-15T08:15:49", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:15:51", "level": "WARN", "svc": "api-gateway", "msg": "clock drift detected"}
+2026-07-15T08:15:52 auth INFO heartbeat ok
+{"ts": "2026-07-15T08:15:52", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:15:53", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+{"ts": "2026-07-15T08:15:54", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:15:57", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+2026-07-15T08:15:59 auth DEBUG entering handler
+2026-07-15T08:15:59 billing INFO cache warm
+{"ts": "2026-07-15T08:15:59", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+{"ts": "2026-07-15T08:16:01", "level": "ERROR", "svc": "billing", "msg": "upstream 503"}
+{"ts": "2026-07-15T08:16:03", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+2026-07-15T08:16:05 billing DEBUG entering handler
+{"ts": "2026-07-15T08:16:08", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+    at com.example.Foo.bar(Foo.java:42)
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:16:09 billing DEBUG entering handler
+2026-07-15T08:16:12 billing DEBUG cache miss
+2026-07-15T08:16:15 billing ERROR upstream 503
+2026-07-15T08:16:18 scheduler INFO cache warm
+{"ts": "2026-07-15T08:16:19", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+-------- rotated --------
+2026-07-15T08:16:21 cache DEBUG cache miss
+{"ts": "2026-07-15T08:16:21", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+2026-07-15T08:16:24 worker-3 DEBUG cache miss
+2026-07-15T08:16:24 billing DEBUG cache miss
+{"ts": "2026-07-15T08:16:27", "level": "ERROR", "svc": "worker-3", "msg": "null pointer in handler"}
+2026-07-15T08:16:29 cache WARN retry budget low
+Traceback (most recent call last):
+2026-07-15T08:16:31 billing DEBUG entering handler
+2026-07-15T08:16:34 auth INFO config reloaded
+2026-07-15T08:16:34 api-gateway DEBUG cache miss
+2026-07-15T08:16:35 api-gateway INFO config reloaded
+2026-07-15T08:16:38 auth INFO config reloaded
+{"ts": "2026-07-15T08:16:38", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:16:40", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+2026-07-15T08:16:41 worker-3 INFO request served
+2026-07-15T08:16:42 auth DEBUG tracing span open
+2026-07-15T08:16:45 api-gateway ERROR upstream 503
+{"ts": "2026-07-15T08:16:45", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+2026-07-15T08:16:47 api-gateway INFO heartbeat ok
+{"ts": "2026-07-15T08:16:48", "level": "INFO", "svc": "cache", "msg": "heartbeat ok"}
+2026-07-15T08:16:48 auth INFO config reloaded
+{"ts": "2026-07-15T08:16:48", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+{"ts": "2026-07-15T08:16:49", "level": "WARN", "svc": "scheduler", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:16:50", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:16:52", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:16:52", "level": "WARN", "svc": "billing", "msg": "slow query 1200ms"}
+-------- rotated --------
+{"ts": "2026-07-15T08:16:54", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+{"ts": "2026-07-15T08:16:57", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+    at com.example.Foo.bar(Foo.java:42)
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:16:57 api-gateway INFO config reloaded
+{"ts": "2026-07-15T08:17:00", "level": "INFO", "svc": "billing", "msg": "request served"}
+Traceback (most recent call last):
+2026-07-15T08:17:01 billing DEBUG cache miss
+2026-07-15T08:17:02 billing INFO heartbeat ok
+2026-07-15T08:17:03 worker-3 DEBUG tracing span open
+2026-07-15T08:17:05 billing WARN connection pool near limit
+{"ts": "2026-07-15T08:17:07", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:17:07", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:17:09", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+2026-07-15T08:17:09 api-gateway INFO cache warm
+2026-07-15T08:17:09 cache INFO request served
+2026-07-15T08:17:09 worker-3 WARN retry budget low
+2026-07-15T08:17:09 billing WARN connection pool near limit
+2026-07-15T08:17:10 billing INFO request served
+2026-07-15T08:17:12 billing ERROR null pointer in handler
+2026-07-15T08:17:14 billing INFO request served
+2026-07-15T08:17:14 api-gateway WARN slow query 1200ms
+2026-07-15T08:17:14 billing INFO config reloaded
+{"ts": "2026-07-15T08:17:17", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+2026-07-15T08:17:18 api-gateway INFO cache warm
+{"ts": "2026-07-15T08:17:21", "level": "WARN", "svc": "worker-3", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:17:24", "level": "INFO", "svc": "auth", "msg": "request served"}
+2026-07-15T08:17:24 auth INFO config reloaded
+{"ts": "2026-07-15T08:17:25", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+2026-07-15T08:17:26 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:17:26", "level": "WARN", "svc": "api-gateway", "msg": "retry budget low"}
+{"ts": "2026-07-15T08:17:27", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+{"ts": "2026-07-15T08:17:30", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:17:30", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:17:32 auth DEBUG cache miss
+2026-07-15T08:17:33 scheduler DEBUG cache miss
+-------- rotated --------
+{"ts": "2026-07-15T08:17:36", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:17:38", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:17:41 billing INFO cache warm
+2026-07-15T08:17:44 cache INFO request served
+2026-07-15T08:17:45 api-gateway DEBUG tracing span open
+-------- rotated --------
+2026-07-15T08:17:48 scheduler DEBUG cache miss
+Traceback (most recent call last):
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:17:49 cache INFO request served
+2026-07-15T08:17:49 auth ERROR timeout waiting for lock
+{"ts": "2026-07-15T08:17:52", "level": "ERROR", "svc": "billing", "msg": "null pointer in handler"}
+-------- rotated --------
+{"ts": "2026-07-15T08:17:54", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+{"ts": "2026-07-15T08:17:57", "level": "ERROR", "svc": "api-gateway", "msg": "failed to commit txn"}
+2026-07-15T08:18:00 auth INFO request served
+2026-07-15T08:18:01 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:18:02", "level": "WARN", "svc": "worker-3", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:18:02", "level": "ERROR", "svc": "billing", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:18:03", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:18:05 api-gateway WARN retry budget low
+# manual note: investigating
+2026-07-15T08:18:05 auth WARN clock drift detected
+2026-07-15T08:18:08 auth INFO config reloaded
+{"ts": "2026-07-15T08:18:10", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+
+{"ts": "2026-07-15T08:18:12", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+2026-07-15T08:18:14 api-gateway INFO cache warm
+2026-07-15T08:18:16 auth INFO cache warm
+2026-07-15T08:18:17 scheduler WARN clock drift detected
+Traceback (most recent call last):
+2026-07-15T08:18:19 auth INFO cache warm
+{"ts": "2026-07-15T08:18:22", "level": "WARN", "svc": "billing", "msg": "disk at 82%"}
+
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:18:22", "level": "ERROR", "svc": "auth", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:18:22", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+{"ts": "2026-07-15T08:18:23", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:18:25", "level": "WARN", "svc": "api-gateway", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:18:25", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:18:28 api-gateway INFO config reloaded
+2026-07-15T08:18:30 auth INFO heartbeat ok
+2026-07-15T08:18:32 auth WARN connection pool near limit
+{"ts": "2026-07-15T08:18:33", "level": "WARN", "svc": "scheduler", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:18:35", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+Traceback (most recent call last):
+2026-07-15T08:18:36 scheduler INFO request served
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:18:36", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:18:36", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:18:39 cache WARN connection pool near limit
+{"ts": "2026-07-15T08:18:41", "level": "INFO", "svc": "billing", "msg": "request served"}
+2026-07-15T08:18:43 auth INFO heartbeat ok
+2026-07-15T08:18:44 billing ERROR null pointer in handler
+{"ts": "2026-07-15T08:18:45", "level": "ERROR", "svc": "auth", "msg": "timeout waiting for lock"}
+2026-07-15T08:18:47 cache ERROR timeout waiting for lock
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:18:48", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+{"ts": "2026-07-15T08:18:48", "level": "INFO", "svc": "cache", "msg": "request served"}
+{"ts": "2026-07-15T08:18:49", "level": "ERROR", "svc": "scheduler", "msg": "failed to commit txn"}
+2026-07-15T08:18:51 auth INFO cache warm
+2026-07-15T08:18:52 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:18:53", "level": "WARN", "svc": "worker-3", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:18:55", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+2026-07-15T08:18:58 billing WARN retry budget low
+{"ts": "2026-07-15T08:18:58", "level": "INFO", "svc": "worker-3", "msg": "heartbeat ok"}
+2026-07-15T08:18:59 billing DEBUG tracing span open
+{"ts": "2026-07-15T08:19:01", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+2026-07-15T08:19:03 billing ERROR OOM killed
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:19:03", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:19:05", "level": "ERROR", "svc": "cache", "msg": "OOM killed"}
+# manual note: investigating
+2026-07-15T08:19:05 cache INFO cache warm
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:19:05 cache DEBUG tracing span open
+-------- rotated --------
+{"ts": "2026-07-15T08:19:05", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+2026-07-15T08:19:08 auth WARN clock drift detected
+2026-07-15T08:19:11 auth ERROR failed to commit txn
+{"ts": "2026-07-15T08:19:14", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+2026-07-15T08:19:17 cache DEBUG entering handler
+2026-07-15T08:19:18 api-gateway WARN retry budget low
+2026-07-15T08:19:19 worker-3 WARN clock drift detected
+{"ts": "2026-07-15T08:19:20", "level": "WARN", "svc": "api-gateway", "msg": "slow query 1200ms"}
+2026-07-15T08:19:21 scheduler DEBUG tracing span open
+{"ts": "2026-07-15T08:19:23", "level": "ERROR", "svc": "auth", "msg": "OOM killed"}
+{"ts": "2026-07-15T08:19:25", "level": "INFO", "svc": "billing", "msg": "request served"}
+{"ts": "2026-07-15T08:19:28", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+{"ts": "2026-07-15T08:19:30", "level": "INFO", "svc": "cache", "msg": "request served"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:19:32", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:19:35", "level": "WARN", "svc": "worker-3", "msg": "retry budget low"}
+
+{"ts": "2026-07-15T08:19:35", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+2026-07-15T08:19:36 worker-3 DEBUG tracing span open
+{"ts": "2026-07-15T08:19:36", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:19:37", "level": "WARN", "svc": "worker-3", "msg": "slow query 1200ms"}
+2026-07-15T08:19:37 billing DEBUG cache miss
+2026-07-15T08:19:38 cache WARN slow query 1200ms
+{"ts": "2026-07-15T08:19:38", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:19:39 api-gateway DEBUG cache miss
+{"ts": "2026-07-15T08:19:41", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:19:43 billing INFO request served
+2026-07-15T08:19:46 api-gateway DEBUG cache miss
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:19:47", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+2026-07-15T08:19:47 auth DEBUG cache miss
+{"ts": "2026-07-15T08:19:48", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+2026-07-15T08:19:51 scheduler WARN connection pool near limit
+# manual note: investigating
+{"ts": "2026-07-15T08:19:52", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+2026-07-15T08:19:55 auth WARN clock drift detected
+{"ts": "2026-07-15T08:19:57", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+{"ts": "2026-07-15T08:19:59", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+2026-07-15T08:20:00 auth ERROR timeout waiting for lock
+{"ts": "2026-07-15T08:20:02", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:20:03 auth INFO request served
+{"ts": "2026-07-15T08:20:05", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+2026-07-15T08:20:05 billing INFO config reloaded
+2026-07-15T08:20:08 api-gateway DEBUG cache miss
+2026-07-15T08:20:08 billing DEBUG cache miss
+{"ts": "2026-07-15T08:20:08", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+2026-07-15T08:20:09 scheduler INFO cache warm
+2026-07-15T08:20:09 scheduler ERROR OOM killed
+-------- rotated --------
+-------- rotated --------
+{"ts": "2026-07-15T08:20:09", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+2026-07-15T08:20:09 worker-3 INFO cache warm
+2026-07-15T08:20:09 api-gateway DEBUG tracing span open
+{"ts": "2026-07-15T08:20:11", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:20:12 api-gateway INFO cache warm
+2026-07-15T08:20:13 scheduler DEBUG entering handler
+2026-07-15T08:20:14 billing DEBUG cache miss
+{"ts": "2026-07-15T08:20:16", "level": "ERROR", "svc": "scheduler", "msg": "OOM killed"}
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:20:18", "level": "WARN", "svc": "scheduler", "msg": "retry budget low"}
+2026-07-15T08:20:21 cache WARN slow query 1200ms
+2026-07-15T08:20:22 api-gateway DEBUG cache miss
+{"ts": "2026-07-15T08:20:23", "level": "INFO", "svc": "worker-3", "msg": "heartbeat ok"}
+2026-07-15T08:20:24 worker-3 DEBUG tracing span open
+{"ts": "2026-07-15T08:20:25", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:20:25", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:20:27 worker-3 INFO request served
+    at com.example.Foo.bar(Foo.java:42)
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:20:30 worker-3 ERROR null pointer in handler
+{"ts": "2026-07-15T08:20:33", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:20:33 auth INFO config reloaded
+2026-07-15T08:20:36 billing INFO heartbeat ok
+
+2026-07-15T08:20:38 auth INFO cache warm
+# manual note: investigating
+{"ts": "2026-07-15T08:20:38", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:20:39", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:20:41", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:20:44 cache WARN disk at 82%
+2026-07-15T08:20:45 auth WARN slow query 1200ms
+{"ts": "2026-07-15T08:20:47", "level": "WARN", "svc": "billing", "msg": "retry budget low"}
+{"ts": "2026-07-15T08:20:48", "level": "WARN", "svc": "api-gateway", "msg": "retry budget low"}
+2026-07-15T08:20:48 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:20:51", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:20:52", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+2026-07-15T08:20:52 billing INFO cache warm
+2026-07-15T08:20:54 api-gateway INFO cache warm
+{"ts": "2026-07-15T08:20:54", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+2026-07-15T08:20:57 worker-3 INFO heartbeat ok
+-------- rotated --------
+{"ts": "2026-07-15T08:20:58", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+{"ts": "2026-07-15T08:21:00", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+{"ts": "2026-07-15T08:21:02", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+{"ts": "2026-07-15T08:21:03", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+2026-07-15T08:21:05 cache INFO heartbeat ok
+{"ts": "2026-07-15T08:21:06", "level": "INFO", "svc": "cache", "msg": "request served"}
+2026-07-15T08:21:06 auth DEBUG tracing span open
+2026-07-15T08:21:06 billing ERROR upstream 503
+{"ts": "2026-07-15T08:21:08", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:21:08", "level": "ERROR", "svc": "worker-3", "msg": "OOM killed"}
+2026-07-15T08:21:10 worker-3 WARN connection pool near limit
+{"ts": "2026-07-15T08:21:13", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:21:14", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+2026-07-15T08:21:16 scheduler INFO heartbeat ok
+2026-07-15T08:21:16 scheduler INFO config reloaded
+2026-07-15T08:21:16 billing DEBUG entering handler
+2026-07-15T08:21:16 cache WARN clock drift detected
+
+2026-07-15T08:21:19 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:21:22", "level": "WARN", "svc": "scheduler", "msg": "retry budget low"}
+2026-07-15T08:21:22 cache INFO config reloaded
+{"ts": "2026-07-15T08:21:22", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+{"ts": "2026-07-15T08:21:24", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+{"ts": "2026-07-15T08:21:25", "level": "ERROR", "svc": "api-gateway", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:21:25", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+# manual note: investigating
+2026-07-15T08:21:25 billing INFO request served
+2026-07-15T08:21:27 worker-3 DEBUG cache miss
+2026-07-15T08:21:28 billing INFO request served
+2026-07-15T08:21:30 auth DEBUG tracing span open
+{"ts": "2026-07-15T08:21:30", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+{"ts": "2026-07-15T08:21:32", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:21:35", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:21:38 worker-3 DEBUG cache miss
+2026-07-15T08:21:40 api-gateway ERROR timeout waiting for lock
+2026-07-15T08:21:43 billing DEBUG tracing span open
+{"ts": "2026-07-15T08:21:44", "level": "WARN", "svc": "scheduler", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:21:46", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+Traceback (most recent call last):
+2026-07-15T08:21:47 auth INFO cache warm
+{"ts": "2026-07-15T08:21:48", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+2026-07-15T08:21:51 billing DEBUG entering handler
+2026-07-15T08:21:54 scheduler WARN retry budget low
+{"ts": "2026-07-15T08:21:55", "level": "WARN", "svc": "api-gateway", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:21:57", "level": "ERROR", "svc": "scheduler", "msg": "timeout waiting for lock"}
+2026-07-15T08:21:59 api-gateway INFO cache warm
+{"ts": "2026-07-15T08:21:59", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:22:02", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:22:02", "level": "ERROR", "svc": "auth", "msg": "upstream 503"}
+{"ts": "2026-07-15T08:22:04", "level": "WARN", "svc": "cache", "msg": "disk at 82%"}
+2026-07-15T08:22:06 scheduler DEBUG tracing span open
+2026-07-15T08:22:07 billing DEBUG entering handler
+{"ts": "2026-07-15T08:22:10", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+{"ts": "2026-07-15T08:22:10", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+2026-07-15T08:22:12 scheduler INFO config reloaded
+{"ts": "2026-07-15T08:22:13", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:22:14", "level": "INFO", "svc": "cache", "msg": "request served"}
+{"ts": "2026-07-15T08:22:14", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+{"ts": "2026-07-15T08:22:14", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:22:15", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+
+2026-07-15T08:22:16 scheduler INFO config reloaded
+{"ts": "2026-07-15T08:22:19", "level": "INFO", "svc": "cache", "msg": "request served"}
+{"ts": "2026-07-15T08:22:22", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+2026-07-15T08:22:23 billing INFO heartbeat ok
+2026-07-15T08:22:23 worker-3 INFO cache warm
+2026-07-15T08:22:26 auth DEBUG tracing span open
+{"ts": "2026-07-15T08:22:28", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:22:30", "level": "WARN", "svc": "billing", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:22:32", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:22:32", "level": "WARN", "svc": "auth", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:22:35", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:22:38", "level": "WARN", "svc": "billing", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:22:39", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:22:41 worker-3 WARN retry budget low
+{"ts": "2026-07-15T08:22:43", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+{"ts": "2026-07-15T08:22:43", "level": "INFO", "svc": "billing", "msg": "request served"}
+{"ts": "2026-07-15T08:22:43", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+2026-07-15T08:22:45 billing WARN slow query 1200ms
+{"ts": "2026-07-15T08:22:46", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+{"ts": "2026-07-15T08:22:47", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:22:50", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:22:53", "level": "WARN", "svc": "scheduler", "msg": "retry budget low"}
+2026-07-15T08:22:56 scheduler DEBUG cache miss
+2026-07-15T08:22:59 billing DEBUG entering handler
+{"ts": "2026-07-15T08:22:59", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+{"ts": "2026-07-15T08:22:59", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:23:00 cache DEBUG entering handler
+2026-07-15T08:23:03 scheduler DEBUG cache miss
+2026-07-15T08:23:03 cache WARN connection pool near limit
+{"ts": "2026-07-15T08:23:03", "level": "WARN", "svc": "auth", "msg": "retry budget low"}
+2026-07-15T08:23:06 billing DEBUG tracing span open
+{"ts": "2026-07-15T08:23:07", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:23:07", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:23:07", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+Traceback (most recent call last):
+2026-07-15T08:23:08 worker-3 INFO cache warm
+{"ts": "2026-07-15T08:23:10", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:23:13 worker-3 INFO cache warm
+2026-07-15T08:23:13 billing INFO config reloaded
+2026-07-15T08:23:14 billing DEBUG entering handler
+2026-07-15T08:23:17 worker-3 INFO request served
+2026-07-15T08:23:20 billing DEBUG entering handler
+{"ts": "2026-07-15T08:23:20", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+2026-07-15T08:23:20 worker-3 DEBUG tracing span open
+2026-07-15T08:23:23 api-gateway ERROR timeout waiting for lock
+2026-07-15T08:23:25 auth DEBUG entering handler
+    at com.example.Foo.bar(Foo.java:42)
+
+2026-07-15T08:23:28 api-gateway ERROR upstream 503
+2026-07-15T08:23:31 auth INFO cache warm
+{"ts": "2026-07-15T08:23:31", "level": "WARN", "svc": "cache", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:23:34", "level": "WARN", "svc": "worker-3", "msg": "disk at 82%"}
+-------- rotated --------
+{"ts": "2026-07-15T08:23:34", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+{"ts": "2026-07-15T08:23:35", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+2026-07-15T08:23:35 worker-3 ERROR failed to commit txn
+2026-07-15T08:23:35 api-gateway INFO heartbeat ok
+2026-07-15T08:23:35 auth DEBUG cache miss
+# manual note: investigating
+2026-07-15T08:23:36 cache DEBUG tracing span open
+{"ts": "2026-07-15T08:23:36", "level": "WARN", "svc": "api-gateway", "msg": "retry budget low"}
+{"ts": "2026-07-15T08:23:37", "level": "WARN", "svc": "api-gateway", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:23:40", "level": "WARN", "svc": "scheduler", "msg": "connection pool near limit"}
+2026-07-15T08:23:42 api-gateway INFO config reloaded
+{"ts": "2026-07-15T08:23:42", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:23:45", "level": "WARN", "svc": "billing", "msg": "retry budget low"}
+2026-07-15T08:23:48 billing INFO cache warm
+2026-07-15T08:23:49 billing INFO cache warm
+{"ts": "2026-07-15T08:23:51", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+Traceback (most recent call last):
+2026-07-15T08:23:52 cache INFO request served
+2026-07-15T08:23:54 scheduler DEBUG cache miss
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:23:54", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+2026-07-15T08:23:57 billing INFO heartbeat ok
+{"ts": "2026-07-15T08:24:00", "level": "WARN", "svc": "api-gateway", "msg": "connection pool near limit"}
+2026-07-15T08:24:02 auth INFO config reloaded
+{"ts": "2026-07-15T08:24:02", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:24:04", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+2026-07-15T08:24:06 scheduler INFO cache warm
+2026-07-15T08:24:09 cache DEBUG tracing span open
+2026-07-15T08:24:10 billing INFO request served
+2026-07-15T08:24:12 api-gateway DEBUG entering handler
+2026-07-15T08:24:14 cache DEBUG tracing span open
+-------- rotated --------
+2026-07-15T08:24:17 worker-3 WARN disk at 82%
+2026-07-15T08:24:18 worker-3 WARN clock drift detected
+2026-07-15T08:24:19 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:24:21", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+2026-07-15T08:24:24 worker-3 INFO config reloaded
+2026-07-15T08:24:27 cache INFO heartbeat ok
+{"ts": "2026-07-15T08:24:27", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:24:27 auth INFO config reloaded
+2026-07-15T08:24:27 worker-3 WARN clock drift detected
+
+{"ts": "2026-07-15T08:24:29", "level": "WARN", "svc": "scheduler", "msg": "retry budget low"}
+2026-07-15T08:24:29 auth DEBUG entering handler
+# manual note: investigating
+2026-07-15T08:24:31 cache DEBUG entering handler
+2026-07-15T08:24:34 billing DEBUG tracing span open
+{"ts": "2026-07-15T08:24:34", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+{"ts": "2026-07-15T08:24:37", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:24:38", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+{"ts": "2026-07-15T08:24:38", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:24:39", "level": "INFO", "svc": "cache", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:24:42", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+-------- rotated --------
+2026-07-15T08:24:43 billing ERROR timeout waiting for lock
+2026-07-15T08:24:44 cache DEBUG tracing span open
+{"ts": "2026-07-15T08:24:47", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+{"ts": "2026-07-15T08:24:47", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+2026-07-15T08:24:50 worker-3 INFO heartbeat ok
+2026-07-15T08:24:51 billing INFO cache warm
+{"ts": "2026-07-15T08:24:54", "level": "INFO", "svc": "worker-3", "msg": "heartbeat ok"}
+# manual note: investigating
+2026-07-15T08:24:57 api-gateway DEBUG tracing span open
+{"ts": "2026-07-15T08:24:57", "level": "INFO", "svc": "billing", "msg": "request served"}
+{"ts": "2026-07-15T08:25:00", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:25:03 billing INFO heartbeat ok
+2026-07-15T08:25:05 auth DEBUG entering handler
+2026-07-15T08:25:07 api-gateway INFO heartbeat ok
+2026-07-15T08:25:08 billing ERROR OOM killed
+{"ts": "2026-07-15T08:25:08", "level": "ERROR", "svc": "worker-3", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:25:09", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+2026-07-15T08:25:11 api-gateway DEBUG tracing span open
+2026-07-15T08:25:13 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:25:16", "level": "WARN", "svc": "scheduler", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:25:17", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:25:19", "level": "ERROR", "svc": "scheduler", "msg": "null pointer in handler"}
+2026-07-15T08:25:22 api-gateway INFO cache warm
+2026-07-15T08:25:24 billing WARN retry budget low
+{"ts": "2026-07-15T08:25:24", "level": "WARN", "svc": "auth", "msg": "connection pool near limit"}
+2026-07-15T08:25:27 billing DEBUG tracing span open
+2026-07-15T08:25:30 auth INFO request served
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:25:32 worker-3 INFO cache warm
+{"ts": "2026-07-15T08:25:33", "level": "WARN", "svc": "scheduler", "msg": "retry budget low"}
+2026-07-15T08:25:36 cache INFO cache warm
+2026-07-15T08:25:36 api-gateway INFO config reloaded
+2026-07-15T08:25:39 scheduler WARN disk at 82%
+2026-07-15T08:25:39 api-gateway DEBUG cache miss
+{"ts": "2026-07-15T08:25:42", "level": "WARN", "svc": "scheduler", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:25:43", "level": "ERROR", "svc": "api-gateway", "msg": "OOM killed"}
+{"ts": "2026-07-15T08:25:46", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:25:46", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:25:48 cache INFO request served
+2026-07-15T08:25:50 cache INFO cache warm
+2026-07-15T08:25:52 auth DEBUG cache miss
+2026-07-15T08:25:53 auth DEBUG cache miss
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:25:56 api-gateway WARN connection pool near limit
+2026-07-15T08:25:58 cache INFO config reloaded
+2026-07-15T08:25:59 scheduler DEBUG entering handler
+2026-07-15T08:26:01 billing INFO heartbeat ok
+{"ts": "2026-07-15T08:26:02", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:26:03", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+2026-07-15T08:26:03 auth INFO config reloaded
+{"ts": "2026-07-15T08:26:06", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:26:06", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+# manual note: investigating
+{"ts": "2026-07-15T08:26:07", "level": "WARN", "svc": "scheduler", "msg": "retry budget low"}
+{"ts": "2026-07-15T08:26:08", "level": "WARN", "svc": "worker-3", "msg": "connection pool near limit"}
+2026-07-15T08:26:10 auth INFO request served
+2026-07-15T08:26:12 billing INFO heartbeat ok
+2026-07-15T08:26:14 auth INFO heartbeat ok
+2026-07-15T08:26:17 auth WARN retry budget low
+2026-07-15T08:26:20 worker-3 DEBUG tracing span open
+2026-07-15T08:26:22 cache DEBUG tracing span open
+2026-07-15T08:26:22 cache DEBUG tracing span open
+{"ts": "2026-07-15T08:26:22", "level": "ERROR", "svc": "scheduler", "msg": "failed to commit txn"}
+{"ts": "2026-07-15T08:26:22", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+2026-07-15T08:26:23 scheduler WARN disk at 82%
+2026-07-15T08:26:25 cache INFO cache warm
+{"ts": "2026-07-15T08:26:27", "level": "ERROR", "svc": "cache", "msg": "null pointer in handler"}
+-------- rotated --------
+2026-07-15T08:26:29 api-gateway WARN disk at 82%
+{"ts": "2026-07-15T08:26:32", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:26:35", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+2026-07-15T08:26:38 scheduler WARN clock drift detected
+2026-07-15T08:26:39 scheduler INFO cache warm
+{"ts": "2026-07-15T08:26:40", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+2026-07-15T08:26:42 cache ERROR OOM killed
+2026-07-15T08:26:43 auth INFO request served
+2026-07-15T08:26:45 billing DEBUG cache miss
+{"ts": "2026-07-15T08:26:46", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:26:49 scheduler WARN clock drift detected
+{"ts": "2026-07-15T08:26:52", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+{"ts": "2026-07-15T08:26:53", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+2026-07-15T08:26:54 worker-3 INFO heartbeat ok
+2026-07-15T08:26:57 auth INFO heartbeat ok
+{"ts": "2026-07-15T08:26:58", "level": "ERROR", "svc": "billing", "msg": "failed to commit txn"}
+{"ts": "2026-07-15T08:26:58", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:26:58", "level": "ERROR", "svc": "cache", "msg": "timeout waiting for lock"}
+2026-07-15T08:26:59 api-gateway DEBUG entering handler
+Traceback (most recent call last):
+2026-07-15T08:27:00 scheduler INFO heartbeat ok
+{"ts": "2026-07-15T08:27:01", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+2026-07-15T08:27:03 cache DEBUG tracing span open
+2026-07-15T08:27:05 billing INFO request served
+2026-07-15T08:27:07 cache DEBUG cache miss
+2026-07-15T08:27:09 auth INFO request served
+{"ts": "2026-07-15T08:27:12", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+2026-07-15T08:27:12 scheduler ERROR failed to commit txn
+2026-07-15T08:27:15 cache INFO request served
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:27:17", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+{"ts": "2026-07-15T08:27:18", "level": "INFO", "svc": "billing", "msg": "request served"}
+{"ts": "2026-07-15T08:27:19", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+2026-07-15T08:27:20 worker-3 DEBUG tracing span open
+2026-07-15T08:27:23 billing INFO cache warm
+{"ts": "2026-07-15T08:27:25", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+{"ts": "2026-07-15T08:27:25", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+2026-07-15T08:27:25 worker-3 INFO config reloaded
+    at com.example.Foo.bar(Foo.java:42)
+# manual note: investigating
+{"ts": "2026-07-15T08:27:26", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+
+2026-07-15T08:27:27 api-gateway INFO cache warm
+{"ts": "2026-07-15T08:27:30", "level": "ERROR", "svc": "scheduler", "msg": "OOM killed"}
+{"ts": "2026-07-15T08:27:32", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:27:33", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:27:34 scheduler DEBUG tracing span open
+2026-07-15T08:27:35 scheduler DEBUG entering handler
+2026-07-15T08:27:35 scheduler WARN disk at 82%
+2026-07-15T08:27:35 billing DEBUG cache miss
+2026-07-15T08:27:36 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:27:36", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:27:37", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+2026-07-15T08:27:37 scheduler WARN slow query 1200ms
+2026-07-15T08:27:40 auth INFO cache warm
+2026-07-15T08:27:42 worker-3 WARN retry budget low
+2026-07-15T08:27:45 api-gateway INFO request served
+2026-07-15T08:27:47 auth DEBUG tracing span open
+2026-07-15T08:27:48 auth WARN slow query 1200ms
+2026-07-15T08:27:51 cache DEBUG tracing span open
+2026-07-15T08:27:54 worker-3 DEBUG entering handler
+{"ts": "2026-07-15T08:27:56", "level": "INFO", "svc": "worker-3", "msg": "heartbeat ok"}
+2026-07-15T08:27:57 auth INFO heartbeat ok
+2026-07-15T08:27:57 worker-3 DEBUG tracing span open
+{"ts": "2026-07-15T08:28:00", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:28:02 cache ERROR null pointer in handler
+{"ts": "2026-07-15T08:28:02", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:28:02 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:28:04", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+2026-07-15T08:28:05 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:28:07", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:28:08", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+2026-07-15T08:28:09 scheduler WARN slow query 1200ms
+2026-07-15T08:28:12 auth DEBUG cache miss
+2026-07-15T08:28:14 billing DEBUG cache miss
+2026-07-15T08:28:16 cache INFO heartbeat ok
+{"ts": "2026-07-15T08:28:19", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+2026-07-15T08:28:21 api-gateway DEBUG tracing span open
+{"ts": "2026-07-15T08:28:21", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+-------- rotated --------
+{"ts": "2026-07-15T08:28:21", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:28:24", "level": "ERROR", "svc": "auth", "msg": "failed to commit txn"}
+2026-07-15T08:28:25 billing DEBUG cache miss
+{"ts": "2026-07-15T08:28:25", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+2026-07-15T08:28:26 scheduler DEBUG entering handler
+2026-07-15T08:28:28 worker-3 DEBUG tracing span open
+2026-07-15T08:28:29 billing INFO config reloaded
+2026-07-15T08:28:31 cache DEBUG entering handler
+2026-07-15T08:28:32 api-gateway ERROR failed to commit txn
+2026-07-15T08:28:33 api-gateway DEBUG cache miss
+{"ts": "2026-07-15T08:28:34", "level": "WARN", "svc": "worker-3", "msg": "disk at 82%"}
+2026-07-15T08:28:35 api-gateway INFO cache warm
+{"ts": "2026-07-15T08:28:38", "level": "WARN", "svc": "api-gateway", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:28:40", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:28:43", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:28:46", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:28:48", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+2026-07-15T08:28:49 scheduler DEBUG tracing span open
+2026-07-15T08:28:49 billing DEBUG entering handler
+{"ts": "2026-07-15T08:28:49", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:28:52 billing INFO config reloaded
+2026-07-15T08:28:54 api-gateway DEBUG tracing span open
+{"ts": "2026-07-15T08:28:55", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:28:55 api-gateway INFO cache warm
+{"ts": "2026-07-15T08:28:58", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+2026-07-15T08:28:59 cache INFO cache warm
+2026-07-15T08:29:00 cache INFO heartbeat ok
+2026-07-15T08:29:03 billing WARN slow query 1200ms
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:29:04 auth INFO heartbeat ok
+{"ts": "2026-07-15T08:29:06", "level": "ERROR", "svc": "auth", "msg": "OOM killed"}
+-------- rotated --------
+{"ts": "2026-07-15T08:29:06", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+{"ts": "2026-07-15T08:29:07", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+2026-07-15T08:29:07 billing ERROR null pointer in handler
+{"ts": "2026-07-15T08:29:08", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+2026-07-15T08:29:09 api-gateway WARN clock drift detected
+{"ts": "2026-07-15T08:29:09", "level": "WARN", "svc": "cache", "msg": "connection pool near limit"}
+2026-07-15T08:29:09 scheduler DEBUG cache miss
+# manual note: investigating
+{"ts": "2026-07-15T08:29:10", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+{"ts": "2026-07-15T08:29:12", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:29:12", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+
+{"ts": "2026-07-15T08:29:13", "level": "WARN", "svc": "auth", "msg": "clock drift detected"}
+2026-07-15T08:29:14 worker-3 DEBUG entering handler
+{"ts": "2026-07-15T08:29:17", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+2026-07-15T08:29:19 auth INFO request served
+{"ts": "2026-07-15T08:29:20", "level": "WARN", "svc": "worker-3", "msg": "disk at 82%"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:29:20", "level": "ERROR", "svc": "api-gateway", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:29:22", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:29:25", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:29:27", "level": "WARN", "svc": "worker-3", "msg": "connection pool near limit"}
+2026-07-15T08:29:27 scheduler INFO cache warm
+{"ts": "2026-07-15T08:29:29", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:29:29", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+2026-07-15T08:29:32 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:29:35", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+{"ts": "2026-07-15T08:29:35", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:29:37", "level": "INFO", "svc": "cache", "msg": "heartbeat ok"}
+2026-07-15T08:29:38 worker-3 DEBUG tracing span open
+{"ts": "2026-07-15T08:29:40", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+Traceback (most recent call last):
+2026-07-15T08:29:43 api-gateway INFO heartbeat ok
+2026-07-15T08:29:43 scheduler DEBUG cache miss
+2026-07-15T08:29:45 auth ERROR OOM killed
+2026-07-15T08:29:48 billing INFO cache warm
+{"ts": "2026-07-15T08:29:48", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:29:50", "level": "ERROR", "svc": "auth", "msg": "null pointer in handler"}
+{"ts": "2026-07-15T08:29:52", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:29:52", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+2026-07-15T08:29:55 scheduler DEBUG tracing span open
+{"ts": "2026-07-15T08:29:55", "level": "WARN", "svc": "billing", "msg": "clock drift detected"}
+2026-07-15T08:29:58 billing WARN disk at 82%
+{"ts": "2026-07-15T08:29:58", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+2026-07-15T08:30:01 auth DEBUG entering handler
+{"ts": "2026-07-15T08:30:01", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+Traceback (most recent call last):
+2026-07-15T08:30:04 scheduler INFO cache warm
+2026-07-15T08:30:07 billing INFO request served
+2026-07-15T08:30:09 api-gateway WARN disk at 82%
+2026-07-15T08:30:10 cache ERROR OOM killed
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:30:12", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:30:15", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+# manual note: investigating
+2026-07-15T08:30:17 auth INFO config reloaded
+2026-07-15T08:30:20 cache INFO cache warm
+{"ts": "2026-07-15T08:30:22", "level": "WARN", "svc": "api-gateway", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:30:24", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:30:26", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+{"ts": "2026-07-15T08:30:26", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:30:27", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+2026-07-15T08:30:28 worker-3 INFO request served
+2026-07-15T08:30:31 auth INFO cache warm
+2026-07-15T08:30:33 cache INFO heartbeat ok
+{"ts": "2026-07-15T08:30:34", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+-------- rotated --------
+{"ts": "2026-07-15T08:30:36", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+2026-07-15T08:30:38 api-gateway WARN clock drift detected
+{"ts": "2026-07-15T08:30:39", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+2026-07-15T08:30:39 cache INFO config reloaded
+2026-07-15T08:30:42 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:30:45", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+2026-07-15T08:30:45 scheduler INFO request served
+2026-07-15T08:30:46 auth INFO config reloaded
+2026-07-15T08:30:49 auth WARN slow query 1200ms
+{"ts": "2026-07-15T08:30:51", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+{"ts": "2026-07-15T08:30:52", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+2026-07-15T08:30:52 auth ERROR failed to commit txn
+{"ts": "2026-07-15T08:30:54", "level": "WARN", "svc": "worker-3", "msg": "retry budget low"}
+{"ts": "2026-07-15T08:30:56", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:30:58", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:31:01", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+{"ts": "2026-07-15T08:31:03", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+{"ts": "2026-07-15T08:31:06", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+{"ts": "2026-07-15T08:31:07", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:31:09", "level": "ERROR", "svc": "auth", "msg": "null pointer in handler"}
+2026-07-15T08:31:10 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:31:10", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+2026-07-15T08:31:11 auth DEBUG tracing span open
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:31:14 billing INFO heartbeat ok
+2026-07-15T08:31:15 billing DEBUG cache miss
+-------- rotated --------
+{"ts": "2026-07-15T08:31:17", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:31:17", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+
+2026-07-15T08:31:18 auth DEBUG tracing span open
+{"ts": "2026-07-15T08:31:19", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:31:19", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+2026-07-15T08:31:22 billing WARN disk at 82%
+{"ts": "2026-07-15T08:31:23", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+{"ts": "2026-07-15T08:31:24", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:31:26", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+-------- rotated --------
+2026-07-15T08:31:28 scheduler ERROR timeout waiting for lock
+-------- rotated --------
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:31:29 billing DEBUG tracing span open
+2026-07-15T08:31:29 billing DEBUG entering handler
+2026-07-15T08:31:29 cache DEBUG entering handler
+# manual note: investigating
+{"ts": "2026-07-15T08:31:32", "level": "INFO", "svc": "auth", "msg": "request served"}
+{"ts": "2026-07-15T08:31:35", "level": "WARN", "svc": "worker-3", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:31:38", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+{"ts": "2026-07-15T08:31:40", "level": "WARN", "svc": "auth", "msg": "slow query 1200ms"}
+2026-07-15T08:31:41 api-gateway INFO config reloaded
+2026-07-15T08:31:44 worker-3 DEBUG cache miss
+
+2026-07-15T08:31:45 cache DEBUG cache miss
+{"ts": "2026-07-15T08:31:45", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+-------- rotated --------
+{"ts": "2026-07-15T08:31:48", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+2026-07-15T08:31:48 cache DEBUG entering handler
+2026-07-15T08:31:49 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:31:50", "level": "INFO", "svc": "auth", "msg": "request served"}
+{"ts": "2026-07-15T08:31:51", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+{"ts": "2026-07-15T08:31:53", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+2026-07-15T08:31:54 api-gateway DEBUG tracing span open
+2026-07-15T08:31:54 cache DEBUG entering handler
+2026-07-15T08:31:54 worker-3 INFO heartbeat ok
+2026-07-15T08:31:54 api-gateway INFO request served
+{"ts": "2026-07-15T08:31:57", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+2026-07-15T08:31:58 worker-3 INFO config reloaded
+{"ts": "2026-07-15T08:31:59", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:32:01", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+{"ts": "2026-07-15T08:32:04", "level": "WARN", "svc": "worker-3", "msg": "clock drift detected"}
+2026-07-15T08:32:07 scheduler DEBUG tracing span open
+{"ts": "2026-07-15T08:32:07", "level": "INFO", "svc": "auth", "msg": "request served"}
+2026-07-15T08:32:07 worker-3 WARN retry budget low
+{"ts": "2026-07-15T08:32:08", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:32:09 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:32:10", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:32:10 billing WARN slow query 1200ms
+2026-07-15T08:32:10 scheduler INFO cache warm
+Traceback (most recent call last):
+2026-07-15T08:32:11 billing DEBUG entering handler
+{"ts": "2026-07-15T08:32:11", "level": "WARN", "svc": "cache", "msg": "disk at 82%"}
+2026-07-15T08:32:14 scheduler DEBUG entering handler
+{"ts": "2026-07-15T08:32:15", "level": "WARN", "svc": "api-gateway", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:32:17", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+2026-07-15T08:32:18 scheduler INFO heartbeat ok
+{"ts": "2026-07-15T08:32:19", "level": "WARN", "svc": "api-gateway", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:32:19", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+2026-07-15T08:32:21 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:32:23", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:32:26", "level": "INFO", "svc": "cache", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:32:28", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+-------- rotated --------
+{"ts": "2026-07-15T08:32:31", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:32:32 api-gateway ERROR failed to commit txn
+{"ts": "2026-07-15T08:32:32", "level": "ERROR", "svc": "worker-3", "msg": "OOM killed"}
+{"ts": "2026-07-15T08:32:34", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+2026-07-15T08:32:35 billing INFO config reloaded
+2026-07-15T08:32:36 billing DEBUG tracing span open
+2026-07-15T08:32:36 scheduler DEBUG cache miss
+2026-07-15T08:32:39 worker-3 DEBUG tracing span open
+2026-07-15T08:32:39 api-gateway WARN slow query 1200ms
+2026-07-15T08:32:39 billing DEBUG entering handler
+{"ts": "2026-07-15T08:32:41", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+2026-07-15T08:32:41 api-gateway DEBUG tracing span open
+2026-07-15T08:32:41 api-gateway DEBUG tracing span open
+2026-07-15T08:32:41 worker-3 DEBUG cache miss
+2026-07-15T08:32:43 cache DEBUG tracing span open
+2026-07-15T08:32:45 cache WARN slow query 1200ms
+2026-07-15T08:32:46 api-gateway DEBUG tracing span open
+2026-07-15T08:32:48 api-gateway WARN clock drift detected
+2026-07-15T08:32:50 auth DEBUG tracing span open
+2026-07-15T08:32:52 scheduler WARN retry budget low
+2026-07-15T08:32:52 scheduler DEBUG tracing span open
+2026-07-15T08:32:53 billing ERROR failed to commit txn
+2026-07-15T08:32:56 worker-3 INFO heartbeat ok
+2026-07-15T08:32:56 api-gateway INFO cache warm
+2026-07-15T08:32:58 api-gateway INFO request served
+2026-07-15T08:33:00 auth INFO cache warm
+{"ts": "2026-07-15T08:33:03", "level": "ERROR", "svc": "worker-3", "msg": "failed to commit txn"}
+2026-07-15T08:33:03 worker-3 DEBUG cache miss
+2026-07-15T08:33:05 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:33:07", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:33:08 billing INFO request served
+{"ts": "2026-07-15T08:33:09", "level": "WARN", "svc": "billing", "msg": "slow query 1200ms"}
+2026-07-15T08:33:10 api-gateway ERROR OOM killed
+2026-07-15T08:33:11 scheduler DEBUG cache miss
+2026-07-15T08:33:13 api-gateway DEBUG tracing span open
+# manual note: investigating
+{"ts": "2026-07-15T08:33:13", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+2026-07-15T08:33:15 auth DEBUG cache miss
+
+{"ts": "2026-07-15T08:33:16", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:33:16", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+2026-07-15T08:33:18 billing INFO cache warm
+{"ts": "2026-07-15T08:33:21", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+{"ts": "2026-07-15T08:33:24", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:33:25", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+2026-07-15T08:33:26 cache INFO request served
+2026-07-15T08:33:27 api-gateway INFO request served
+2026-07-15T08:33:28 cache ERROR OOM killed
+{"ts": "2026-07-15T08:33:29", "level": "WARN", "svc": "api-gateway", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:33:31", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:33:33", "level": "WARN", "svc": "api-gateway", "msg": "disk at 82%"}
+2026-07-15T08:33:33 billing INFO request served
+{"ts": "2026-07-15T08:33:33", "level": "ERROR", "svc": "scheduler", "msg": "upstream 503"}
+2026-07-15T08:33:33 api-gateway DEBUG entering handler
+{"ts": "2026-07-15T08:33:33", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+{"ts": "2026-07-15T08:33:35", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+2026-07-15T08:33:38 auth INFO heartbeat ok
+2026-07-15T08:33:41 api-gateway ERROR OOM killed
+Traceback (most recent call last):
+2026-07-15T08:33:44 api-gateway INFO config reloaded
+2026-07-15T08:33:45 cache INFO request served
+2026-07-15T08:33:46 api-gateway WARN retry budget low
+{"ts": "2026-07-15T08:33:49", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+# manual note: investigating
+2026-07-15T08:33:52 cache WARN slow query 1200ms
+{"ts": "2026-07-15T08:33:52", "level": "ERROR", "svc": "auth", "msg": "OOM killed"}
+{"ts": "2026-07-15T08:33:52", "level": "ERROR", "svc": "billing", "msg": "OOM killed"}
+2026-07-15T08:33:52 cache DEBUG tracing span open
+2026-07-15T08:33:55 billing DEBUG cache miss
+2026-07-15T08:33:55 api-gateway INFO heartbeat ok
+2026-07-15T08:33:57 billing DEBUG entering handler
+-------- rotated --------
+{"ts": "2026-07-15T08:34:00", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+2026-07-15T08:34:03 cache INFO heartbeat ok
+2026-07-15T08:34:05 auth ERROR null pointer in handler
+2026-07-15T08:34:06 billing INFO cache warm
+{"ts": "2026-07-15T08:34:08", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:34:11", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+2026-07-15T08:34:12 cache DEBUG cache miss
+2026-07-15T08:34:13 cache DEBUG entering handler
+{"ts": "2026-07-15T08:34:14", "level": "INFO", "svc": "worker-3", "msg": "heartbeat ok"}
+2026-07-15T08:34:15 billing DEBUG tracing span open
+2026-07-15T08:34:18 worker-3 INFO config reloaded
+2026-07-15T08:34:19 api-gateway DEBUG tracing span open
+{"ts": "2026-07-15T08:34:21", "level": "WARN", "svc": "auth", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:34:22", "level": "WARN", "svc": "auth", "msg": "retry budget low"}
+2026-07-15T08:34:25 auth DEBUG cache miss
+2026-07-15T08:34:25 billing ERROR timeout waiting for lock
+-------- rotated --------
+2026-07-15T08:34:28 scheduler INFO request served
+2026-07-15T08:34:30 billing WARN connection pool near limit
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:34:30", "level": "ERROR", "svc": "scheduler", "msg": "failed to commit txn"}
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:34:30 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:34:30", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+2026-07-15T08:34:33 cache DEBUG cache miss
+{"ts": "2026-07-15T08:34:35", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:34:35 cache INFO heartbeat ok
+{"ts": "2026-07-15T08:34:35", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+2026-07-15T08:34:35 scheduler INFO heartbeat ok
+{"ts": "2026-07-15T08:34:37", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:34:40 billing DEBUG cache miss
+{"ts": "2026-07-15T08:34:43", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:34:46", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+2026-07-15T08:34:47 cache DEBUG tracing span open
+{"ts": "2026-07-15T08:34:49", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:34:50", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:34:51 billing WARN connection pool near limit
+2026-07-15T08:34:53 auth INFO heartbeat ok
+2026-07-15T08:34:56 billing ERROR OOM killed
+2026-07-15T08:34:57 worker-3 ERROR upstream 503
+{"ts": "2026-07-15T08:34:57", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+2026-07-15T08:34:59 scheduler INFO cache warm
+2026-07-15T08:35:00 cache INFO config reloaded
+2026-07-15T08:35:03 auth DEBUG cache miss
+# manual note: investigating
+2026-07-15T08:35:04 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:35:04", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+2026-07-15T08:35:07 scheduler INFO config reloaded
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:35:09", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:35:12", "level": "ERROR", "svc": "scheduler", "msg": "timeout waiting for lock"}
+2026-07-15T08:35:14 scheduler WARN slow query 1200ms
+{"ts": "2026-07-15T08:35:15", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+2026-07-15T08:35:18 cache WARN clock drift detected
+2026-07-15T08:35:21 api-gateway DEBUG cache miss
+2026-07-15T08:35:24 scheduler INFO request served
+{"ts": "2026-07-15T08:35:24", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:35:24", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:35:26 cache DEBUG cache miss
+{"ts": "2026-07-15T08:35:29", "level": "ERROR", "svc": "api-gateway", "msg": "null pointer in handler"}
+{"ts": "2026-07-15T08:35:29", "level": "WARN", "svc": "cache", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:35:29", "level": "ERROR", "svc": "api-gateway", "msg": "null pointer in handler"}
+{"ts": "2026-07-15T08:35:32", "level": "INFO", "svc": "worker-3", "msg": "heartbeat ok"}
+2026-07-15T08:35:33 scheduler WARN disk at 82%
+{"ts": "2026-07-15T08:35:36", "level": "ERROR", "svc": "auth", "msg": "null pointer in handler"}
+2026-07-15T08:35:39 worker-3 INFO request served
+2026-07-15T08:35:39 billing DEBUG tracing span open
+{"ts": "2026-07-15T08:35:41", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+{"ts": "2026-07-15T08:35:41", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+2026-07-15T08:35:42 api-gateway INFO request served
+2026-07-15T08:35:45 auth INFO cache warm
+{"ts": "2026-07-15T08:35:45", "level": "WARN", "svc": "worker-3", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:35:47", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+2026-07-15T08:35:50 auth INFO cache warm
+{"ts": "2026-07-15T08:35:50", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:35:51", "level": "WARN", "svc": "cache", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:35:53", "level": "WARN", "svc": "billing", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:35:56", "level": "WARN", "svc": "auth", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:35:57", "level": "INFO", "svc": "billing", "msg": "request served"}
+2026-07-15T08:35:59 billing INFO config reloaded
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:36:02", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+{"ts": "2026-07-15T08:36:05", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:36:07", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:36:08", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+{"ts": "2026-07-15T08:36:09", "level": "INFO", "svc": "cache", "msg": "heartbeat ok"}
+2026-07-15T08:36:12 billing DEBUG entering handler
+{"ts": "2026-07-15T08:36:13", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:36:13", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+2026-07-15T08:36:15 billing INFO request served
+{"ts": "2026-07-15T08:36:16", "level": "WARN", "svc": "api-gateway", "msg": "slow query 1200ms"}
+2026-07-15T08:36:17 cache DEBUG tracing span open
+2026-07-15T08:36:20 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:36:23", "level": "WARN", "svc": "auth", "msg": "slow query 1200ms"}
+2026-07-15T08:36:24 billing INFO config reloaded
+{"ts": "2026-07-15T08:36:25", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:36:26 worker-3 DEBUG entering handler
+2026-07-15T08:36:29 billing DEBUG entering handler
+{"ts": "2026-07-15T08:36:30", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+2026-07-15T08:36:30 auth DEBUG entering handler
+{"ts": "2026-07-15T08:36:31", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:36:34", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+{"ts": "2026-07-15T08:36:35", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:36:37 worker-3 INFO request served
+2026-07-15T08:36:40 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:36:40", "level": "WARN", "svc": "scheduler", "msg": "connection pool near limit"}
+2026-07-15T08:36:43 api-gateway ERROR upstream 503
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:36:46 auth INFO cache warm
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:36:47 worker-3 INFO config reloaded
+2026-07-15T08:36:47 api-gateway DEBUG tracing span open
+2026-07-15T08:36:48 worker-3 INFO config reloaded
+2026-07-15T08:36:49 billing ERROR failed to commit txn
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:36:52 worker-3 DEBUG tracing span open
+2026-07-15T08:36:53 billing DEBUG cache miss
+{"ts": "2026-07-15T08:36:56", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+{"ts": "2026-07-15T08:36:57", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+2026-07-15T08:36:58 scheduler DEBUG tracing span open
+
+
+{"ts": "2026-07-15T08:37:01", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:37:03", "level": "WARN", "svc": "cache", "msg": "disk at 82%"}
+-------- rotated --------
+{"ts": "2026-07-15T08:37:03", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+{"ts": "2026-07-15T08:37:06", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+{"ts": "2026-07-15T08:37:08", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+{"ts": "2026-07-15T08:37:10", "level": "WARN", "svc": "cache", "msg": "disk at 82%"}
+2026-07-15T08:37:12 auth DEBUG cache miss
+{"ts": "2026-07-15T08:37:13", "level": "ERROR", "svc": "auth", "msg": "failed to commit txn"}
+2026-07-15T08:37:13 billing DEBUG entering handler
+2026-07-15T08:37:13 scheduler INFO config reloaded
+{"ts": "2026-07-15T08:37:15", "level": "WARN", "svc": "scheduler", "msg": "clock drift detected"}
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:37:15 api-gateway WARN disk at 82%
+{"ts": "2026-07-15T08:37:15", "level": "ERROR", "svc": "scheduler", "msg": "null pointer in handler"}
+{"ts": "2026-07-15T08:37:18", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:37:21", "level": "ERROR", "svc": "api-gateway", "msg": "failed to commit txn"}
+{"ts": "2026-07-15T08:37:21", "level": "WARN", "svc": "billing", "msg": "disk at 82%"}
+2026-07-15T08:37:24 cache WARN retry budget low
+{"ts": "2026-07-15T08:37:25", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:37:28", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:37:28", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+{"ts": "2026-07-15T08:37:29", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+2026-07-15T08:37:32 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:37:33", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+2026-07-15T08:37:33 api-gateway INFO request served
+2026-07-15T08:37:33 api-gateway DEBUG tracing span open
+2026-07-15T08:37:35 api-gateway DEBUG entering handler
+2026-07-15T08:37:36 scheduler WARN clock drift detected
+2026-07-15T08:37:38 api-gateway DEBUG entering handler
+-------- rotated --------
+2026-07-15T08:37:41 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:37:44", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:37:45 cache INFO heartbeat ok
+2026-07-15T08:37:45 cache ERROR timeout waiting for lock
+2026-07-15T08:37:45 scheduler DEBUG entering handler
+2026-07-15T08:37:47 api-gateway DEBUG tracing span open
+
+{"ts": "2026-07-15T08:37:47", "level": "WARN", "svc": "billing", "msg": "retry budget low"}
+2026-07-15T08:37:49 cache INFO cache warm
+-------- rotated --------
+{"ts": "2026-07-15T08:37:50", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+
+{"ts": "2026-07-15T08:37:51", "level": "WARN", "svc": "billing", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:37:54", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+{"ts": "2026-07-15T08:37:56", "level": "INFO", "svc": "auth", "msg": "request served"}
+{"ts": "2026-07-15T08:37:56", "level": "WARN", "svc": "api-gateway", "msg": "connection pool near limit"}
+2026-07-15T08:37:57 cache INFO request served
+2026-07-15T08:37:58 api-gateway INFO request served
+{"ts": "2026-07-15T08:37:58", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:37:59", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:38:00", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+2026-07-15T08:38:00 worker-3 WARN slow query 1200ms
+2026-07-15T08:38:02 worker-3 INFO heartbeat ok
+2026-07-15T08:38:04 api-gateway INFO config reloaded
+{"ts": "2026-07-15T08:38:07", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+{"ts": "2026-07-15T08:38:09", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+{"ts": "2026-07-15T08:38:09", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:38:12", "level": "WARN", "svc": "scheduler", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:38:14", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:38:16", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+{"ts": "2026-07-15T08:38:18", "level": "WARN", "svc": "api-gateway", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:38:19", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:38:21", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:38:22", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+2026-07-15T08:38:23 api-gateway ERROR OOM killed
+2026-07-15T08:38:23 scheduler INFO config reloaded
+2026-07-15T08:38:23 cache DEBUG cache miss
+2026-07-15T08:38:26 cache DEBUG entering handler
+{"ts": "2026-07-15T08:38:29", "level": "WARN", "svc": "worker-3", "msg": "disk at 82%"}
+2026-07-15T08:38:31 api-gateway DEBUG cache miss
+2026-07-15T08:38:31 worker-3 ERROR null pointer in handler
+{"ts": "2026-07-15T08:38:31", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+{"ts": "2026-07-15T08:38:34", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+2026-07-15T08:38:35 worker-3 DEBUG tracing span open
+2026-07-15T08:38:35 cache WARN retry budget low
+{"ts": "2026-07-15T08:38:35", "level": "WARN", "svc": "auth", "msg": "disk at 82%"}
+2026-07-15T08:38:38 scheduler INFO request served
+{"ts": "2026-07-15T08:38:38", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+2026-07-15T08:38:41 worker-3 ERROR upstream 503
+2026-07-15T08:38:41 billing INFO config reloaded
+{"ts": "2026-07-15T08:38:43", "level": "WARN", "svc": "worker-3", "msg": "slow query 1200ms"}
+2026-07-15T08:38:43 cache DEBUG entering handler
+{"ts": "2026-07-15T08:38:43", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+2026-07-15T08:38:46 api-gateway DEBUG entering handler
+2026-07-15T08:38:47 billing DEBUG cache miss
+2026-07-15T08:38:49 cache ERROR failed to commit txn
+2026-07-15T08:38:50 api-gateway ERROR failed to commit txn
+2026-07-15T08:38:50 worker-3 INFO request served
+{"ts": "2026-07-15T08:38:50", "level": "ERROR", "svc": "auth", "msg": "upstream 503"}
+
+{"ts": "2026-07-15T08:38:51", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:38:52", "level": "ERROR", "svc": "billing", "msg": "OOM killed"}
+2026-07-15T08:38:53 scheduler INFO config reloaded
+{"ts": "2026-07-15T08:38:54", "level": "WARN", "svc": "billing", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:38:56", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:38:58", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:39:00", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:39:01", "level": "ERROR", "svc": "auth", "msg": "null pointer in handler"}
+{"ts": "2026-07-15T08:39:01", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:39:01 cache ERROR upstream 503
+{"ts": "2026-07-15T08:39:04", "level": "WARN", "svc": "worker-3", "msg": "connection pool near limit"}
+2026-07-15T08:39:06 cache INFO request served
+2026-07-15T08:39:07 billing DEBUG entering handler
+{"ts": "2026-07-15T08:39:10", "level": "ERROR", "svc": "billing", "msg": "timeout waiting for lock"}
+2026-07-15T08:39:10 scheduler INFO request served
+{"ts": "2026-07-15T08:39:10", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+{"ts": "2026-07-15T08:39:11", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:39:11", "level": "WARN", "svc": "auth", "msg": "retry budget low"}
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:39:13", "level": "ERROR", "svc": "worker-3", "msg": "null pointer in handler"}
+{"ts": "2026-07-15T08:39:13", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:39:15", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+{"ts": "2026-07-15T08:39:16", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+2026-07-15T08:39:18 auth WARN disk at 82%
+{"ts": "2026-07-15T08:39:18", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+2026-07-15T08:39:18 scheduler INFO request served
+{"ts": "2026-07-15T08:39:19", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+-------- rotated --------
+{"ts": "2026-07-15T08:39:19", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+2026-07-15T08:39:22 worker-3 DEBUG cache miss
+2026-07-15T08:39:23 worker-3 ERROR null pointer in handler
+
+2026-07-15T08:39:25 cache DEBUG entering handler
+2026-07-15T08:39:27 auth WARN connection pool near limit
+{"ts": "2026-07-15T08:39:29", "level": "INFO", "svc": "auth", "msg": "request served"}
+{"ts": "2026-07-15T08:39:30", "level": "WARN", "svc": "auth", "msg": "slow query 1200ms"}
+2026-07-15T08:39:32 worker-3 INFO config reloaded
+2026-07-15T08:39:35 billing WARN disk at 82%
+2026-07-15T08:39:38 worker-3 ERROR timeout waiting for lock
+{"ts": "2026-07-15T08:39:41", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:39:42", "level": "WARN", "svc": "billing", "msg": "disk at 82%"}
+2026-07-15T08:39:42 scheduler DEBUG entering handler
+{"ts": "2026-07-15T08:39:43", "level": "WARN", "svc": "scheduler", "msg": "connection pool near limit"}
+2026-07-15T08:39:43 auth INFO config reloaded
+{"ts": "2026-07-15T08:39:44", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+2026-07-15T08:39:47 auth ERROR null pointer in handler
+2026-07-15T08:39:47 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:39:50", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:39:53 scheduler DEBUG cache miss
+2026-07-15T08:39:53 worker-3 DEBUG entering handler
+2026-07-15T08:39:54 worker-3 INFO config reloaded
+2026-07-15T08:39:55 api-gateway WARN clock drift detected
+{"ts": "2026-07-15T08:39:55", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:39:56 auth WARN clock drift detected
+{"ts": "2026-07-15T08:39:58", "level": "ERROR", "svc": "worker-3", "msg": "null pointer in handler"}
+2026-07-15T08:40:00 billing WARN connection pool near limit
+{"ts": "2026-07-15T08:40:03", "level": "INFO", "svc": "cache", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:40:05", "level": "WARN", "svc": "billing", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:40:07", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:40:09 auth INFO request served
+2026-07-15T08:40:12 cache INFO cache warm
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:40:12", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:40:13", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+-------- rotated --------
+{"ts": "2026-07-15T08:40:13", "level": "WARN", "svc": "worker-3", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:40:15", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+{"ts": "2026-07-15T08:40:16", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+2026-07-15T08:40:16 auth DEBUG tracing span open
+{"ts": "2026-07-15T08:40:17", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:40:18 auth DEBUG tracing span open
+{"ts": "2026-07-15T08:40:18", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:40:21", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+2026-07-15T08:40:22 cache INFO cache warm
+{"ts": "2026-07-15T08:40:22", "level": "ERROR", "svc": "billing", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:40:22", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:40:23 auth DEBUG entering handler
+
+2026-07-15T08:40:26 worker-3 ERROR failed to commit txn
+{"ts": "2026-07-15T08:40:29", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+2026-07-15T08:40:31 api-gateway DEBUG tracing span open
+{"ts": "2026-07-15T08:40:31", "level": "ERROR", "svc": "auth", "msg": "timeout waiting for lock"}
+2026-07-15T08:40:32 worker-3 DEBUG tracing span open
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:40:32 worker-3 INFO request served
+2026-07-15T08:40:34 worker-3 WARN retry budget low
+{"ts": "2026-07-15T08:40:36", "level": "INFO", "svc": "billing", "msg": "request served"}
+{"ts": "2026-07-15T08:40:38", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:40:38", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+2026-07-15T08:40:38 worker-3 INFO config reloaded
+2026-07-15T08:40:38 api-gateway ERROR timeout waiting for lock
+2026-07-15T08:40:41 api-gateway INFO cache warm
+2026-07-15T08:40:42 cache INFO heartbeat ok
+2026-07-15T08:40:45 cache DEBUG entering handler
+2026-07-15T08:40:48 cache DEBUG cache miss
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:40:50", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+{"ts": "2026-07-15T08:40:51", "level": "WARN", "svc": "cache", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:40:53", "level": "WARN", "svc": "cache", "msg": "retry budget low"}
+2026-07-15T08:40:55 cache DEBUG entering handler
+{"ts": "2026-07-15T08:40:56", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+2026-07-15T08:40:59 auth INFO heartbeat ok
+{"ts": "2026-07-15T08:40:59", "level": "WARN", "svc": "auth", "msg": "connection pool near limit"}
+2026-07-15T08:40:59 auth WARN retry budget low
+{"ts": "2026-07-15T08:41:02", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:41:02 scheduler DEBUG tracing span open
+{"ts": "2026-07-15T08:41:03", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+2026-07-15T08:41:04 cache DEBUG cache miss
+{"ts": "2026-07-15T08:41:05", "level": "WARN", "svc": "billing", "msg": "disk at 82%"}
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:41:08", "level": "WARN", "svc": "api-gateway", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:41:10", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:41:13", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+2026-07-15T08:41:13 auth INFO request served
+2026-07-15T08:41:15 cache INFO cache warm
+{"ts": "2026-07-15T08:41:16", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:41:19 scheduler ERROR upstream 503
+2026-07-15T08:41:19 auth INFO heartbeat ok
+{"ts": "2026-07-15T08:41:21", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+{"ts": "2026-07-15T08:41:22", "level": "WARN", "svc": "worker-3", "msg": "retry budget low"}
+2026-07-15T08:41:24 billing DEBUG cache miss
+{"ts": "2026-07-15T08:41:27", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+
+2026-07-15T08:41:29 worker-3 DEBUG cache miss
+2026-07-15T08:41:29 auth DEBUG cache miss
+{"ts": "2026-07-15T08:41:32", "level": "ERROR", "svc": "billing", "msg": "OOM killed"}
+-------- rotated --------
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:41:33 billing DEBUG entering handler
+{"ts": "2026-07-15T08:41:34", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+2026-07-15T08:41:36 scheduler DEBUG cache miss
+2026-07-15T08:41:37 auth DEBUG tracing span open
+{"ts": "2026-07-15T08:41:38", "level": "INFO", "svc": "billing", "msg": "request served"}
+2026-07-15T08:41:38 cache DEBUG entering handler
+{"ts": "2026-07-15T08:41:39", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:41:40 billing INFO heartbeat ok
+{"ts": "2026-07-15T08:41:43", "level": "WARN", "svc": "api-gateway", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:41:44", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+{"ts": "2026-07-15T08:41:45", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+{"ts": "2026-07-15T08:41:45", "level": "WARN", "svc": "cache", "msg": "clock drift detected"}
+2026-07-15T08:41:45 auth DEBUG cache miss
+{"ts": "2026-07-15T08:41:46", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+2026-07-15T08:41:48 billing ERROR upstream 503
+{"ts": "2026-07-15T08:41:50", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+{"ts": "2026-07-15T08:41:53", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+2026-07-15T08:41:53 cache DEBUG tracing span open
+{"ts": "2026-07-15T08:41:54", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:41:57 cache ERROR OOM killed
+2026-07-15T08:42:00 api-gateway INFO heartbeat ok
+{"ts": "2026-07-15T08:42:02", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+{"ts": "2026-07-15T08:42:02", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:42:04 worker-3 WARN disk at 82%
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:42:05", "level": "ERROR", "svc": "scheduler", "msg": "OOM killed"}
+{"ts": "2026-07-15T08:42:06", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+2026-07-15T08:42:08 billing WARN connection pool near limit
+2026-07-15T08:42:09 worker-3 INFO cache warm
+2026-07-15T08:42:12 worker-3 DEBUG entering handler
+2026-07-15T08:42:12 worker-3 ERROR null pointer in handler
+2026-07-15T08:42:15 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:42:16", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:42:18 scheduler WARN slow query 1200ms
+2026-07-15T08:42:21 worker-3 INFO config reloaded
+2026-07-15T08:42:24 cache DEBUG entering handler
+2026-07-15T08:42:24 worker-3 INFO config reloaded
+{"ts": "2026-07-15T08:42:26", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:42:28", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+{"ts": "2026-07-15T08:42:28", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:42:28", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:42:30", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+{"ts": "2026-07-15T08:42:31", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+{"ts": "2026-07-15T08:42:31", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:42:32", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+2026-07-15T08:42:33 api-gateway WARN slow query 1200ms
+2026-07-15T08:42:36 worker-3 INFO cache warm
+2026-07-15T08:42:36 cache ERROR OOM killed
+{"ts": "2026-07-15T08:42:37", "level": "WARN", "svc": "scheduler", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:42:38", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:42:41", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+2026-07-15T08:42:43 cache INFO heartbeat ok
+{"ts": "2026-07-15T08:42:46", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+2026-07-15T08:42:48 cache WARN clock drift detected
+{"ts": "2026-07-15T08:42:48", "level": "WARN", "svc": "worker-3", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:42:48", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:42:49", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+2026-07-15T08:42:52 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:42:53", "level": "WARN", "svc": "cache", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:42:56", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+
+{"ts": "2026-07-15T08:42:56", "level": "WARN", "svc": "billing", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:42:57", "level": "ERROR", "svc": "cache", "msg": "failed to commit txn"}
+2026-07-15T08:42:57 worker-3 INFO heartbeat ok
+2026-07-15T08:43:00 auth DEBUG cache miss
+2026-07-15T08:43:01 worker-3 DEBUG entering handler
+2026-07-15T08:43:01 billing DEBUG entering handler
+{"ts": "2026-07-15T08:43:02", "level": "WARN", "svc": "worker-3", "msg": "disk at 82%"}
+2026-07-15T08:43:04 api-gateway INFO config reloaded
+2026-07-15T08:43:07 cache INFO heartbeat ok
+2026-07-15T08:43:10 cache DEBUG cache miss
+2026-07-15T08:43:13 cache DEBUG cache miss
+# manual note: investigating
+2026-07-15T08:43:16 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:43:19", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+2026-07-15T08:43:19 api-gateway DEBUG tracing span open
+2026-07-15T08:43:21 api-gateway INFO heartbeat ok
+{"ts": "2026-07-15T08:43:21", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+2026-07-15T08:43:22 api-gateway INFO config reloaded
+{"ts": "2026-07-15T08:43:25", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+2026-07-15T08:43:25 worker-3 INFO request served
+{"ts": "2026-07-15T08:43:28", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:43:30", "level": "ERROR", "svc": "auth", "msg": "failed to commit txn"}
+
+{"ts": "2026-07-15T08:43:31", "level": "ERROR", "svc": "scheduler", "msg": "null pointer in handler"}
+{"ts": "2026-07-15T08:43:31", "level": "WARN", "svc": "billing", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:43:34", "level": "ERROR", "svc": "worker-3", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:43:37", "level": "WARN", "svc": "worker-3", "msg": "slow query 1200ms"}
+2026-07-15T08:43:40 worker-3 INFO request served
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:43:43", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+{"ts": "2026-07-15T08:43:44", "level": "INFO", "svc": "worker-3", "msg": "heartbeat ok"}
+2026-07-15T08:43:44 cache ERROR null pointer in handler
+{"ts": "2026-07-15T08:43:45", "level": "WARN", "svc": "auth", "msg": "connection pool near limit"}
+2026-07-15T08:43:47 worker-3 DEBUG entering handler
+-------- rotated --------
+{"ts": "2026-07-15T08:43:48", "level": "ERROR", "svc": "billing", "msg": "OOM killed"}
+2026-07-15T08:43:50 cache DEBUG tracing span open
+{"ts": "2026-07-15T08:43:51", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:43:51 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:43:51", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+{"ts": "2026-07-15T08:43:53", "level": "ERROR", "svc": "scheduler", "msg": "failed to commit txn"}
+{"ts": "2026-07-15T08:43:54", "level": "ERROR", "svc": "api-gateway", "msg": "upstream 503"}
+{"ts": "2026-07-15T08:43:57", "level": "WARN", "svc": "billing", "msg": "retry budget low"}
+2026-07-15T08:43:59 api-gateway INFO request served
+2026-07-15T08:44:02 api-gateway INFO cache warm
+2026-07-15T08:44:04 auth DEBUG tracing span open
+2026-07-15T08:44:06 worker-3 DEBUG tracing span open
+2026-07-15T08:44:07 billing DEBUG entering handler
+2026-07-15T08:44:08 api-gateway DEBUG tracing span open
+2026-07-15T08:44:10 api-gateway WARN disk at 82%
+-------- rotated --------
+# manual note: investigating
+2026-07-15T08:44:12 api-gateway DEBUG cache miss
+2026-07-15T08:44:14 worker-3 INFO request served
+2026-07-15T08:44:15 worker-3 INFO cache warm
+2026-07-15T08:44:18 auth INFO config reloaded
+{"ts": "2026-07-15T08:44:18", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:44:20", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:44:21", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+2026-07-15T08:44:22 scheduler ERROR OOM killed
+# manual note: investigating
+2026-07-15T08:44:24 worker-3 DEBUG entering handler
+{"ts": "2026-07-15T08:44:25", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:44:28", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+{"ts": "2026-07-15T08:44:29", "level": "ERROR", "svc": "auth", "msg": "null pointer in handler"}
+{"ts": "2026-07-15T08:44:31", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:44:31", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:44:34", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+{"ts": "2026-07-15T08:44:36", "level": "INFO", "svc": "cache", "msg": "request served"}
+{"ts": "2026-07-15T08:44:38", "level": "ERROR", "svc": "billing", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:44:41", "level": "INFO", "svc": "cache", "msg": "request served"}
+2026-07-15T08:44:43 billing INFO heartbeat ok
+2026-07-15T08:44:44 scheduler INFO config reloaded
+{"ts": "2026-07-15T08:44:44", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+2026-07-15T08:44:45 scheduler WARN connection pool near limit
+2026-07-15T08:44:47 auth WARN retry budget low
+{"ts": "2026-07-15T08:44:48", "level": "WARN", "svc": "api-gateway", "msg": "clock drift detected"}
+Traceback (most recent call last):
+2026-07-15T08:44:49 auth INFO request served
+{"ts": "2026-07-15T08:44:49", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+{"ts": "2026-07-15T08:44:51", "level": "INFO", "svc": "cache", "msg": "request served"}
+{"ts": "2026-07-15T08:44:52", "level": "WARN", "svc": "billing", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:44:54", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:44:55", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+2026-07-15T08:44:56 billing INFO request served
+{"ts": "2026-07-15T08:44:58", "level": "WARN", "svc": "auth", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:45:01", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:45:03", "level": "WARN", "svc": "worker-3", "msg": "slow query 1200ms"}
+2026-07-15T08:45:05 scheduler DEBUG tracing span open
+2026-07-15T08:45:05 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:45:06", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+{"ts": "2026-07-15T08:45:09", "level": "INFO", "svc": "billing", "msg": "request served"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:45:11", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:45:13 scheduler ERROR upstream 503
+{"ts": "2026-07-15T08:45:15", "level": "ERROR", "svc": "auth", "msg": "timeout waiting for lock"}
+2026-07-15T08:45:18 worker-3 WARN connection pool near limit
+{"ts": "2026-07-15T08:45:19", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+Traceback (most recent call last):
+2026-07-15T08:45:21 auth INFO request served
+{"ts": "2026-07-15T08:45:22", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+-------- rotated --------
+{"ts": "2026-07-15T08:45:24", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+2026-07-15T08:45:26 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:45:28", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+    at com.example.Foo.bar(Foo.java:42)
+# manual note: investigating
+{"ts": "2026-07-15T08:45:28", "level": "INFO", "svc": "cache", "msg": "request served"}
+2026-07-15T08:45:29 auth INFO cache warm
+2026-07-15T08:45:29 billing WARN disk at 82%
+{"ts": "2026-07-15T08:45:29", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:45:29", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+2026-07-15T08:45:29 api-gateway DEBUG cache miss
+2026-07-15T08:45:30 scheduler WARN disk at 82%
+{"ts": "2026-07-15T08:45:31", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+-------- rotated --------
+2026-07-15T08:45:34 api-gateway INFO heartbeat ok
+2026-07-15T08:45:35 api-gateway INFO config reloaded
+{"ts": "2026-07-15T08:45:38", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:45:40 api-gateway INFO config reloaded
+{"ts": "2026-07-15T08:45:40", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+2026-07-15T08:45:43 api-gateway DEBUG entering handler
+{"ts": "2026-07-15T08:45:46", "level": "ERROR", "svc": "auth", "msg": "OOM killed"}
+
+2026-07-15T08:45:46 cache WARN retry budget low
+{"ts": "2026-07-15T08:45:48", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+{"ts": "2026-07-15T08:45:48", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:45:50 billing ERROR upstream 503
+2026-07-15T08:45:52 worker-3 INFO cache warm
+2026-07-15T08:45:55 worker-3 DEBUG cache miss
+2026-07-15T08:45:55 cache INFO heartbeat ok
+2026-07-15T08:45:58 scheduler DEBUG tracing span open
+{"ts": "2026-07-15T08:45:58", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:45:58", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+{"ts": "2026-07-15T08:45:58", "level": "WARN", "svc": "scheduler", "msg": "slow query 1200ms"}
+2026-07-15T08:45:59 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:46:02", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+2026-07-15T08:46:05 auth INFO request served
+2026-07-15T08:46:07 api-gateway WARN clock drift detected
+{"ts": "2026-07-15T08:46:09", "level": "INFO", "svc": "worker-3", "msg": "heartbeat ok"}
+2026-07-15T08:46:10 api-gateway DEBUG cache miss
+{"ts": "2026-07-15T08:46:11", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:46:12", "level": "WARN", "svc": "scheduler", "msg": "retry budget low"}
+2026-07-15T08:46:14 auth INFO config reloaded
+2026-07-15T08:46:15 auth ERROR failed to commit txn
+2026-07-15T08:46:16 scheduler ERROR null pointer in handler
+2026-07-15T08:46:18 api-gateway DEBUG entering handler
+{"ts": "2026-07-15T08:46:21", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:46:21 worker-3 INFO cache warm
+{"ts": "2026-07-15T08:46:24", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:46:26 billing WARN clock drift detected
+{"ts": "2026-07-15T08:46:26", "level": "WARN", "svc": "auth", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:46:28", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+{"ts": "2026-07-15T08:46:29", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+2026-07-15T08:46:30 scheduler DEBUG entering handler
+2026-07-15T08:46:31 cache DEBUG tracing span open
+{"ts": "2026-07-15T08:46:32", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+2026-07-15T08:46:34 api-gateway DEBUG entering handler
+{"ts": "2026-07-15T08:46:37", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+{"ts": "2026-07-15T08:46:40", "level": "INFO", "svc": "worker-3", "msg": "heartbeat ok"}
+2026-07-15T08:46:41 api-gateway INFO heartbeat ok
+2026-07-15T08:46:42 worker-3 INFO config reloaded
+2026-07-15T08:46:45 auth DEBUG entering handler
+{"ts": "2026-07-15T08:46:45", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+{"ts": "2026-07-15T08:46:45", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+2026-07-15T08:46:46 auth WARN slow query 1200ms
+{"ts": "2026-07-15T08:46:47", "level": "WARN", "svc": "billing", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:46:48", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:46:48", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+{"ts": "2026-07-15T08:46:49", "level": "INFO", "svc": "auth", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:46:49", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+2026-07-15T08:46:51 billing WARN slow query 1200ms
+-------- rotated --------
+2026-07-15T08:46:51 scheduler INFO cache warm
+2026-07-15T08:46:51 cache INFO heartbeat ok
+{"ts": "2026-07-15T08:46:54", "level": "ERROR", "svc": "auth", "msg": "null pointer in handler"}
+2026-07-15T08:46:54 cache WARN slow query 1200ms
+2026-07-15T08:46:55 auth INFO config reloaded
+{"ts": "2026-07-15T08:46:58", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+2026-07-15T08:46:58 billing ERROR OOM killed
+2026-07-15T08:47:01 billing DEBUG entering handler
+2026-07-15T08:47:02 cache DEBUG cache miss
+2026-07-15T08:47:04 auth INFO heartbeat ok
+2026-07-15T08:47:06 scheduler INFO request served
+{"ts": "2026-07-15T08:47:08", "level": "ERROR", "svc": "auth", "msg": "upstream 503"}
+2026-07-15T08:47:10 auth DEBUG tracing span open
+{"ts": "2026-07-15T08:47:11", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+2026-07-15T08:47:14 auth INFO request served
+2026-07-15T08:47:16 api-gateway INFO heartbeat ok
+2026-07-15T08:47:18 worker-3 INFO config reloaded
+{"ts": "2026-07-15T08:47:18", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+2026-07-15T08:47:20 billing INFO heartbeat ok
+{"ts": "2026-07-15T08:47:22", "level": "WARN", "svc": "billing", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:47:22", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+-------- rotated --------
+2026-07-15T08:47:23 api-gateway INFO config reloaded
+{"ts": "2026-07-15T08:47:26", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+2026-07-15T08:47:26 scheduler DEBUG entering handler
+2026-07-15T08:47:28 api-gateway DEBUG tracing span open
+{"ts": "2026-07-15T08:47:28", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+2026-07-15T08:47:28 worker-3 INFO cache warm
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:47:31 scheduler DEBUG cache miss
+2026-07-15T08:47:32 auth DEBUG cache miss
+2026-07-15T08:47:33 scheduler INFO cache warm
+2026-07-15T08:47:34 billing INFO request served
+{"ts": "2026-07-15T08:47:37", "level": "INFO", "svc": "cache", "msg": "request served"}
+# manual note: investigating
+{"ts": "2026-07-15T08:47:39", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+# manual note: investigating
+{"ts": "2026-07-15T08:47:42", "level": "ERROR", "svc": "cache", "msg": "null pointer in handler"}
+-------- rotated --------
+{"ts": "2026-07-15T08:47:45", "level": "ERROR", "svc": "auth", "msg": "timeout waiting for lock"}
+# manual note: investigating
+-------- rotated --------
+{"ts": "2026-07-15T08:47:48", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+-------- rotated --------
+2026-07-15T08:47:51 auth ERROR timeout waiting for lock
+2026-07-15T08:47:53 cache DEBUG cache miss
+{"ts": "2026-07-15T08:47:55", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+2026-07-15T08:47:55 api-gateway DEBUG entering handler
+2026-07-15T08:47:55 scheduler WARN disk at 82%
+{"ts": "2026-07-15T08:47:55", "level": "ERROR", "svc": "cache", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:47:58", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+{"ts": "2026-07-15T08:47:58", "level": "INFO", "svc": "auth", "msg": "request served"}
+2026-07-15T08:48:01 worker-3 INFO request served
+{"ts": "2026-07-15T08:48:03", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+2026-07-15T08:48:03 scheduler DEBUG tracing span open
+2026-07-15T08:48:03 auth INFO cache warm
+{"ts": "2026-07-15T08:48:06", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:48:09", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:48:12", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:48:12 api-gateway INFO request served
+2026-07-15T08:48:13 api-gateway WARN clock drift detected
+{"ts": "2026-07-15T08:48:13", "level": "WARN", "svc": "auth", "msg": "slow query 1200ms"}
+2026-07-15T08:48:16 billing ERROR upstream 503
+{"ts": "2026-07-15T08:48:17", "level": "ERROR", "svc": "billing", "msg": "upstream 503"}
+2026-07-15T08:48:17 cache INFO request served
+{"ts": "2026-07-15T08:48:19", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+{"ts": "2026-07-15T08:48:21", "level": "INFO", "svc": "billing", "msg": "request served"}
+2026-07-15T08:48:24 billing INFO cache warm
+2026-07-15T08:48:25 scheduler INFO cache warm
+2026-07-15T08:48:28 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:48:31", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:48:31 worker-3 INFO config reloaded
+{"ts": "2026-07-15T08:48:32", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+{"ts": "2026-07-15T08:48:35", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:48:38", "level": "INFO", "svc": "auth", "msg": "request served"}
+2026-07-15T08:48:41 cache DEBUG entering handler
+{"ts": "2026-07-15T08:48:44", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:48:44 auth INFO cache warm
+2026-07-15T08:48:46 cache WARN connection pool near limit
+2026-07-15T08:48:46 scheduler DEBUG entering handler
+{"ts": "2026-07-15T08:48:47", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+# manual note: investigating
+{"ts": "2026-07-15T08:48:47", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+{"ts": "2026-07-15T08:48:49", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:48:49", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+2026-07-15T08:48:51 billing WARN slow query 1200ms
+2026-07-15T08:48:54 scheduler INFO request served
+
+2026-07-15T08:48:56 api-gateway WARN retry budget low
+{"ts": "2026-07-15T08:48:59", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+{"ts": "2026-07-15T08:49:01", "level": "INFO", "svc": "api-gateway", "msg": "request served"}
+{"ts": "2026-07-15T08:49:04", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:49:07", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:49:09 cache DEBUG entering handler
+{"ts": "2026-07-15T08:49:11", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+-------- rotated --------
+{"ts": "2026-07-15T08:49:14", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+{"ts": "2026-07-15T08:49:15", "level": "WARN", "svc": "billing", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:49:16", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:49:17", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+2026-07-15T08:49:20 worker-3 DEBUG entering handler
+{"ts": "2026-07-15T08:49:22", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:49:23", "level": "WARN", "svc": "cache", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:49:23", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:49:25", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:49:28 api-gateway ERROR timeout waiting for lock
+2026-07-15T08:49:31 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:49:31", "level": "ERROR", "svc": "billing", "msg": "OOM killed"}
+2026-07-15T08:49:31 cache INFO config reloaded
+{"ts": "2026-07-15T08:49:34", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:49:34", "level": "ERROR", "svc": "api-gateway", "msg": "null pointer in handler"}
+2026-07-15T08:49:36 auth DEBUG entering handler
+{"ts": "2026-07-15T08:49:38", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+{"ts": "2026-07-15T08:49:39", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+2026-07-15T08:49:41 auth INFO request served
+{"ts": "2026-07-15T08:49:43", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+2026-07-15T08:49:46 scheduler DEBUG cache miss
+2026-07-15T08:49:48 cache INFO request served
+{"ts": "2026-07-15T08:49:50", "level": "WARN", "svc": "api-gateway", "msg": "retry budget low"}
+{"ts": "2026-07-15T08:49:53", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:49:55", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+{"ts": "2026-07-15T08:49:55", "level": "INFO", "svc": "scheduler", "msg": "heartbeat ok"}
+2026-07-15T08:49:55 billing INFO heartbeat ok
+{"ts": "2026-07-15T08:49:56", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:49:56", "level": "INFO", "svc": "auth", "msg": "request served"}
+2026-07-15T08:49:57 billing ERROR OOM killed
+2026-07-15T08:49:58 cache WARN connection pool near limit
+2026-07-15T08:49:59 worker-3 DEBUG tracing span open
+2026-07-15T08:49:59 auth DEBUG entering handler
+
+{"ts": "2026-07-15T08:50:00", "level": "WARN", "svc": "api-gateway", "msg": "retry budget low"}
+-------- rotated --------
+2026-07-15T08:50:00 scheduler WARN clock drift detected
+2026-07-15T08:50:02 auth INFO request served
+2026-07-15T08:50:03 auth ERROR failed to commit txn
+# manual note: investigating
+2026-07-15T08:50:04 worker-3 INFO heartbeat ok
+2026-07-15T08:50:04 scheduler DEBUG tracing span open
+2026-07-15T08:50:04 billing INFO request served
+2026-07-15T08:50:07 billing INFO heartbeat ok
+{"ts": "2026-07-15T08:50:09", "level": "WARN", "svc": "api-gateway", "msg": "disk at 82%"}
+    at com.example.Foo.bar(Foo.java:42)
+-------- rotated --------
+2026-07-15T08:50:12 auth INFO cache warm
+2026-07-15T08:50:12 worker-3 DEBUG tracing span open
+{"ts": "2026-07-15T08:50:13", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+2026-07-15T08:50:14 billing DEBUG tracing span open
+{"ts": "2026-07-15T08:50:15", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:50:18", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+2026-07-15T08:50:20 auth DEBUG entering handler
+{"ts": "2026-07-15T08:50:20", "level": "WARN", "svc": "billing", "msg": "retry budget low"}
+2026-07-15T08:50:22 auth WARN slow query 1200ms
+2026-07-15T08:50:25 scheduler INFO cache warm
+{"ts": "2026-07-15T08:50:25", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+{"ts": "2026-07-15T08:50:28", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-07-15T08:50:31 scheduler INFO request served
+    at com.example.Foo.bar(Foo.java:42)
+-------- rotated --------
+2026-07-15T08:50:34 api-gateway INFO request served
+2026-07-15T08:50:34 worker-3 DEBUG tracing span open
+2026-07-15T08:50:37 worker-3 INFO request served
+{"ts": "2026-07-15T08:50:37", "level": "WARN", "svc": "worker-3", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:50:40", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+{"ts": "2026-07-15T08:50:43", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+2026-07-15T08:50:46 auth DEBUG entering handler
+{"ts": "2026-07-15T08:50:47", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+2026-07-15T08:50:49 api-gateway DEBUG cache miss
+2026-07-15T08:50:49 scheduler INFO heartbeat ok
+2026-07-15T08:50:52 scheduler WARN slow query 1200ms
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:50:52", "level": "ERROR", "svc": "billing", "msg": "failed to commit txn"}
+2026-07-15T08:50:55 scheduler INFO config reloaded
+{"ts": "2026-07-15T08:50:58", "level": "DEBUG", "svc": "cache", "msg": "cache miss"}
+2026-07-15T08:51:01 cache DEBUG entering handler
+2026-07-15T08:51:03 auth DEBUG cache miss
+{"ts": "2026-07-15T08:51:06", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:51:06 scheduler WARN clock drift detected
+{"ts": "2026-07-15T08:51:06", "level": "WARN", "svc": "api-gateway", "msg": "disk at 82%"}
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:51:06", "level": "ERROR", "svc": "auth", "msg": "OOM killed"}
+{"ts": "2026-07-15T08:51:07", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:51:08 auth INFO request served
+{"ts": "2026-07-15T08:51:10", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+{"ts": "2026-07-15T08:51:10", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:51:13", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+2026-07-15T08:51:15 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:51:17", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+2026-07-15T08:51:20 scheduler INFO config reloaded
+{"ts": "2026-07-15T08:51:20", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:51:21", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:51:23", "level": "ERROR", "svc": "cache", "msg": "OOM killed"}
+{"ts": "2026-07-15T08:51:26", "level": "WARN", "svc": "cache", "msg": "slow query 1200ms"}
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:51:28 worker-3 DEBUG tracing span open
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:51:28 cache DEBUG entering handler
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:51:29 api-gateway DEBUG cache miss
+{"ts": "2026-07-15T08:51:32", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:51:32", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:51:34", "level": "WARN", "svc": "scheduler", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:51:37", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+{"ts": "2026-07-15T08:51:38", "level": "WARN", "svc": "auth", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:51:41", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:51:44", "level": "ERROR", "svc": "worker-3", "msg": "null pointer in handler"}
+2026-07-15T08:51:44 api-gateway WARN disk at 82%
+2026-07-15T08:51:47 api-gateway INFO cache warm
+2026-07-15T08:51:49 worker-3 DEBUG tracing span open
+{"ts": "2026-07-15T08:51:50", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:51:52", "level": "WARN", "svc": "billing", "msg": "retry budget low"}
+{"ts": "2026-07-15T08:51:52", "level": "INFO", "svc": "auth", "msg": "request served"}
+{"ts": "2026-07-15T08:51:54", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:51:55", "level": "INFO", "svc": "billing", "msg": "request served"}
+2026-07-15T08:51:56 worker-3 INFO request served
+{"ts": "2026-07-15T08:51:57", "level": "INFO", "svc": "cache", "msg": "request served"}
+{"ts": "2026-07-15T08:52:00", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+2026-07-15T08:52:03 cache DEBUG cache miss
+2026-07-15T08:52:04 scheduler INFO heartbeat ok
+2026-07-15T08:52:05 worker-3 WARN disk at 82%
+{"ts": "2026-07-15T08:52:07", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:52:09 api-gateway INFO config reloaded
+2026-07-15T08:52:09 api-gateway INFO request served
+{"ts": "2026-07-15T08:52:12", "level": "WARN", "svc": "auth", "msg": "slow query 1200ms"}
+# manual note: investigating
+{"ts": "2026-07-15T08:52:14", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+{"ts": "2026-07-15T08:52:17", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+2026-07-15T08:52:19 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:52:20", "level": "WARN", "svc": "cache", "msg": "connection pool near limit"}
+2026-07-15T08:52:23 api-gateway INFO cache warm
+{"ts": "2026-07-15T08:52:25", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+2026-07-15T08:52:26 scheduler INFO cache warm
+2026-07-15T08:52:26 auth INFO heartbeat ok
+2026-07-15T08:52:26 auth INFO request served
+Traceback (most recent call last):
+2026-07-15T08:52:27 worker-3 DEBUG entering handler
+{"ts": "2026-07-15T08:52:28", "level": "ERROR", "svc": "auth", "msg": "timeout waiting for lock"}
+Traceback (most recent call last):
+2026-07-15T08:52:29 scheduler DEBUG tracing span open
+2026-07-15T08:52:31 worker-3 INFO cache warm
+2026-07-15T08:52:34 auth INFO config reloaded
+{"ts": "2026-07-15T08:52:36", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+{"ts": "2026-07-15T08:52:38", "level": "INFO", "svc": "cache", "msg": "heartbeat ok"}
+2026-07-15T08:52:39 cache INFO heartbeat ok
+2026-07-15T08:52:39 worker-3 INFO config reloaded
+{"ts": "2026-07-15T08:52:40", "level": "WARN", "svc": "api-gateway", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:52:43", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+2026-07-15T08:52:43 billing INFO heartbeat ok
+{"ts": "2026-07-15T08:52:45", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+{"ts": "2026-07-15T08:52:48", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+2026-07-15T08:52:49 worker-3 INFO heartbeat ok
+{"ts": "2026-07-15T08:52:49", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:52:51", "level": "INFO", "svc": "billing", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:52:54", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+2026-07-15T08:52:56 cache INFO cache warm
+{"ts": "2026-07-15T08:52:56", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+{"ts": "2026-07-15T08:52:57", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+{"ts": "2026-07-15T08:53:00", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+2026-07-15T08:53:01 api-gateway INFO heartbeat ok
+{"ts": "2026-07-15T08:53:02", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+2026-07-15T08:53:04 api-gateway WARN retry budget low
+2026-07-15T08:53:07 scheduler DEBUG cache miss
+{"ts": "2026-07-15T08:53:08", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+2026-07-15T08:53:10 worker-3 ERROR upstream 503
+-------- rotated --------
+2026-07-15T08:53:12 worker-3 INFO config reloaded
+2026-07-15T08:53:13 billing DEBUG entering handler
+2026-07-15T08:53:15 cache ERROR timeout waiting for lock
+2026-07-15T08:53:17 billing INFO cache warm
+{"ts": "2026-07-15T08:53:19", "level": "ERROR", "svc": "billing", "msg": "null pointer in handler"}
+2026-07-15T08:53:19 auth INFO cache warm
+{"ts": "2026-07-15T08:53:19", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:53:20", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+2026-07-15T08:53:21 billing DEBUG cache miss
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:53:22", "level": "WARN", "svc": "billing", "msg": "clock drift detected"}
+-------- rotated --------
+{"ts": "2026-07-15T08:53:22", "level": "WARN", "svc": "api-gateway", "msg": "retry budget low"}
+{"ts": "2026-07-15T08:53:22", "level": "ERROR", "svc": "api-gateway", "msg": "timeout waiting for lock"}
+2026-07-15T08:53:24 auth DEBUG cache miss
+{"ts": "2026-07-15T08:53:25", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+{"ts": "2026-07-15T08:53:27", "level": "DEBUG", "svc": "cache", "msg": "entering handler"}
+{"ts": "2026-07-15T08:53:29", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+2026-07-15T08:53:31 scheduler INFO heartbeat ok
+2026-07-15T08:53:33 scheduler INFO request served
+2026-07-15T08:53:34 auth INFO heartbeat ok
+2026-07-15T08:53:35 cache DEBUG cache miss
+{"ts": "2026-07-15T08:53:36", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+2026-07-15T08:53:36 auth WARN disk at 82%
+{"ts": "2026-07-15T08:53:38", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:53:38 scheduler INFO request served
+{"ts": "2026-07-15T08:53:40", "level": "INFO", "svc": "scheduler", "msg": "cache warm"}
+{"ts": "2026-07-15T08:53:42", "level": "WARN", "svc": "worker-3", "msg": "slow query 1200ms"}
+2026-07-15T08:53:42 api-gateway INFO config reloaded
+2026-07-15T08:53:45 scheduler ERROR null pointer in handler
+# manual note: investigating
+2026-07-15T08:53:46 worker-3 INFO request served
+2026-07-15T08:53:46 cache WARN retry budget low
+2026-07-15T08:53:46 worker-3 WARN retry budget low
+2026-07-15T08:53:47 auth INFO request served
+{"ts": "2026-07-15T08:53:48", "level": "INFO", "svc": "api-gateway", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:53:48", "level": "WARN", "svc": "scheduler", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:53:48", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+2026-07-15T08:53:49 api-gateway INFO request served
+{"ts": "2026-07-15T08:53:49", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+2026-07-15T08:53:51 worker-3 INFO request served
+{"ts": "2026-07-15T08:53:54", "level": "INFO", "svc": "worker-3", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:53:57", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+2026-07-15T08:54:00 billing ERROR null pointer in handler
+2026-07-15T08:54:03 worker-3 DEBUG tracing span open
+2026-07-15T08:54:05 worker-3 WARN connection pool near limit
+{"ts": "2026-07-15T08:54:07", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+2026-07-15T08:54:09 api-gateway INFO request served
+{"ts": "2026-07-15T08:54:12", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+{"ts": "2026-07-15T08:54:12", "level": "INFO", "svc": "auth", "msg": "request served"}
+2026-07-15T08:54:13 scheduler DEBUG cache miss
+2026-07-15T08:54:15 api-gateway INFO request served
+2026-07-15T08:54:15 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:54:18", "level": "WARN", "svc": "worker-3", "msg": "clock drift detected"}
+2026-07-15T08:54:19 billing INFO config reloaded
+2026-07-15T08:54:19 billing DEBUG entering handler
+2026-07-15T08:54:21 auth INFO heartbeat ok
+{"ts": "2026-07-15T08:54:23", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+{"ts": "2026-07-15T08:54:26", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+{"ts": "2026-07-15T08:54:29", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:54:29 cache INFO cache warm
+2026-07-15T08:54:32 worker-3 INFO heartbeat ok
+2026-07-15T08:54:32 scheduler ERROR null pointer in handler
+2026-07-15T08:54:32 worker-3 WARN connection pool near limit
+2026-07-15T08:54:33 scheduler INFO cache warm
+2026-07-15T08:54:33 cache INFO config reloaded
+{"ts": "2026-07-15T08:54:33", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+{"ts": "2026-07-15T08:54:36", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:54:39 worker-3 DEBUG entering handler
+{"ts": "2026-07-15T08:54:39", "level": "WARN", "svc": "billing", "msg": "disk at 82%"}
+2026-07-15T08:54:41 api-gateway INFO cache warm
+2026-07-15T08:54:41 scheduler DEBUG entering handler
+2026-07-15T08:54:42 scheduler WARN clock drift detected
+2026-07-15T08:54:44 cache INFO cache warm
+{"ts": "2026-07-15T08:54:44", "level": "ERROR", "svc": "cache", "msg": "OOM killed"}
+2026-07-15T08:54:44 billing DEBUG tracing span open
+
+2026-07-15T08:54:45 worker-3 DEBUG cache miss
+{"ts": "2026-07-15T08:54:46", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:54:46", "level": "ERROR", "svc": "auth", "msg": "timeout waiting for lock"}
+{"ts": "2026-07-15T08:54:49", "level": "WARN", "svc": "billing", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:54:49", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+{"ts": "2026-07-15T08:54:49", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+2026-07-15T08:54:49 api-gateway INFO heartbeat ok
+-------- rotated --------
+2026-07-15T08:54:49 cache INFO config reloaded
+2026-07-15T08:54:49 billing DEBUG cache miss
+{"ts": "2026-07-15T08:54:49", "level": "WARN", "svc": "api-gateway", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:54:52", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+2026-07-15T08:54:55 api-gateway WARN connection pool near limit
+{"ts": "2026-07-15T08:54:55", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+{"ts": "2026-07-15T08:54:58", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:54:58", "level": "INFO", "svc": "api-gateway", "msg": "cache warm"}
+{"ts": "2026-07-15T08:55:00", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+2026-07-15T08:55:02 api-gateway DEBUG cache miss
+2026-07-15T08:55:05 scheduler WARN connection pool near limit
+{"ts": "2026-07-15T08:55:05", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+{"ts": "2026-07-15T08:55:05", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+2026-07-15T08:55:08 cache INFO request served
+2026-07-15T08:55:10 worker-3 WARN slow query 1200ms
+{"ts": "2026-07-15T08:55:11", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+{"ts": "2026-07-15T08:55:13", "level": "ERROR", "svc": "worker-3", "msg": "timeout waiting for lock"}
+2026-07-15T08:55:13 cache DEBUG entering handler
+{"ts": "2026-07-15T08:55:14", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+2026-07-15T08:55:14 scheduler WARN disk at 82%
+2026-07-15T08:55:14 api-gateway INFO heartbeat ok
+{"ts": "2026-07-15T08:55:16", "level": "DEBUG", "svc": "auth", "msg": "cache miss"}
+-------- rotated --------
+{"ts": "2026-07-15T08:55:16", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:55:17", "level": "DEBUG", "svc": "cache", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:55:18", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+2026-07-15T08:55:19 api-gateway INFO cache warm
+2026-07-15T08:55:19 scheduler DEBUG entering handler
+2026-07-15T08:55:19 billing INFO cache warm
+{"ts": "2026-07-15T08:55:22", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+2026-07-15T08:55:25 api-gateway INFO cache warm
+{"ts": "2026-07-15T08:55:28", "level": "WARN", "svc": "auth", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:55:31", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+{"ts": "2026-07-15T08:55:33", "level": "WARN", "svc": "auth", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:55:34", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+{"ts": "2026-07-15T08:55:36", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+2026-07-15T08:55:38 billing WARN connection pool near limit
+2026-07-15T08:55:38 worker-3 WARN connection pool near limit
+{"ts": "2026-07-15T08:55:39", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+2026-07-15T08:55:39 api-gateway DEBUG entering handler
+2026-07-15T08:55:42 cache WARN retry budget low
+{"ts": "2026-07-15T08:55:44", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:55:46 cache WARN connection pool near limit
+2026-07-15T08:55:49 api-gateway DEBUG cache miss
+{"ts": "2026-07-15T08:55:49", "level": "INFO", "svc": "api-gateway", "msg": "heartbeat ok"}
+{"ts": "2026-07-15T08:55:52", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:55:54", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+{"ts": "2026-07-15T08:55:56", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:55:56", "level": "INFO", "svc": "auth", "msg": "request served"}
+Traceback (most recent call last):
+{"ts": "2026-07-15T08:55:57", "level": "DEBUG", "svc": "scheduler", "msg": "cache miss"}
+{"ts": "2026-07-15T08:55:57", "level": "INFO", "svc": "worker-3", "msg": "request served"}
+2026-07-15T08:56:00 worker-3 WARN retry budget low
+2026-07-15T08:56:03 auth DEBUG tracing span open
+-------- rotated --------
+2026-07-15T08:56:03 scheduler ERROR failed to commit txn
+2026-07-15T08:56:05 billing DEBUG tracing span open
+{"ts": "2026-07-15T08:56:08", "level": "DEBUG", "svc": "scheduler", "msg": "tracing span open"}
+2026-07-15T08:56:11 worker-3 INFO config reloaded
+2026-07-15T08:56:11 api-gateway ERROR null pointer in handler
+{"ts": "2026-07-15T08:56:11", "level": "ERROR", "svc": "worker-3", "msg": "upstream 503"}
+{"ts": "2026-07-15T08:56:13", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+2026-07-15T08:56:14 cache WARN slow query 1200ms
+{"ts": "2026-07-15T08:56:14", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+{"ts": "2026-07-15T08:56:16", "level": "WARN", "svc": "api-gateway", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:56:19", "level": "INFO", "svc": "auth", "msg": "cache warm"}
+{"ts": "2026-07-15T08:56:20", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+2026-07-15T08:56:22 auth INFO config reloaded
+{"ts": "2026-07-15T08:56:24", "level": "INFO", "svc": "worker-3", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:56:25", "level": "WARN", "svc": "billing", "msg": "connection pool near limit"}
+{"ts": "2026-07-15T08:56:25", "level": "WARN", "svc": "auth", "msg": "slow query 1200ms"}
+{"ts": "2026-07-15T08:56:26", "level": "ERROR", "svc": "scheduler", "msg": "OOM killed"}
+{"ts": "2026-07-15T08:56:29", "level": "WARN", "svc": "auth", "msg": "clock drift detected"}
+2026-07-15T08:56:29 worker-3 ERROR null pointer in handler
+{"ts": "2026-07-15T08:56:32", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+2026-07-15T08:56:32 cache DEBUG entering handler
+{"ts": "2026-07-15T08:56:34", "level": "INFO", "svc": "worker-3", "msg": "cache warm"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:56:35", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:56:35 auth WARN slow query 1200ms
+2026-07-15T08:56:38 cache DEBUG entering handler
+2026-07-15T08:56:41 worker-3 WARN clock drift detected
+{"ts": "2026-07-15T08:56:41", "level": "ERROR", "svc": "cache", "msg": "timeout waiting for lock"}
+2026-07-15T08:56:41 api-gateway DEBUG tracing span open
+2026-07-15T08:56:44 billing DEBUG tracing span open
+2026-07-15T08:56:46 scheduler DEBUG tracing span open
+2026-07-15T08:56:47 billing INFO request served
+{"ts": "2026-07-15T08:56:47", "level": "INFO", "svc": "cache", "msg": "heartbeat ok"}
+2026-07-15T08:56:48 scheduler WARN connection pool near limit
+2026-07-15T08:56:50 api-gateway DEBUG entering handler
+{"ts": "2026-07-15T08:56:53", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+2026-07-15T08:56:55 worker-3 DEBUG tracing span open
+{"ts": "2026-07-15T08:56:57", "level": "INFO", "svc": "cache", "msg": "cache warm"}
+{"ts": "2026-07-15T08:56:59", "level": "INFO", "svc": "auth", "msg": "request served"}
+{"ts": "2026-07-15T08:57:02", "level": "DEBUG", "svc": "billing", "msg": "entering handler"}
+2026-07-15T08:57:03 billing INFO request served
+
+{"ts": "2026-07-15T08:57:06", "level": "ERROR", "svc": "cache", "msg": "timeout waiting for lock"}
+2026-07-15T08:57:07 auth WARN retry budget low
+{"ts": "2026-07-15T08:57:10", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+2026-07-15T08:57:10 api-gateway INFO heartbeat ok
+{"ts": "2026-07-15T08:57:10", "level": "DEBUG", "svc": "api-gateway", "msg": "entering handler"}
+{"ts": "2026-07-15T08:57:12", "level": "DEBUG", "svc": "api-gateway", "msg": "tracing span open"}
+2026-07-15T08:57:12 worker-3 INFO heartbeat ok
+2026-07-15T08:57:14 worker-3 DEBUG tracing span open
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:57:17", "level": "INFO", "svc": "scheduler", "msg": "config reloaded"}
+2026-07-15T08:57:17 cache INFO config reloaded
+2026-07-15T08:57:18 api-gateway DEBUG tracing span open
+{"ts": "2026-07-15T08:57:20", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+2026-07-15T08:57:20 cache ERROR OOM killed
+# manual note: investigating
+{"ts": "2026-07-15T08:57:20", "level": "DEBUG", "svc": "scheduler", "msg": "entering handler"}
+{"ts": "2026-07-15T08:57:21", "level": "WARN", "svc": "billing", "msg": "disk at 82%"}
+{"ts": "2026-07-15T08:57:22", "level": "ERROR", "svc": "worker-3", "msg": "null pointer in handler"}
+
+{"ts": "2026-07-15T08:57:24", "level": "INFO", "svc": "worker-3", "msg": "heartbeat ok"}
+2026-07-15T08:57:24 cache INFO heartbeat ok
+2026-07-15T08:57:27 scheduler WARN connection pool near limit
+2026-07-15T08:57:29 worker-3 INFO request served
+{"ts": "2026-07-15T08:57:30", "level": "ERROR", "svc": "scheduler", "msg": "null pointer in handler"}
+2026-07-15T08:57:30 api-gateway WARN clock drift detected
+2026-07-15T08:57:30 scheduler INFO config reloaded
+{"ts": "2026-07-15T08:57:32", "level": "DEBUG", "svc": "billing", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:57:34", "level": "DEBUG", "svc": "auth", "msg": "entering handler"}
+2026-07-15T08:57:35 worker-3 DEBUG entering handler
+2026-07-15T08:57:35 billing INFO heartbeat ok
+{"ts": "2026-07-15T08:57:37", "level": "ERROR", "svc": "billing", "msg": "failed to commit txn"}
+{"ts": "2026-07-15T08:57:39", "level": "WARN", "svc": "auth", "msg": "clock drift detected"}
+{"ts": "2026-07-15T08:57:42", "level": "WARN", "svc": "cache", "msg": "retry budget low"}
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:57:44", "level": "WARN", "svc": "scheduler", "msg": "retry budget low"}
+2026-07-15T08:57:46 cache DEBUG cache miss
+{"ts": "2026-07-15T08:57:47", "level": "ERROR", "svc": "cache", "msg": "null pointer in handler"}
+{"ts": "2026-07-15T08:57:50", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-07-15T08:57:53", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:57:55 auth ERROR OOM killed
+2026-07-15T08:57:57 scheduler DEBUG tracing span open
+{"ts": "2026-07-15T08:57:57", "level": "DEBUG", "svc": "worker-3", "msg": "tracing span open"}
+2026-07-15T08:58:00 scheduler DEBUG tracing span open
+{"ts": "2026-07-15T08:58:02", "level": "INFO", "svc": "scheduler", "msg": "request served"}
+{"ts": "2026-07-15T08:58:02", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+{"ts": "2026-07-15T08:58:04", "level": "ERROR", "svc": "cache", "msg": "OOM killed"}
+2026-07-15T08:58:07 billing DEBUG cache miss
+2026-07-15T08:58:10 cache INFO request served
+    at com.example.Foo.bar(Foo.java:42)
+2026-07-15T08:58:11 scheduler INFO heartbeat ok
+2026-07-15T08:58:12 api-gateway DEBUG tracing span open
+# manual note: investigating
+{"ts": "2026-07-15T08:58:13", "level": "DEBUG", "svc": "auth", "msg": "tracing span open"}
+{"ts": "2026-07-15T08:58:16", "level": "INFO", "svc": "cache", "msg": "config reloaded"}
+2026-07-15T08:58:17 scheduler DEBUG entering handler
+2026-07-15T08:58:18 auth ERROR failed to commit txn
+2026-07-15T08:58:18 scheduler DEBUG tracing span open
+{"ts": "2026-07-15T08:58:20", "level": "DEBUG", "svc": "billing", "msg": "cache miss"}
+{"ts": "2026-07-15T08:58:21", "level": "INFO", "svc": "billing", "msg": "cache warm"}
+{"ts": "2026-07-15T08:58:21", "level": "DEBUG", "svc": "api-gateway", "msg": "cache miss"}
+2026-07-15T08:58:22 scheduler DEBUG cache miss
+    at com.example.Foo.bar(Foo.java:42)
+{"ts": "2026-07-15T08:58:25", "level": "DEBUG", "svc": "worker-3", "msg": "entering handler"}
+2026-07-15T08:58:27 scheduler DEBUG tracing span open
+{"ts": "2026-07-15T08:58:28", "level": "DEBUG", "svc": "worker-3", "msg": "cache miss"}
+{"ts": "2026-07-15T08:58:31", "level": "INFO", "svc": "cache", "msg": "heartbeat ok"}
