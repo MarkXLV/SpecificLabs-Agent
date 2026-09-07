@@ -1,4 +1,4 @@
-# Specific Labs — Agent Engineering Take-Home
+
 
 You're given a working-but-bad LLM agent, ten visible tasks, and a $15 API
 key. Your job: rewrite the agent so it solves tasks it has never seen —
